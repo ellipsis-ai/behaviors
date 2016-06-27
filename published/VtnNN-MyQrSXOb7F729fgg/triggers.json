@@ -1,0 +1,6 @@
+[ {
+  "text" : "aws servers",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

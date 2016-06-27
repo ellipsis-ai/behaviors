@@ -1,0 +1,6 @@
+[ {
+  "text" : "aws list buckets",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

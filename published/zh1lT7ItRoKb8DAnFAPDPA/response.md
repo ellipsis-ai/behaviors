@@ -1,0 +1,1 @@
+You have {successResult} Lambda functions.

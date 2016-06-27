@@ -1,0 +1,11 @@
+[ {
+  "text" : "aws count lambda functions",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "aws count lambda",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]
