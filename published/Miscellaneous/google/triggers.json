@@ -1,0 +1,6 @@
+[ {
+  "text" : "google {input}",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]
