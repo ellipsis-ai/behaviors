@@ -1,0 +1,6 @@
+[ {
+  "text" : "aws s3 metrics",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]
