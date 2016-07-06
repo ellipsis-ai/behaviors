@@ -1,12 +1,5 @@
-function(onSuccess, onError, ellipsis) {
+function(onSuccess, onError, ellipsis, AWS) {
   "use strict"; 
-
-const AWS = require('aws-sdk');
-
-AWS.config.update({
-  accessKeyId:  ellipsis.env.AWS_ACCESS_KEY,
-  secretAccessKey: ellipsis.env.AWS_SECRET_KEY
- });
 
 const cleanUpValue = (v) => {
   return v.replace(/^\"|\"$/g, "");

@@ -1,16 +1,9 @@
-function(onSuccess, onError, ellipsis) {
+function(onSuccess, onError, ellipsis, AWS) {
   "use strict"; 
 
-const AWS = require('aws-sdk');
 const Q = require('q');
 const groupBy = require('group-by');
 const pretty = require('prettysize');
-
-AWS.config.update({
-  accessKeyId:  ellipsis.env.AWS_ACCESS_KEY,
-  secretAccessKey: ellipsis.env.AWS_SECRET_KEY
- });
-
 const cloudwatch = new AWS.CloudWatch();
 const namespace = "AWS/S3";
 

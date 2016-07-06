@@ -1,3 +1,8 @@
 {
-  "publishedId" : "R_xV21XQReCfcZjkeb5kQA"
+  "publishedId" : "R_xV21XQReCfcZjkeb5kQA",
+  "aws" : {
+    "accessKeyName" : "AWS_ACCESS_KEY",
+    "secretKeyName" : "AWS_SECRET_KEY",
+    "regionName" : "AWS_REGION"
+  }
 }

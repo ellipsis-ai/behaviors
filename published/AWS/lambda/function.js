@@ -1,10 +1,6 @@
-function(onSuccess, onError, ellipsis) {
-  var AWS = require('aws-sdk');
+function(onSuccess, onError, ellipsis, AWS) {
 
-var lambda = new AWS.Lambda({ 
-  accessKeyId: ellipsis.env.AWS_ACCESS_KEY, 
-  secretAccessKey: ellipsis.env.AWS_SECRET_KEY 
-});
+var lambda = new AWS.Lambda();
 
 lambda.listFunctions({}, function(err, data) {
   if (err) {

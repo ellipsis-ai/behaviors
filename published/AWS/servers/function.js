@@ -1,12 +1,7 @@
-function(onSuccess, onError, ellipsis) {
+function(onSuccess, onError, ellipsis, AWS) {
   "use strict"; 
-var AWS = require('aws-sdk');
-AWS.config.update({
-  accessKeyId:  ellipsis.env.AWS_ACCESS_KEY,
-  secretAccessKey: ellipsis.env.AWS_SECRET_KEY
- });
 
-const ec2 = new AWS.EC2({region: 'us-east-1'});
+const ec2 = new AWS.EC2();
 var params = {};
 ec2.describeInstances(params, function(err, data) {
   if (err) {
