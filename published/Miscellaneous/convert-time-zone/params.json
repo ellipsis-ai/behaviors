@@ -1,4 +1,0 @@
-[ {
-  "name" : "time",
-  "question" : "Enter a time of day with an optional time zone, e.g. `12:00pm Eastern`."
-} ]
