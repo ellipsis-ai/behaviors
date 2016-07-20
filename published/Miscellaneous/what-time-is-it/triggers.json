@@ -1,0 +1,11 @@
+[ {
+  "text" : "What time is it in {place}?",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : true
+}, {
+  "text" : "What time is it somewhere else?",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]
