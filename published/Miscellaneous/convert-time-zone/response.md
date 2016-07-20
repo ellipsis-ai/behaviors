@@ -1,3 +1,2 @@
-Just thought you should know…
-
+FYI:
 {successResult.originalTime} time is {successResult.newTime}

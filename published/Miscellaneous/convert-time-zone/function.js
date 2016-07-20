@@ -55,7 +55,7 @@ if (!timeMatch || !timeMatch[1] || !timeMatch[2]) {
 }
 
 var hour = parseInt(timeMatch[1], 10);
-var isMilitary = hour > 12 || hour == 0;
+var isMilitary = hour > 12 || hour === 0;
 var minute = timeMatch[2];
 if (hour > 23) {
   // Assume that anything above 23 isn't a time of day and just end silently
