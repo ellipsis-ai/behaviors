@@ -1,1 +1,1 @@
-(At {successResult.originalTime}, it’s {successResult.newTime}.)
+({successResult.originalTime} is {successResult.newTime})
