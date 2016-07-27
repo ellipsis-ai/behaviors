@@ -77,7 +77,9 @@ Q.all([
   const flattened = [].concat.apply([], certLists);
   const cutoffDate = new Date();
   cutoffDate.setDate(cutoffDate.getDate()+365);
-  const expiringSoon = flattened.filter((ea) => (ea.expiration < cutoffDate) && (ea.expiration > new Date()));
+  const expiringSoon = 
+    flattened.sort((a, b) => a.expiration - b.expiration).
+    filter((ea) => (ea.expiration < cutoffDate) && (ea.expiration > new Date()));
   const result = expiringSoon.map((ea) => {
     const expirationStr = dateFormat(ea.expiration, "dddd, mmmm dS, yyyy");
     return { identifier: ea.identifier, expiration: expirationStr };
