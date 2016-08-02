@@ -39,18 +39,23 @@ const listObjectsParams = {
 
 s3.listObjectsV2(listObjectsParams, (err, data) => {
   const csvRegex = /\d+-aws-billing-csv-\d\d\d\d-\d\d/;
-  const csvKeys = data.Contents.map((ea) => ea.Key).filter((ea) => {
-    return csvRegex.test(ea);
-  });
-  const reverseChrono = csvKeys.sort().reverse();
-  
-  getTotalFor(reverseChrono[0], (latest) => {
-    getTotalFor(reverseChrono[1], (secondLatest) => {
-        onSuccess({
-          latest: latest,
-          secondLatest: secondLatest
-        });
+  if (data) {
+    const csvKeys = data.Contents.map((ea) => ea.Key).filter((ea) => {
+      return csvRegex.test(ea);
     });
-  });
+    const reverseChrono = csvKeys.sort().reverse();
+
+    getTotalFor(reverseChrono[0], (latest) => {
+      getTotalFor(reverseChrono[1], (secondLatest) => {
+          onSuccess({
+            latest: latest,
+            secondLatest: secondLatest
+          });
+      });
+    });
+  } else {
+    onError("You need to set up billing reports for you AWS account first!\n\nSee http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/detailed-billing-reports.html for more details."); 
+  }
 })
+
 }
