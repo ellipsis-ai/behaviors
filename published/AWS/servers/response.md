@@ -1,19 +1,21 @@
 **EC2 Instances**
 
-Total Instances: {successResult.count}
+**Total Instances: {successResult.count}**
 
 {for instance in successResult.instances}
 
-{instance.PublicDnsName}
+======================================
 
-Id: {instance.InstanceId}
+**{instance.PublicDnsName}**
 
-Private Ip: {instance.PrivateIpAddress}
+**Id:** {instance.InstanceId}
 
-Public Ip: {instance.PublicIpAddress}
+**Private Ip**: {instance.PrivateIpAddress}
 
-Tags:
-  {for tag in instance.Tags}
-     {tag.Key} => {tag.Value}
-  {endfor}  
+**Public Ip:** {instance.PublicIpAddress}
+
+**Tags:**
+{for tag in instance.Tags}
+{tag.Key} => {tag.Value}
+{endfor}  
 {endfor}

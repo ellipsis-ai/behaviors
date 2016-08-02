@@ -7,12 +7,15 @@ ec2.describeInstances(params, function(err, data) {
   if (err) {
     onError(err);
   } else {
+    const instanceLists = data.Reservations.map((ea) => ea.Instances);
+    const flattened = [].concat.apply([], instanceLists);
     var result = {
-      instances: data.Reservations[0].Instances, 
-      count: data.Reservations[0].Instances.length
+      instances: flattened, 
+      count: flattened.length
     };
     onSuccess(result);
   }
 });
+
 
 }
