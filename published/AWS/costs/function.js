@@ -1,11 +1,11 @@
-function(onSuccess, onError, ellipsis, AWS) {
+function(ellipsis) {
   "use strict"; 
 
 const cleanUpValue = (v) => {
   return v.replace(/^\"|\"$/g, "");
 };
 
-const s3 = new AWS.S3();
+const s3 = new ellipsis.AWS.S3();
 
 const bucket = "ellipsis-aws-billing";
 
@@ -47,14 +47,14 @@ s3.listObjectsV2(listObjectsParams, (err, data) => {
 
     getTotalFor(reverseChrono[0], (latest) => {
       getTotalFor(reverseChrono[1], (secondLatest) => {
-          onSuccess({
+          ellipsis.success({
             latest: latest,
             secondLatest: secondLatest
           });
       });
     });
   } else {
-    onError("You need to set up billing reports for you AWS account first!\n\nSee http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/detailed-billing-reports.html for more details."); 
+    ellipsis.error("You need to set up billing reports for you AWS account first!\n\nSee http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/detailed-billing-reports.html for more details.");
   }
 })
 

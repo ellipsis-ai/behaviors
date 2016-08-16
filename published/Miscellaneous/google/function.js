@@ -1,6 +1,6 @@
 function(
 input,
-onSuccess, onError, ellipsis
+ellipsis
 ) {
   var scraperjs = require('scraperjs');
 
@@ -18,6 +18,6 @@ scraperjs.StaticScraper.create('https://www.google.com/search?q=' + input)
     var filtered = resultArray.filter(function(ea) { 
       return !(/^\/search/.test(ea.link)); 
     });
-  	onSuccess(filtered);
+    ellipsis.success(filtered);
 	})
 }

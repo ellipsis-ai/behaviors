@@ -1,4 +1,7 @@
-function(input,onSuccess, onError, ellipsis) {
+function(
+input,
+ellipsis
+) {
 
 'use strict'
 var Client = require('node-rest-client').Client;
@@ -19,7 +22,7 @@ client.get("https://api.cognitive.microsoft.com/bing/v5.0/news/search", args, fu
   for (let n of data.value) {
     n.providerName=n.provider[0].name;
   }
-  onSuccess(data);
+  ellipsis.success(data);
 });
 
 }

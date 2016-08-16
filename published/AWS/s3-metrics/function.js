@@ -1,10 +1,10 @@
-function(onSuccess, onError, ellipsis, AWS) {
+function(ellipsis) {
   "use strict"; 
 
 const Q = require('q');
 const groupBy = require('group-by');
 const pretty = require('prettysize');
-const cloudwatch = new AWS.CloudWatch();
+const cloudwatch = new ellipsis.AWS.CloudWatch();
 const namespace = "AWS/S3";
 
 const getMetrics = () => {
@@ -82,9 +82,9 @@ getMetrics().
       };
     });
     const sorted = merged.sort((a, b) => b.bytes - a.bytes);
-    onSuccess(sorted);
+    ellipsis.success(sorted);
   }).
   fail((err) => {
-    onError(err);
+    ellipsis.error(err);
   });
 }

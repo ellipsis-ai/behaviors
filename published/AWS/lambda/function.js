@@ -1,12 +1,12 @@
-function(onSuccess, onError, ellipsis, AWS) {
+function(ellipsis) {
 
-var lambda = new AWS.Lambda();
+var lambda = new ellipsis.AWS.Lambda();
 
 lambda.listFunctions({}, function(err, data) {
   if (err) {
-    onError("That didn't work: " + err);
+    ellipsis.error("That didn't work: " + err);
   } else {
-   	onSuccess(data.Functions.length); 
+    ellipsis.success(data.Functions.length);
   }
 });
 }

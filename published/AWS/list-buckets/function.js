@@ -1,9 +1,9 @@
-function(onSuccess, onError, ellipsis, AWS) {
+function(ellipsis) {
   "use strict"; 
 
-const s3 = new AWS.S3();
+const s3 = new ellipsis.AWS.S3();
 s3.listBuckets((response, data) => {                
-  onSuccess(data);
+  ellipsis.success(data);
 });
 
 }

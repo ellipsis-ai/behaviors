@@ -1,6 +1,6 @@
 function(
 time,
-onSuccess, onError, ellipsis
+ellipsis
 ) {
   var ASSUMED_TIMEZONE = 'e'; // E is for Eastern
 var CONVERT_TO_TIMEZONE = 'p'; // P is for Pacific
@@ -51,7 +51,7 @@ var assembleTimeString = function(hour, minute, suffix, timeZone) {
 
 var timeMatch = time.match(/(\d{1,2}):(\d\d)/);
 if (!timeMatch || !timeMatch[1] || !timeMatch[2]) {
-  return onError('No valid time of day found.');
+  return ellipsis.error('No valid time of day found.');
 }
 
 var hour = parseInt(timeMatch[1], 10);
@@ -84,7 +84,7 @@ if (amOrPm) {
 
 var newHour = resolveDifference(hour, difference, isMilitary);
 
-onSuccess({
+ellipsis.success({
   originalTime: assembleTimeString(hour, minute, amOrPm, timeZoneNames[timeZone]),
   newTime: assembleTimeString(newHour, minute, newAmOrPm, timeZoneNames[newTimeZone])
 });

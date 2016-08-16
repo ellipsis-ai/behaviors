@@ -1,6 +1,6 @@
 function(
 word,
-onSuccess, onError, ellipsis
+ellipsis
 ) {
   var scraperjs = require('scraperjs');
 var dictionaryURL = "http://www.webster-dictionary.org/definition/";
@@ -28,7 +28,7 @@ scraperjs.StaticScraper.create(requestURL)
     }).get();
   })
   .then(function(results) {
-    onSuccess(results);
+    ellipsis.success(results);
   });
 
 }
