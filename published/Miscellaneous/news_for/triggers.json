@@ -1,0 +1,11 @@
+[ {
+  "text" : "news for {input}",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "news for ",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

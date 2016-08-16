@@ -1,0 +1,6 @@
+[ {
+  "text" : "spell {input}",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]
