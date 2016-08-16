@@ -1,17 +1,17 @@
-function(onSuccess, onError, ellipsis, AWS) {
+function(ellipsis) {
   "use strict"; 
 
 const Q = require('q');
 const dateFormat = require('dateformat');
 
 const certsFromIAM = () => {
-  const iam = new AWS.IAM();
+  const iam = new ellipsis.AWS.IAM();
   const deferred = Q.defer();
   
   iam.listServerCertificates({}, (err, data) => {
     if (err) {
       deferred.reject(err)
-      onError(err);
+      ellipsis.error(err);
     } else {
       deferred.resolve(
         data.ServerCertificateMetadataList.
@@ -28,7 +28,7 @@ const certsFromIAM = () => {
   return deferred.promise;
 };
 
-const acm = new AWS.ACM();
+const acm = new ellipsis.AWS.ACM();
 
 const certArnsFromACM = () => {
   const deferred = Q.defer();
@@ -84,9 +84,9 @@ Q.all([
     const expirationStr = dateFormat(ea.expiration, "dddd, mmmm dS, yyyy");
     return { identifier: ea.identifier, expiration: expirationStr };
   });
-  onSuccess(result);
+  ellipsis.success(result);
 }).fail((err) => {
-  onError(err);
+  ellipsis.error(err);
 });
 
 

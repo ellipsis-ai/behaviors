@@ -1,6 +1,6 @@
 function(
 place,
-onSuccess, onError, ellipsis
+ellipsis
 ) {
   "use strict";
 
@@ -33,5 +33,5 @@ if (place.match(/^(san fran|los angeles|vancouver|portland|seattle|palo alto|men
 if (!result) {
   result = `It's ${moment.tz(tz).format('LT')} in ${place}`
 }
-onSuccess(result);
+ellipsis.success(result);
 }

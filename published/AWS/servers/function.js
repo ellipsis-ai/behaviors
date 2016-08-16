@@ -1,11 +1,11 @@
-function(onSuccess, onError, ellipsis, AWS) {
+function(ellipsis) {
   "use strict"; 
 
-const ec2 = new AWS.EC2();
+const ec2 = new ellipsis.AWS.EC2();
 var params = {};
 ec2.describeInstances(params, function(err, data) {
   if (err) {
-    onError(err);
+    ellipsis.error(err);
   } else {
     const instanceLists = data.Reservations.map((ea) => ea.Instances);
     const flattened = [].concat.apply([], instanceLists);
@@ -13,7 +13,7 @@ ec2.describeInstances(params, function(err, data) {
       instances: flattened, 
       count: flattened.length
     };
-    onSuccess(result);
+    ellipsis.success(result);
   }
 });
 

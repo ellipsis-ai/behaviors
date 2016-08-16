@@ -1,6 +1,6 @@
 function(
 input,
-onSuccess, onError, ellipsis
+ellipsis
 ) {
   var Client = require('node-rest-client').Client;
 var client = new Client();
@@ -28,6 +28,6 @@ client.post("https://api.cognitive.microsoft.com/bing/v5.0/spellcheck", args, fu
     result.comment = "Suggestions:";
     result.flaggedTokens=data.flaggedTokens
   }
-  onSuccess(result);
+  ellipsis.success(result);
 });
 }

@@ -1,4 +1,7 @@
-function(input, onSuccess, onError, ellipsis) {
+function(
+input,
+ellipsis
+) {
 
 'use strict'
 
@@ -37,7 +40,7 @@ var args = {
 
 client.get("https://api.cognitive.microsoft.com/bing/v5.0/search", args, function (data, response) {
   data.webPages.hits = data.webPages.totalEstimatedMatches.toLocaleString();
-  onSuccess(data.webPages);
+  ellipsis.success(data.webPages);
 });
 
 }

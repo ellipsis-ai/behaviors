@@ -1,4 +1,4 @@
-function(onSuccess, onError, ellipsis) {
+function(ellipsis) {
   var possibleEmoji = [
   ":balloon:",
   ":champagne:",
@@ -17,7 +17,7 @@ var possibleWords = [
 var randomEmoji = Math.floor(Math.random() * possibleEmoji.length);
 var randomWord = Math.floor(Math.random() * possibleWords.length);
 
-onSuccess({
+ellipsis.success({
   emoji: possibleEmoji[randomEmoji],
   word: possibleWords[randomWord]
 });

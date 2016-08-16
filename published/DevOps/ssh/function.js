@@ -1,4 +1,7 @@
-function(command, onSuccess, onError, ellipsis) {
+function(
+command,
+ellipsis
+) {
 'use strict';
 
 const SSH = require('simple-ssh');
@@ -9,7 +12,7 @@ const cmd = command;
 const hosts = [];
 
 if (hosts.length === 0) {
-  onError("You need to specify the server(s) that run the ssh command. Set the hosts variable in the behavior code");
+  ellipsis.error("You need to specify the server(s) that run the ssh command. Set the hosts variable in the behavior code");
 }
 
 function runSshCommand(cmd, sshParams) {
@@ -50,9 +53,9 @@ function runCmdOnHosts(hosts) {
 }
 runCmdOnHosts(hosts)
   .then(function (output) {
-    onSuccess(output);
+    ellipsis.success(output);
   }, function (error) {
-     onError(JSON.stringify(error));
+     ellipsis.error(JSON.stringify(error));
   });
 
 }
