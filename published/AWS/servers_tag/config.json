@@ -1,0 +1,9 @@
+{
+  "publishedId" : "KRvyiSXIRzKgb3yn9sdzsA",
+  "aws" : {
+    "accessKeyName" : "AWS_ACCESS_KEY",
+    "secretKeyName" : "AWS_SECRET_KEY",
+    "regionName" : "AWS_REGION"
+  },
+  "requiredOAuth2Applications" : [ ]
+}
