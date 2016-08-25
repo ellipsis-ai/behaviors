@@ -1,0 +1,8 @@
+{
+  "publishedId" : "66BL2thaQDmwoYA5WQ-ytQ",
+  "requiredOAuth2Applications" : [ {
+    "applicationId" : "tRIrUQTfQ7qw-roVvQeg_g",
+    "displayName" : "Todoist",
+    "keyName" : "todoist"
+  } ]
+}
