@@ -18,6 +18,6 @@ var args = {
 };
 
 client.get("https://api.cognitive.microsoft.com/bing/v5.0/images/search", args, function (data, response) {
-  onSuccess(data);
+  ellipsis.success(data);
 });
 }
