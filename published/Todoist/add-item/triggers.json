@@ -1,0 +1,11 @@
+[ {
+  "text" : "^todoist add item$",
+  "requiresMention" : false,
+  "isRegex" : true,
+  "caseSensitive" : false
+}, {
+  "text" : "todoist add item name: {taskName} date: {dueDate} project: {projectName}",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

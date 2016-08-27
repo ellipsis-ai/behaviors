@@ -1,0 +1,6 @@
+[ {
+  "text" : "todoist projects",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]
