@@ -1,0 +1,7 @@
+{
+  "publishedId" : "DeY65fjDQN6NGM9wdfzmig",
+  "requiredOAuth2ApiConfigs" : [ {
+    "apiId" : "lj8s5CF-QnSY8vtbnWj_BA",
+    "recommendedScope" : "repo"
+  } ]
+}
