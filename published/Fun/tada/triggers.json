@@ -2,5 +2,5 @@
   "text" : ":tada:",
   "requiresMention" : false,
   "isRegex" : true,
-  "caseSensitive" : true
+  "caseSensitive" : false
 } ]

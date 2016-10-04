@@ -2,7 +2,7 @@
   "text" : "What time is it in {place}?",
   "requiresMention" : false,
   "isRegex" : false,
-  "caseSensitive" : true
+  "caseSensitive" : false
 }, {
   "text" : "What time is it somewhere else?",
   "requiresMention" : false,
