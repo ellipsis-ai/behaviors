@@ -7,5 +7,5 @@
   "text" : "\\b(\\d\\d?\\:\\d\\d\\s*(?i:[ap]\\.?m\\.?\\s*)?(?i:[acemp][sd]?[t]|atlantic|central|mountain|pacific)?)\\s*",
   "requiresMention" : false,
   "isRegex" : true,
-  "caseSensitive" : true
+  "caseSensitive" : false
 } ]
