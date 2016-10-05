@@ -1,0 +1,15 @@
+[ {
+  "name" : "account_label",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the AWS account label [mb, ep]?"
+}, {
+  "name" : "env_tag_value",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for the Environment tag[prod, dev, staging]?"
+} ]
