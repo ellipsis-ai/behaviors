@@ -4,12 +4,12 @@
     "id" : "Text",
     "name" : "Text"
   },
-  "question" : "What is the AWS account label [mb, ep]?"
+  "question" : "What is the AWS account label [jack_acc, ken_acc]?"
 }, {
   "name" : "env_tag_value",
   "paramType" : {
     "id" : "Text",
     "name" : "Text"
   },
-  "question" : "What is the value for the Environment tag[prod, dev, staging]?"
+  "question" : "What is the value for the Environment tag [prod, dev, stag]?"
 } ]
