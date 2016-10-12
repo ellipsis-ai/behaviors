@@ -24,14 +24,14 @@ const searchedTags = [
 // allow the user to choose what account to use.
 var accounts = [
   {
-    label: "jack_acc",
-    key: ellipsis.env.JACK_AWS_KEY,
-    secret: ellipsis.env.JACK_AWS_SECRET
+    label: "acc_1",
+    key: ellipsis.env.ACC_ONE_AWS_KEY,
+    secret: ellipsis.env.ACC_TWO_JACK_AWS_SECRET
   },
   {
-    label: "ken_acc",
-    key: ellipsis.env.KEN_AWS_KEY,
-    secret: ellipsis.env.KEN_AWS_SECRET
+    label: "acc2",
+    key: ellipsis.env.ACC_TWO_AWS_KEY,
+    secret: ellipsis.env.ACC_TWO_AWS_SECRET
   }
 ];
 
