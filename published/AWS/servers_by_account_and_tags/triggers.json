@@ -1,0 +1,11 @@
+[ {
+  "text" : "aws_servers_by",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "aws_servers_by {account_label}  {env_tag_value}",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]
