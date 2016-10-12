@@ -1,0 +1,23 @@
+{
+  "name": "ellipsis-behaviors",
+  "version": "0.0.1",
+  "description": "Behaviors teach Ellipsis specific skills",
+  "main": "index.js",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^3.7.1"
+  },
+  "scripts": {
+    "lint": "scripts/run_eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellipsis-ai/behaviors.git"
+  },
+  "author": "Ellipsis Co.",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ellipsis-ai/behaviors/issues"
+  },
+  "homepage": "https://github.com/ellipsis-ai/behaviors"
+}
