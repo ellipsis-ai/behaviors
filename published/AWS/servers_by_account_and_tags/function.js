@@ -26,10 +26,10 @@ var accounts = [
   {
     label: "acc_1",
     key: ellipsis.env.ACC_ONE_AWS_KEY,
-    secret: ellipsis.env.ACC_TWO_JACK_AWS_SECRET
+    secret: ellipsis.env.ACC_ONE_AWS_SECRET
   },
   {
-    label: "acc2",
+    label: "acc_2",
     key: ellipsis.env.ACC_TWO_AWS_KEY,
     secret: ellipsis.env.ACC_TWO_AWS_SECRET
   }
