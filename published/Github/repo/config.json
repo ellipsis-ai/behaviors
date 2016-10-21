@@ -1,0 +1,10 @@
+{
+  "publishedId" : "vne9aZ6eQ_6hOFwnSm3alg",
+  "requiredOAuth2ApiConfigs" : [ {
+    "id" : "V7PVdv7YQh2p3s7-enSQqw",
+    "apiId" : "lj8s5CF-QnSY8vtbnWj_BA",
+    "recommendedScope" : "repo"
+  } ],
+  "forcePrivateResponse" : false,
+  "dataTypeName" : "Github repo"
+}

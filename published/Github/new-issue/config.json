@@ -1,0 +1,9 @@
+{
+  "publishedId" : "loAWeTQcS7mVB_CueEjk-Q",
+  "requiredOAuth2ApiConfigs" : [ {
+    "id" : "Z6r5MmXlTsaBop4vh7URJQ",
+    "apiId" : "lj8s5CF-QnSY8vtbnWj_BA",
+    "recommendedScope" : "repo"
+  } ],
+  "forcePrivateResponse" : true
+}
