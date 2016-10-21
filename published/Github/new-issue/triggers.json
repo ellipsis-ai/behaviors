@@ -1,0 +1,11 @@
+[ {
+  "text" : "github new issue \"{title}\" \"{body}\" {repo}",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "^github new issue$",
+  "requiresMention" : false,
+  "isRegex" : true,
+  "caseSensitive" : false
+} ]

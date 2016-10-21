@@ -1,0 +1,25 @@
+[ {
+  "name" : "title",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "What's the title of the issue?"
+}, {
+  "name" : "body",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Describe the issue"
+}, {
+  "name" : "repo",
+  "paramType" : {
+    "id" : "vne9aZ6eQ_6hOFwnSm3alg",
+    "name" : "Github repo",
+    "needsConfig" : false
+  },
+  "question" : "Which repo?"
+} ]
