@@ -1,7 +1,6 @@
 {
   "publishedId" : "SBCzPqzASMeMzu0a7kf7jA",
   "requiredOAuth2ApiConfigs" : [ {
-    "id" : "W-ucPMVASGqv2t0SWlYenA",
     "apiId" : "Ec2SnSHFTV2Y0jkzbqUmFA",
     "recommendedScope" : "data:read_write"
   } ],
