@@ -1,7 +1,8 @@
 {
-  "publishedId" : "66BL2thaQDmwoYA5WQ-ytQ",
+  "publishedId" : "iCwW43WYQzqo_njXaBfd_A",
   "requiredOAuth2ApiConfigs" : [ {
     "apiId" : "Ec2SnSHFTV2Y0jkzbqUmFA",
     "recommendedScope" : "data:read_write"
-  } ]
+  } ],
+  "forcePrivateResponse" : true
 }

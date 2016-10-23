@@ -1,10 +1,25 @@
 [ {
   "name" : "taskName",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
   "question" : "What's the task?"
 }, {
   "name" : "dueDate",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
   "question" : "When is it due?"
 }, {
-  "name" : "projectName",
-  "question" : "What's the name of the project?"
+  "name" : "project",
+  "paramType" : {
+    "id" : "SBCzPqzASMeMzu0a7kf7jA",
+    "name" : "Todoist project",
+    "needsConfig" : false
+  },
+  "question" : "Which project?"
 } ]

@@ -4,6 +4,6 @@ Ok, I added the following task:
 
 **Due:** {dueDate}
 
-**Project:** {projectName}
+**Project:** {project.label}
 
 You can view it at: https://todoist.com/showTask?id={successResult}

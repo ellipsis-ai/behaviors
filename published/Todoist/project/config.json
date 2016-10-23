@@ -1,8 +1,9 @@
 {
-  "publishedId" : "DsJ-9FV2Sgei0vwUoe3rUA",
+  "publishedId" : "SBCzPqzASMeMzu0a7kf7jA",
   "requiredOAuth2ApiConfigs" : [ {
     "apiId" : "Ec2SnSHFTV2Y0jkzbqUmFA",
     "recommendedScope" : "data:read_write"
   } ],
-  "forcePrivateResponse" : false
+  "forcePrivateResponse" : false,
+  "dataTypeName" : "Todoist project"
 }
