@@ -3,5 +3,6 @@
   "requiredOAuth2ApiConfigs" : [ {
     "apiId" : "lj8s5CF-QnSY8vtbnWj_BA",
     "recommendedScope" : "repo"
-  } ]
+  } ],
+  "forcePrivateResponse" : false
 }
