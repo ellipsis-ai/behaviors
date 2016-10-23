@@ -1,4 +1,9 @@
 [ {
   "name" : "repo",
+  "paramType" : {
+    "id" : "o53LiJj4R5GtMi0LEmQB7g",
+    "name" : "Github repo",
+    "needsConfig" : false
+  },
   "question" : "For which repo would you like to see PRs?"
 } ]

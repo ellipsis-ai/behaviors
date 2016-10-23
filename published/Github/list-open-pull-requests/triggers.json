@@ -1,10 +1,10 @@
 [ {
-  "text" : "github list open pull requests {repo}",
+  "text" : "github open  PRs",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "github list open PRs {repo}",
+  "text" : "github open pull requests",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false
