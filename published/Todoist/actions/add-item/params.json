@@ -1,0 +1,34 @@
+[ {
+  "name" : "taskName",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "What's the task?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "Ubvq_StaRLKVLrhcbsjtdg"
+}, {
+  "name" : "dueDate",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "When is it due?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "PwT6nu9bTAOvH3RffQkNWw"
+}, {
+  "name" : "project",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Which project?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "q6K5O10mS3GQla5LHDfmIA"
+} ]
