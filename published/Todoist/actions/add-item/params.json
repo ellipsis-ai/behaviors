@@ -23,8 +23,8 @@
 }, {
   "name" : "project",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
+    "id" : "nxl_7nG_QyqwZJHrDH6kGQ",
+    "name" : "Todoist project",
     "needsConfig" : false
   },
   "question" : "Which project?",
