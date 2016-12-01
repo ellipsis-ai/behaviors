@@ -1,8 +1,10 @@
 {
-  "publishedId" : "iCwW43WYQzqo_njXaBfd_A",
+  "publishedId" : "YPLBnZYSTE6U-AUBWoZupQ",
   "requiredOAuth2ApiConfigs" : [ {
+    "id" : "3pkrP_2_TI-VoX8bjgmfzw",
     "apiId" : "Ec2SnSHFTV2Y0jkzbqUmFA",
     "recommendedScope" : "data:read_write"
   } ],
+  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : true
 }
