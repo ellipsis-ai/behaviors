@@ -1,0 +1,6 @@
+[ {
+  "text" : "pivotal tracker stories",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

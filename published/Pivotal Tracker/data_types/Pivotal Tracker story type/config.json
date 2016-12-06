@@ -1,0 +1,7 @@
+{
+  "publishedId" : "Ki8Tp4lYTK2eQ5PZ3ZTHWA",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false,
+  "dataTypeName" : "Pivotal Tracker story type"
+}
