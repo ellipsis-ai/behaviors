@@ -1,0 +1,10 @@
+{
+  "publishedId" : "QXE-ZdSWSUio55sW2NghsQ",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ {
+    "id" : "BtF9JhcSTcGsXRKH58R4Lg",
+    "apiId" : "pivotal-tracker",
+    "name" : "Pivotal Tracker"
+  } ],
+  "forcePrivateResponse" : false
+}
