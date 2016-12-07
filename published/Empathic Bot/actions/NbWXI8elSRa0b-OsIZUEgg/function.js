@@ -1,11 +1,5 @@
-function(ellipsis) {
-  /* Set sarcasm probablity from 0 to 1 as suits your colleagues
-   where 0 is “We are the nicest people on Earth”
-   and 1 is “We are all jerks" */
-
-const sarcasmProbability = 0.5;
-
-const genuineResponses = [
+function(sarcasmProbability, ellipsis) {
+  const genuineResponses = [
   "Oh, my pleasure.",
   "I do what I can.",
   "It was nothing, really.",
@@ -26,8 +20,9 @@ const sarcasticResponses = [
   "Moving right along…"
 ];
 
-const isSarcastic = Math.random() < sarcasmProbability;
+const isSarcastic = Math.random()*10 < sarcasmProbability;
 const responses = isSarcastic ? sarcasticResponses : genuineResponses;
 const random = Math.round(Math.random() * (responses.length - 1));
 ellipsis.success(responses[random]);
+
 }

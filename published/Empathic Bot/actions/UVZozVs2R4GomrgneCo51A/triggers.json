@@ -1,0 +1,11 @@
+[ {
+  "text" : ":disappointed:",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : ":slightly_frowning_face:",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

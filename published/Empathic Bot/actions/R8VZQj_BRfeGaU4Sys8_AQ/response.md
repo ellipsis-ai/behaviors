@@ -1,0 +1,1 @@
+{successResult.emoji} {successResult.word}
