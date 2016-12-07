@@ -2,10 +2,10 @@
   "publishedId" : "I6JRZXTjT6Go_IVSXiF-2Q",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ {
-    "id" : "nPI_viUdSvejKuw2CpzLaw",
+    "id" : "LnY_ZvDzQeutoFosLAzheQ",
     "apiId" : "pivotal-tracker",
     "name" : "Pivotal Tracker"
   } ],
   "forcePrivateResponse" : false,
-  "dataTypeName" : "Pivotal Tracker Project"
+  "dataTypeName" : "Project"
 }

@@ -2,11 +2,22 @@
   "name" : "project",
   "paramType" : {
     "id" : "I6JRZXTjT6Go_IVSXiF-2Q",
-    "name" : "Pivotal Tracker Project",
+    "name" : "Project",
     "needsConfig" : false
   },
   "question" : "For which project?",
   "isSavedForTeam" : false,
+  "isSavedForUser" : true,
+  "inputId" : "V98F97H3Tkuj6DUMo1aItg"
+}, {
+  "name" : "storyState",
+  "paramType" : {
+    "id" : "zu5VaFafR-OMobdXQ93cjA",
+    "name" : "Story state",
+    "needsConfig" : false
+  },
+  "question" : "In what state?",
+  "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "yezeHALDQ16QN-53Q-qehQ"
+  "inputId" : "djUfjkrNT0GL75TuuEg3Rg"
 } ]

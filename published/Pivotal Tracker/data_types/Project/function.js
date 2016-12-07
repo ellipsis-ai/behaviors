@@ -9,6 +9,8 @@ fetch(url, {
   }
 }).then((response) => response.json())
   .then((json) => {
-    ellipsis.success(json);
-  });
+    ellipsis.success(json.map (ea => {
+      return { id: ea.id.toString(), label: ea.name };
+    }));
+});
 }

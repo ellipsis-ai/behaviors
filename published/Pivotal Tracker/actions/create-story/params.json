@@ -2,13 +2,13 @@
   "name" : "project",
   "paramType" : {
     "id" : "I6JRZXTjT6Go_IVSXiF-2Q",
-    "name" : "Pivotal Tracker Project",
+    "name" : "Project",
     "needsConfig" : false
   },
   "question" : "For which project?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "3CWEBn-XSH2iJbX9DQWFHg"
+  "inputId" : "xqR52oO6RyiXRM1mP8i_wg"
 }, {
   "name" : "name",
   "paramType" : {
@@ -19,18 +19,18 @@
   "question" : "What's the name of the story?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "QEUoezwZQlW_D8hzWAO4tw"
+  "inputId" : "tpdkiyWySh24qu1pfEHJrw"
 }, {
   "name" : "storyType",
   "paramType" : {
     "id" : "Ki8Tp4lYTK2eQ5PZ3ZTHWA",
-    "name" : "Pivotal Tracker story type",
+    "name" : "Story type",
     "needsConfig" : false
   },
   "question" : "What type of story is this?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "wonhSTXgRNugS8-IOAKjGQ"
+  "inputId" : "41XHHl7hRxS_QKQezLLrPQ"
 }, {
   "name" : "description",
   "paramType" : {
@@ -41,5 +41,5 @@
   "question" : "Describe this story, including acceptance criteria",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "emQ6X7IvSb-rkCSl4AR1bw"
+  "inputId" : "bJxrkNJxQKi2MrEt9qFhNQ"
 } ]

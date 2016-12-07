@@ -1,8 +1,8 @@
 {
-  "publishedId" : "QXE-ZdSWSUio55sW2NghsQ",
+  "publishedId" : "HC_gpn5xTfSO-HYWb6QLRg",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ {
-    "id" : "BtF9JhcSTcGsXRKH58R4Lg",
+    "id" : "3wKJeqqiTMawmG7kxgUOgw",
     "apiId" : "pivotal-tracker",
     "name" : "Pivotal Tracker"
   } ],
