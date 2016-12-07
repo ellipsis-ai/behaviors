@@ -1,12 +1,20 @@
-function(project, ellipsis) {
-  var tracker = require('pivotaltracker');
-var client = new tracker.Client(ellipsis.accessTokens.pivotalTracker);
- 
-client.project(project.id).stories.all(function(error, stories) {
-  if (error) {
-    ellipsis.error(error);
-  } else {
-    ellipsis.success(stories);
+function(project, storyState, ellipsis) {
+  const fetch = require('node-fetch');
+
+const baseUrl = 'https://www.pivotaltracker.com/services/v5/';
+const url = `${baseUrl}projects/${project.id}/stories?with_state=${storyState.id}`;
+
+fetch(url, {
+  method: 'GET',
+  headers: {
+    'X-TrackerToken': ellipsis.accessTokens.pivotalTracker
   }
+}).then((response) => response.json())
+  .then((json) => {
+    ellipsis.success({
+      isEmpty: json.length === 0,
+      stories: json
+    });
 });
+
 }

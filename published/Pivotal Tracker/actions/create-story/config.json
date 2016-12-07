@@ -2,7 +2,7 @@
   "publishedId" : "fuBtUvQOSpS6GhW11VImUw",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ {
-    "id" : "dh6awCUgQmWDwcDOo0V8TA",
+    "id" : "FT706uESQ2uupMpG5lU-IQ",
     "apiId" : "pivotal-tracker",
     "name" : "Pivotal Tracker"
   } ],
