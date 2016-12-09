@@ -1,0 +1,12 @@
+[ {
+  "name" : "word",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "What word do you want to know the meaning of?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "LiXArBvnS-WehGm-e6dFSw"
+} ]

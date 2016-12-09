@@ -1,7 +1,4 @@
-function(
-word,
-ellipsis
-) {
+function(word, ellipsis) {
   var scraperjs = require('scraperjs');
 var dictionaryURL = "http://www.webster-dictionary.org/definition/";
 var qp = encodeURI(word);
@@ -30,5 +27,6 @@ scraperjs.StaticScraper.create(requestURL)
   .then(function(results) {
     ellipsis.success(results);
   });
+
 
 }
