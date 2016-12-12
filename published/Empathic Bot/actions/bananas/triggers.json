@@ -1,10 +1,10 @@
 [ {
-  "text" : ":banana:",
+  "text" : "go bananas",
   "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "go bananas",
+  "text" : ":banana:",
   "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false

@@ -1,4 +1,9 @@
 [ {
+  "text" : "I'm sad",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
   "text" : ":disappointed:",
   "requiresMention" : false,
   "isRegex" : false,
