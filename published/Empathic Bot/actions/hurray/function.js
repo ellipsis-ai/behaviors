@@ -1,7 +1,5 @@
 function(ellipsis) {
-  var rw = require('random-words');
-
-var possibleEmoji = [
+  var possibleEmoji = [
   ":balloon:",
   ":champagne:",
   ":tada:",
@@ -24,9 +22,7 @@ var randomWord = Math.floor(Math.random() * possibleWords.length);
 
 ellipsis.success({
   emoji: possibleEmoji[randomEmoji],
-  word: possibleWords[randomWord],
-  randomWord: rw()
+  word: possibleWords[randomWord]
 });
-
 
 }
