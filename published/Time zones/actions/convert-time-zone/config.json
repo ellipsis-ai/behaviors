@@ -1,3 +1,6 @@
 {
-  "publishedId" : "r2aPXBXtRTSy8zighWRWXw"
+  "publishedId" : "6NVZOxnnSfqaeHP6epVkew",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
 }

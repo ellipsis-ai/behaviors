@@ -1,92 +1,72 @@
-function(
-time,
-ellipsis
-) {
-  var ASSUMED_TIMEZONE = 'e'; // E is for Eastern
-var CONVERT_TO_TIMEZONE = 'p'; // P is for Pacific
+function(time, tzToParse, tzToOutput, ellipsis) {
+  "use strict";
+const Moment = require('moment-timezone');
+const util = require('util');
+const formatString = 'h:mm A z';
+main();
 
-var timeZones = {
-  p: 0,
-  m: 1,
-  c: 2,
-  e: 3,
-  a: 4
-};
+function main() {
+  const parsedTime = parseTime(time);
+  const inputTz = parseTz(time) || tzToParse.id;
+  console.log(tzToParse);
+  const here = Moment().tz(inputTz).set(parsedTime);
+  /* If the user included a time zone with their time, and it's the same
+     offset as output time zone, flip the conversion: */
+  const outputTz = timeUsesTz(here, tzToOutput.id) ? tzToParse.id : tzToOutput.id;
+  
+  const there = here.clone().tz(outputTz);
+  ellipsis.success({
+    originalTime: here.format(formatString),
+    newTime: there.format(formatString)
+  });
+}
 
-var timeZoneNames = {
-  p: 'Pacific',
-  m: 'Mountain',
-  c: 'Central',
-  e: 'Eastern',
-  a: 'Atlantic'
-};
+function parseTime(timeString) {
+  var timeMatch = timeString.match(/(\d{1,2})(:(\d\d))?/);
+  if (!timeMatch || !timeMatch[1]) {
+    ellipsis.noResponse();
+  }
+  var hour = parseInt(timeMatch[1], 10);
+  var minute = parseInt(timeMatch[3], 10) || 0;
+  var amOrPmMatch = timeString.match(/[\d\s]([ap])\.?m\.?\b/i);
+  var amOrPm = amOrPmMatch && amOrPmMatch[1].toLowerCase();
+  if (!amOrPm && !timeMatch[3]) {
+    // No AM or PM, and no minutes means probably not a time
+    ellipsis.noResponse();
+  }
+  if (amOrPm && amOrPm === 'p' && hour < 12) {
+    hour += 12;
+  } else if (amOrPm && amOrPm === 'a' && hour === 12) {
+    hour = 0;
+  }
+  if (hour > 23 || hour < 0 || minute > 59 || minute < 0) {
+    // Assume that this is not a valid time of day and end silently
+    ellipsis.noResponse();
+  }
+  return { hour: hour, minute: minute };
+}
 
-var flipAmOrPm = function(originalTime, timeDifference, amOrPm) {
-  if (originalTime - timeDifference < 1 ||
-      originalTime >= 12 && originalTime - timeDifference < 12 ||
-      originalTime < 12 && originalTime - timeDifference >= 12) {
-    return amOrPm == 'am' ? 'pm' : 'am';
+function parseTz(timeString) {
+  var trimmed = timeString.trim();
+  var match = trimmed.match(/([acemp][sd]?[t]|atlantic|central|mountain|pacific)$/);
+  var result = match && match[1];
+  if (/^a[sd]t|atlantic/.test(result)) {
+    return 'America/Halifax';
+  } else if (/^c[sd]t|central/.test(result)) {
+    return 'America/Chicago';
+  } else if (/^e[sd]t|eastern/.test(result)) {
+    return 'America/New_York';
+  } else if (/^m[sd]t|mountain/.test(result)) {
+    return 'America/Denver';
+  } else if (/^p[sd]t|pacific/.test(result)) {
+    return 'America/Los_Angeles';
   } else {
-    return amOrPm;
+    return null;
   }
-};
-
-var resolveDifference = function(originalHour, timeDifference, isMilitary) {
-  var newHour = originalHour - timeDifference;
-  if (newHour < 1 && !isMilitary) {
-    newHour += 12;
-  } else if (newHour < 1 && isMilitary) {
-    newHour += 24;
-  } else if (newHour > 12 && !isMilitary) {
-    newHour -= 12;
-  } else if (newHour > 23 && isMilitary) {
-    newHour -= 24;
-  }
-  return newHour;
 }
 
-var assembleTimeString = function(hour, minute, suffix, timeZone) {
-  return hour + ':' + minute + suffix + ' ' + timeZone;
-};
-
-var timeMatch = time.match(/(\d{1,2}):(\d\d)/);
-if (!timeMatch || !timeMatch[1] || !timeMatch[2]) {
-  return ellipsis.error('No valid time of day found.');
+function timeUsesTz(time, tz) {
+  return time.format('Z') === time.clone().tz(tz).format('Z');
 }
-
-var hour = parseInt(timeMatch[1], 10);
-var isMilitary = hour > 12 || hour === 0;
-var minute = timeMatch[2];
-if (hour > 23) {
-  // Assume that anything above 23 isn't a time of day and just end silently
-  return;
-}
-
-var timeZoneMatch = time.match(/([acemp][sd]?t|atlantic|central|eastern|mountain|pacific)/i);
-var timeZone = timeZoneMatch && timeZoneMatch[1] ?
-  timeZoneMatch[1].charAt(0).toLowerCase() :
-  ASSUMED_TIMEZONE;
-var newTimeZone = timeZone == CONVERT_TO_TIMEZONE ?
-  ASSUMED_TIMEZONE :
-  CONVERT_TO_TIMEZONE;
-var difference = timeZones[timeZone] - timeZones[newTimeZone];
-
-var amOrPmMatch = time.match(/[\d\s]([ap])\.?m\.?\b/i);
-var amOrPm = '';
-var newAmOrPm = '';
-
-if (amOrPmMatch) {
-  amOrPm = amOrPmMatch[1].toLowerCase() + 'm';
-}
-if (amOrPm) {
-  newAmOrPm = flipAmOrPm(hour, difference, amOrPm);
-}
-
-var newHour = resolveDifference(hour, difference, isMilitary);
-
-ellipsis.success({
-  originalTime: assembleTimeString(hour, minute, amOrPm, timeZoneNames[timeZone]),
-  newTime: assembleTimeString(newHour, minute, newAmOrPm, timeZoneNames[newTimeZone])
-});
 
 }

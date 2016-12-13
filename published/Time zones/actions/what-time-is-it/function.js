@@ -1,10 +1,8 @@
-function(
-place,
-ellipsis
-) {
+function(place, ellipsis) {
   "use strict";
 
-const moment = require('moment-timezone')();
+const Moment = require('moment-timezone');
+const moment = Moment();
 let tz;
 let result;
 
@@ -25,13 +23,22 @@ if (place.match(/^(san fran|los angeles|vancouver|portland|seattle|palo alto|men
 } else if (place.match(/^(amsterdam|madrid|paris|berlin|rome|milan|barcelona|stockholm)/i)) {
   tz = 'Europe/Paris';
 } else {
-  tz = 'UTC';
-  result = `I only know the time of day for a few places and you said ${place}. ` +
-    "Try Los Angeles, New York, or London.\n\n  \n\n";
+  tz = searchForTz(place);
 }
 
-if (!result) {
-  result = `It's ${moment.tz(tz).format('LT')} in ${place}`
+if (tz === 'UTC') {
+  result = `I only know the time of day for some places and you said ${place}.  
+Try Los Angeles, New York, or London.\n\n  \n\n`;
+} else {
+  result = `It's ${moment.tz(tz).format('LT (z)')} in ${place}`
 }
 ellipsis.success(result);
+
+function searchForTz(placeString) {
+  var tz = Moment.tz.names().find((tzName) => {
+    return tzName.toLowerCase().replace('_', ' ').includes(placeString.toLowerCase());
+  });
+  return tz || 'UTC';
+}
+
 }

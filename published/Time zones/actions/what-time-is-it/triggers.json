@@ -1,10 +1,10 @@
 [ {
-  "text" : "What time is it in {place}?",
+  "text" : "What time is it somewhere else?",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "What time is it somewhere else?",
+  "text" : "What time is it in {place}?",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false

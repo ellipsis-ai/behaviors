@@ -1,0 +1,7 @@
+{
+  "publishedId" : "fsxdNQ40QpipzignBX67-A",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false,
+  "dataTypeName" : "Time zone"
+}

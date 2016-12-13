@@ -1,4 +1,34 @@
 [ {
   "name" : "time",
-  "question" : "Enter a time of day with an optional time zone, e.g. `12:00pm Eastern`."
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Enter a time of day with an optional time zone, e.g. `12:00pm Eastern`.",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "_Da21eklT76hqkgBm-64uQ"
+}, {
+  "name" : "tzToParse",
+  "paramType" : {
+    "id" : "fsxdNQ40QpipzignBX67-A",
+    "name" : "Time zone",
+    "needsConfig" : false
+  },
+  "question" : "What time zone do people on your team usually mean? (I'll remember for next time.)",
+  "isSavedForTeam" : true,
+  "isSavedForUser" : false,
+  "inputId" : "qLIZgnh8T4yAubkbr2T3tg"
+}, {
+  "name" : "tzToOutput",
+  "paramType" : {
+    "id" : "fsxdNQ40QpipzignBX67-A",
+    "name" : "Time zone",
+    "needsConfig" : false
+  },
+  "question" : "What time zone would you like me to convert to, usually? (I'll remember for next time.)",
+  "isSavedForTeam" : true,
+  "isSavedForUser" : false,
+  "inputId" : "ylI8kKAGRoepH_MoXzeKMA"
 } ]
