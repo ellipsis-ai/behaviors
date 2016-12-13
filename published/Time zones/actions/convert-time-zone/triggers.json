@@ -4,7 +4,7 @@
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "\\b(\\d\\d?\\:\\d\\d\\s*(?i:[ap]\\.?m\\.?\\s*)?(?i:[acemp][sd]?[t]|atlantic|central|mountain|pacific)?)\\s*",
+  "text" : "\\b(\\d\\d?(?:\\:\\d\\d){0,1}\\s*(?i:[ap]\\.?m\\.?\\s*)?(?i:[acemp][sd]?[t]|atlantic|central|mountain|pacific)?)\\s*",
   "requiresMention" : false,
   "isRegex" : true,
   "caseSensitive" : false

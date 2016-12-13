@@ -1,12 +1,12 @@
 [ {
-  "name" : "place",
+  "name" : "searchQuery",
   "paramType" : {
     "id" : "Text",
     "name" : "Text",
     "needsConfig" : false
   },
-  "question" : "For what place do you want to know the time?",
+  "question" : "What is the value for `searchQuery`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "5U67zMOmSfOJ49CBRmVgFQ"
+  "inputId" : "Exk8i4QaRDuiLUyzQhDSCw"
 } ]
