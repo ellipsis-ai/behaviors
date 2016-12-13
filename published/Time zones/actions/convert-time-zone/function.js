@@ -8,7 +8,6 @@ main();
 function main() {
   const parsedTime = parseTime(time);
   const inputTz = parseTz(time) || tzToParse.id;
-  console.log(tzToParse);
   const here = Moment().tz(inputTz).set(parsedTime);
   /* If the user included a time zone with their time, and it's the same
      offset as output time zone, flip the conversion: */
