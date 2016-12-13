@@ -47,17 +47,21 @@ function parseTime(timeString) {
 
 function parseTz(timeString) {
   var trimmed = timeString.trim();
-  var match = trimmed.match(/([acemp][sd]?[t]|atlantic|central|mountain|pacific)$/);
+  var match = trimmed.match(/([acemp][sd]?[t]|atlantic|central|mountain|pacific)$/i);
   var result = match && match[1];
-  if (/^a[sd]t|atlantic/.test(result)) {
+  if (!result) {
+    return null;
+  }
+  result = result.trim();
+  if (/^a[sd]?t|atlantic/i.test(result)) {
     return 'America/Halifax';
-  } else if (/^c[sd]t|central/.test(result)) {
+  } else if (/^c[sd]?t|central/i.test(result)) {
     return 'America/Chicago';
-  } else if (/^e[sd]t|eastern/.test(result)) {
+  } else if (/^e[sd]?t|eastern/i.test(result)) {
     return 'America/New_York';
-  } else if (/^m[sd]t|mountain/.test(result)) {
+  } else if (/^m[sd]?t|mountain/i.test(result)) {
     return 'America/Denver';
-  } else if (/^p[sd]t|pacific/.test(result)) {
+  } else if (/^p[sd]?t|pacific/i.test(result)) {
     return 'America/Los_Angeles';
   } else {
     return null;
