@@ -1,10 +1,10 @@
 [ {
-  "text" : "news for {input}",
+  "text" : "do a spellcheck",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "news for ",
+  "text" : "spell {word_or_sentence}",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false

@@ -1,0 +1,24 @@
+[ {
+  "name" : "keyword",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "What should I search the web for?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "I2oA5ovTSOyvhNopn9hZzA"
+}, {
+  "name" : "searchApiKey",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "To use this, you'll need to enter a valid Microsoft Azure API key. If you don't have one, or you’re not sure, enter `...cancel`.",
+  "isSavedForTeam" : true,
+  "isSavedForUser" : false,
+  "inputId" : "cSSA0MpVTRCXNGLPOBurpg",
+  "groupId" : "YNQGLmqyTUuqPo5ZOI31lw"
+} ]

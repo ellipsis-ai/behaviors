@@ -1,0 +1,26 @@
+[ {
+  "text" : "find an image",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "image for {keyword}",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "image of {keyword}",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "picture for {keyword}",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "picture of {keyword}",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

@@ -1,6 +1,0 @@
-[ {
-  "text" : "search for {input}",
-  "requiresMention" : false,
-  "isRegex" : false,
-  "caseSensitive" : false
-} ]
