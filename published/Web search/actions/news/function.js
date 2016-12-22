@@ -1,5 +1,5 @@
-function(keyword, searchApiKey, ellipsis) {
-  // This Action uses the Bing News Search API: 
+function(topic, searchApiKey, ellipsis) {
+  // This action uses the Bing News Search API: 
 // https://www.microsoft.com/cognitive-services/en-us/bing-news-search-api
 // and it is part of Microsoft Cognitive APIs.
 // As of December 2016 the Bing Web Search API has the following free tier account:
@@ -13,8 +13,8 @@ const results_per_query = 5;
 const RestClient = require('node-rest-client').Client;
 const client = new RestClient();
 const args = {
-  parameters: { q: keyword, count: results_per_query },
-  headers: { "Ocp-Apim-Subscription-Key": apiKey }
+  parameters: { q: topic, count: results_per_query },
+  headers: { "Ocp-Apim-Subscription-Key": searchApiKey }
 };
 client.get(bing_news_api_url, args, (data, response) => {
   for (let n of data.value) { n.providerName = n.provider[0].name; }

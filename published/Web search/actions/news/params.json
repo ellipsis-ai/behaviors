@@ -1,5 +1,5 @@
 [ {
-  "name" : "keyword",
+  "name" : "topic",
   "paramType" : {
     "id" : "Text",
     "name" : "Text",
@@ -8,7 +8,7 @@
   "question" : "What would you like to hear news about?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "41St8LoIRqWeHmAX3qpg7w"
+  "inputId" : "e8lverD6RG2t2Gv9flYY3w"
 }, {
   "name" : "searchApiKey",
   "paramType" : {

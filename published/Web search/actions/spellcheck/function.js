@@ -1,5 +1,5 @@
 function(word_or_sentence, spellcheckApiKey, ellipsis) {
-  // This Actios uses the Bing Spell Check API (https://www.microsoft.com/cognitive-services/en-us/bing-spell-check-api)
+  // This action uses the Bing Spell Check API (https://www.microsoft.com/cognitive-services/en-us/bing-spell-check-api)
 // The API is part of Microsoft Cognitive Services (https://www.microsoft.com/cognitive-services/en-us/apis)
 // As of December 2016 the Bing Spell Check API has a free tier with the following limitations: 
 // "5,000 transactions per month, 7 per minute".

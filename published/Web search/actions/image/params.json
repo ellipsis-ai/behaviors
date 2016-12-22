@@ -1,5 +1,5 @@
 [ {
-  "name" : "keyword",
+  "name" : "phrase",
   "paramType" : {
     "id" : "Text",
     "name" : "Text",
@@ -8,7 +8,7 @@
   "question" : "What do you want me to find an image of?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "vCmtkIpXRRa-b30NwCaX9Q"
+  "inputId" : "GKwpbvDXTe-KYTUIZCXYZw"
 }, {
   "name" : "searchApiKey",
   "paramType" : {

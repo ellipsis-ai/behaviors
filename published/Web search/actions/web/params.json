@@ -1,5 +1,5 @@
 [ {
-  "name" : "keyword",
+  "name" : "phrase",
   "paramType" : {
     "id" : "Text",
     "name" : "Text",
@@ -8,7 +8,7 @@
   "question" : "What should I search the web for?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "I2oA5ovTSOyvhNopn9hZzA"
+  "inputId" : "ecEPVTNtR_G49759KmMHVQ"
 }, {
   "name" : "searchApiKey",
   "paramType" : {

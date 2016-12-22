@@ -4,7 +4,7 @@
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "news for {keyword}",
+  "text" : "news for {topic}",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false

@@ -4,22 +4,22 @@
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "image for {keyword}",
+  "text" : "image for {phrase}",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "image of {keyword}",
+  "text" : "image of {phrase}",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "picture for {keyword}",
+  "text" : "picture for {phrase}",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "picture of {keyword}",
+  "text" : "picture of {phrase}",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false
