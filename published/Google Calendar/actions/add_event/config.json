@@ -1,0 +1,10 @@
+{
+  "publishedId" : "81PEQt05R_aozeiRY3i1sg",
+  "requiredOAuth2ApiConfigs" : [ {
+    "id" : "Az3YFraAR_mbZtJWSG4XTw",
+    "apiId" : "RdG2Wm5DR0m2_4FZXf-yKA",
+    "recommendedScope" : "https://www.googleapis.com/auth/calendar"
+  } ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
+}

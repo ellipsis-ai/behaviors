@@ -1,0 +1,13 @@
+[ {
+  "name" : "calendar",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Which calendar tracks vacations for your team?",
+  "isSavedForTeam" : true,
+  "isSavedForUser" : false,
+  "inputId" : "DTiE3E9pRuS-4IGyYSZNQA",
+  "groupId" : "vj5w6uvIRTC_Yywat3DRoA"
+} ]
