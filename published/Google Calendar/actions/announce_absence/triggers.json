@@ -1,0 +1,6 @@
+[ {
+  "text" : "announce {name} will be away {when} because {reason}",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

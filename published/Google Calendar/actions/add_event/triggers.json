@@ -1,0 +1,11 @@
+[ {
+  "text" : "add event to my calendar",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "add {eventDescription} to my calendar",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

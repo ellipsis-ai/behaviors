@@ -1,0 +1,12 @@
+[ {
+  "name" : "eventDescription",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Describe what you want to add to your calendar, e.g. “Coffee with Ellipsis at 10am next Monday”",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "M0Sf4-3DQ3eAFwHg5GwCoQ"
+} ]

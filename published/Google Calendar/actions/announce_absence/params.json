@@ -1,0 +1,34 @@
+[ {
+  "name" : "name",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Who is away?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "8OriatNKRkmbTccmEPdG1g"
+}, {
+  "name" : "when",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "When are they away?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "8FK1QgHrTJiaq8j7sdgbfg"
+}, {
+  "name" : "reason",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Why are they away?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "GW14vhakR_6veyQYaS-uyA"
+} ]

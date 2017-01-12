@@ -1,0 +1,1 @@
+:spiral_calendar_pad: I'm sorry to report that {name} will be away from the office {when} ({reason})

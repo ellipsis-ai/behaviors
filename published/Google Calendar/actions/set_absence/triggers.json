@@ -1,0 +1,11 @@
+[ {
+  "text" : "tell everyone I will be away",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "tell everyone I will be on vacation",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

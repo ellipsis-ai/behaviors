@@ -1,0 +1,11 @@
+[ {
+  "text" : "What's happening today",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "What's happening today for {calendar}",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

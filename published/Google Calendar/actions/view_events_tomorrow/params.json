@@ -1,0 +1,12 @@
+[ {
+  "name" : "calendar",
+  "paramType" : {
+    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar",
+    "needsConfig" : false
+  },
+  "question" : "On which calendar?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "q1ERL0TiT6aPzRHa4d060A"
+} ]
