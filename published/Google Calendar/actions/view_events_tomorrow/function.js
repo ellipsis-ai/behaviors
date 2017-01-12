@@ -1,6 +1,7 @@
 function(calendar, ellipsis) {
   "use strict";
 
+const util = require('util');
 const moment = require('moment-timezone')
 const gcal = require('google-calendar');
 const cal = new gcal.GoogleCalendar(ellipsis.accessTokens.googleCalendar);
@@ -16,7 +17,7 @@ cal.events.list(calendar.id, {
   singleEvents: true
 }, (err, res) => {
   if (err) {
-    ellipsis.error("error: " + err);
+    ellipsis.error(`Error ${err.code}: ${err.message}`);
   } else {
     const items = res.items.slice()
     const result = {

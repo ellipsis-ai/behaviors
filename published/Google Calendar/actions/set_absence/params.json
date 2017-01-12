@@ -20,7 +20,7 @@
   "question" : "Enter a brief description about your absence, e.g. `PTO` or `Going to Mars`",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "Zd6-Kj1oQL65SRM6x_0ymQ"
+  "inputId" : "4Pyka77aTP2M44cjEVGKhw"
 }, {
   "name" : "start",
   "paramType" : {
@@ -31,7 +31,7 @@
   "question" : "When does this absence begin? e.g. `today` or `December 1, 2016` or `January 1, 2017 9:00am`",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "deGkk_hFS8ysdQ2wZIXSGA"
+  "inputId" : "oBFd4GQ9R6GCAXO_kyWxug"
 }, {
   "name" : "end",
   "paramType" : {
@@ -42,12 +42,12 @@
   "question" : "When do you return? e.g. `today 5pm` or `tomorrow` or `January 1, 2017`",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "dw3B04zUTz6L5nmLecBQ4Q"
+  "inputId" : "zohThNFcQQWGedIrxsMcZA"
 }, {
   "name" : "calendar",
   "paramType" : {
-    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
-    "name" : "Google calendar",
+    "id" : "Text",
+    "name" : "Text",
     "needsConfig" : false
   },
   "question" : "Which calendar tracks vacations for your team?",

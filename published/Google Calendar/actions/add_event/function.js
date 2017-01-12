@@ -8,9 +8,9 @@ const cal = new gcal.GoogleCalendar(ellipsis.accessTokens.googleCalendar);
 const Formatter = require('ellipsis-cal-date-format');
 
 function add() {
-  cal.events.quickAdd('primary', eventDescription, {}, (error, result) => {
-    if (error) {    
-      ellipsis.error(util.inspect(error));
+  cal.events.quickAdd('primary', eventDescription, {}, (err, result) => {
+    if (err) {    
+      ellipsis.error(`Error ${err.code}: ${err.message}`);
     } else {
       ellipsis.success({
         summary: result.summary,

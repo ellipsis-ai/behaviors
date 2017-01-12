@@ -8,7 +8,7 @@
   "question" : "Why are you away today? (e.g. \"not feeling well\", \"dog ate my homework\", etc.)",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "Zg8Tek9vSLOi8Kt_ZI9sjw"
+  "inputId" : "NzN7fEXTQ92zKdfSDGNa7w"
 }, {
   "name" : "channels",
   "paramType" : {
@@ -24,8 +24,8 @@
 }, {
   "name" : "calendar",
   "paramType" : {
-    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
-    "name" : "Google calendar",
+    "id" : "Text",
+    "name" : "Text",
     "needsConfig" : false
   },
   "question" : "Which calendar tracks vacations for your team?",

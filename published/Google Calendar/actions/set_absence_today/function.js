@@ -37,9 +37,9 @@ function getUserName() {
 }
 
 function add() {
-  cal.events.insert(calendar.id, getDetails(), (error, result) => {
-    if (error) {    
-      ellipsis.error(util.inspect(error));
+  cal.events.insert(calendar.id, getDetails(), (err, result) => {
+    if (err) {    
+      ellipsis.error(`Error ${err.code}: ${err.message}`);
     } else {
       notify({
         summary: result.summary,
