@@ -1,18 +1,6 @@
 function(ellipsis) {
-  var possibleGreetings = [
-  "Well hello there.",
-  "Hi",
-  "Hi!",
-  "Hello",
-  "Greetings",
-  "Howdy",
-  "Hey there"
-];
-
-var randomGreeting = Math.floor(Math.random() * possibleGreetings.length);
-
-ellipsis.success(possibleGreetings[randomGreeting]);
-
-
+  "use strict"; 
+const RandomResponse = require('ellipsis-random-response');
+ellipsis.success(RandomResponse.responseWithEmoji("hello"));
 
 }
