@@ -1,0 +1,12 @@
+[ {
+  "name" : "goals",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "What do you need to do today to make it a successful day?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "uAxlXhRMR2y2PsZrOZPGLw"
+} ]

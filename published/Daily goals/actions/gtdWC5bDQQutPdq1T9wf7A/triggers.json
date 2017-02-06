@@ -1,0 +1,6 @@
+[ {
+  "text" : "show everyone's goals for today",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

@@ -1,0 +1,6 @@
+[ {
+  "text" : "check on daily goals",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

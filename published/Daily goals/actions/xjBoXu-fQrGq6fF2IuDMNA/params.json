@@ -1,0 +1,67 @@
+[ {
+  "name" : "channel",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "In what channel should I run this?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "9ySZTfsBT3apF_CMjVmWzA"
+}, {
+  "name" : "whenToAskForDailyGoals",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "When should I ask each person about their goals for the day? (ie. 9am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "kpHm0HQhStiy4ZIg8gSCCg"
+}, {
+  "name" : "whenToDisplayGoals",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "When should I display everyone's goals for others to see? (ie. 12pm)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "g5h9ZWXdRyibjo6VZRqmYA"
+}, {
+  "name" : "whenToAskForOutcome",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "When should I ask people who their day went? (ie. 6pm)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "trZyt_-HRXeM7OuMileaYA"
+}, {
+  "name" : "whenToShowReport",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "When should I display a report on how everyone did? (ie. 11:59pm)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "zvXMNVZZRzytEiMEm0AWtQ"
+}, {
+  "name" : "whenToRemind",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "When should I remind people to answer if they haven't already? (ie. 11pm)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "u1c9KrTkT0GMGZJZIGqoCg"
+} ]

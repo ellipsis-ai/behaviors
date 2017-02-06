@@ -1,0 +1,6 @@
+[ {
+  "text" : "ask me how my day went",
+  "requiresMention" : false,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

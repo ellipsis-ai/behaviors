@@ -1,0 +1,12 @@
+[ {
+  "name" : "timeString",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "What is the value for `timeString`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "wKmfBRECQTKeyhdSpKrJzg"
+} ]

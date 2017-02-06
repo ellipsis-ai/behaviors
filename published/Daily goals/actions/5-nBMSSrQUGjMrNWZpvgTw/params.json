@@ -1,0 +1,12 @@
+[ {
+  "name" : "whoseGoals",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Whose goals should I look at? Yours or everybody’s?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "ne3AGTeuSLeCj8SYbYp_pQ"
+} ]

@@ -1,0 +1,7 @@
+{
+  "publishedId" : "AQr23nSWRsGuBFtq_Zi_Ug",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false,
+  "dataTypeName" : "Yes/No"
+}
