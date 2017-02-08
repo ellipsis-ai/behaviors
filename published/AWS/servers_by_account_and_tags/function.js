@@ -101,6 +101,21 @@ if (account) {
     .then((instancesPerRegion) => {
       var instances = [].concat.apply([], instancesPerRegion);
       const instancesFiltered = instances.filter((i) => hasTags(i, searchedTags));
+
+      //
+      // Configure the desired output here:
+      // instancesFiltered is an array of Objects, each Object with many
+      // properties.
+      // For example you might want to reduce the output for each instances
+      // to tags: Name, Role and Version.
+      //
+      // const reducedData = instancesFiltered.map((i) => ({
+      //     Name: i.Tags.find((tag) => tag.Key === 'name'),
+      //     Role: i.Tags.find((tag) => tag.Key === 'role')
+      //     Version: i.Tags.find((tag) => tag.Key === 'version')
+      // }));
+      //
+      
       ellipsis.success({
         instances: instancesFiltered,
         count: instancesFiltered.length,

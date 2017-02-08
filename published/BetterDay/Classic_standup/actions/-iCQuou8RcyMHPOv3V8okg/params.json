@@ -1,0 +1,23 @@
+[ {
+  "name" : "wasSuccessful",
+  "paramType" : {
+    "id" : "VAhGkpUZRieyZjtJm7UHPQ",
+    "name" : "Yes/No",
+    "needsConfig" : false
+  },
+  "question" : "Did you accomplish what you wanted to do today?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "_qZN8q7cRIi9e35g9fQm2g"
+}, {
+  "name" : "why",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "What have you learned?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "732WN2yXSXOG1l3oJnnjgQ"
+} ]

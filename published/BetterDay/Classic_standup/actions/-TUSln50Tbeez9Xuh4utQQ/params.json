@@ -1,0 +1,12 @@
+[ {
+  "name" : "goals",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "What is your most important strategic goal for today?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputId" : "L_xnHGX_RxWktfO8nUMM1g"
+} ]
