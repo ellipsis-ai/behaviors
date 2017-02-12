@@ -1,0 +1,34 @@
+[ {
+  "exportId" : "J1BMtfNNQ-eiKd4nmqK0Pw",
+  "name" : "project",
+  "paramType" : {
+    "id" : "nxl_7nG_QyqwZJHrDH6kGQ",
+    "name" : "Todoist project",
+    "needsConfig" : true
+  },
+  "question" : "Which project?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "T-qsNgR9ThC4vxANXW5Y0A",
+  "name" : "dueDate",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "When is it due?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "i_28dUzbSL-dlGjrDal9MA",
+  "name" : "taskName",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "What's the task?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]
