@@ -1,7 +1,4 @@
-function(
-input,
-ellipsis
-) {
+function(input, ellipsis) {
   var scraperjs = require('scraperjs');
 
 scraperjs.StaticScraper.create('https://www.google.com/search?q=' + input)
@@ -20,4 +17,5 @@ scraperjs.StaticScraper.create('https://www.google.com/search?q=' + input)
     });
     ellipsis.success(filtered);
 	})
+
 }

@@ -1,4 +1,5 @@
 [ {
+  "exportId" : "qja2pFSaRkuYJNd2KXpVIA",
   "name" : "input",
   "paramType" : {
     "id" : "Text",
@@ -7,6 +8,5 @@
   },
   "question" : "Google what?",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "qja2pFSaRkuYJNd2KXpVIA"
+  "isSavedForUser" : false
 } ]

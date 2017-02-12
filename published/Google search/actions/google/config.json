@@ -1,3 +1,7 @@
 {
-  "publishedId" : "7JD__5lpRG29XotfdtzwWg"
+  "publishedId" : "7JD__5lpRG29XotfdtzwWg",
+  "name" : "google",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
 }
