@@ -3,10 +3,10 @@
   "paramType" : {
     "id" : "SLrCa642Rv2fFi3O4gm_jQ",
     "name" : "Google calendar",
-    "needsConfig" : false
+    "needsConfig" : true
   },
   "question" : "On which calendar?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "W4At4ZCORAyFQY9tBZTmqw"
+  "inputExportId" : "RxgE6qIqRmGa9u-ImBIGdQ"
 } ]

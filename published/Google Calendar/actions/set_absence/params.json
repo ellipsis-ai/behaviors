@@ -8,8 +8,7 @@
   "question" : "Which channels should I notify when you’re absent? List the names separated by commas if more than one. (I'll remember this next time.)",
   "isSavedForTeam" : false,
   "isSavedForUser" : true,
-  "inputId" : "nQW7n9pmTeWLUj8eQDTWww",
-  "groupId" : "vj5w6uvIRTC_Yywat3DRoA"
+  "inputExportId" : "6gRvP3ZuQsCxptZlJq5xuQ"
 }, {
   "name" : "description",
   "paramType" : {
@@ -20,7 +19,7 @@
   "question" : "Enter a brief description about your absence, e.g. `PTO` or `Going to Mars`",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "4Pyka77aTP2M44cjEVGKhw"
+  "inputExportId" : "Z0l0nyDrQoSLnGnmjSpbeg"
 }, {
   "name" : "start",
   "paramType" : {
@@ -31,7 +30,7 @@
   "question" : "When does this absence begin? e.g. `today` or `December 1, 2016` or `January 1, 2017 9:00am`",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "oBFd4GQ9R6GCAXO_kyWxug"
+  "inputExportId" : "TzqLm3BzQOSN9ta8B9yn_w"
 }, {
   "name" : "end",
   "paramType" : {
@@ -42,17 +41,16 @@
   "question" : "When do you return? e.g. `today 5pm` or `tomorrow` or `January 1, 2017`",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "zohThNFcQQWGedIrxsMcZA"
+  "inputExportId" : "g-NznUagQveprWNH69NyjA"
 }, {
   "name" : "calendar",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar",
+    "needsConfig" : true
   },
   "question" : "Which calendar tracks vacations for your team?",
   "isSavedForTeam" : true,
   "isSavedForUser" : false,
-  "inputId" : "DTiE3E9pRuS-4IGyYSZNQA",
-  "groupId" : "vj5w6uvIRTC_Yywat3DRoA"
+  "inputExportId" : "KbACDBh-T_WlDfqyUdw-8Q"
 } ]

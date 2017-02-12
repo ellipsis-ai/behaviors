@@ -1,5 +1,6 @@
 {
   "publishedId" : "-I4qprDhTlSSsGHUr7moow",
+  "name" : "announce_absence",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false

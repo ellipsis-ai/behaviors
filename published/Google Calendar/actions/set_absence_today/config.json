@@ -1,5 +1,6 @@
 {
   "publishedId" : "9bFlXKTIQ-i-SAX_QZi9Dw",
+  "name" : "set_absence_today",
   "requiredOAuth2ApiConfigs" : [ {
     "id" : "fek_zv04QgSWsDhbrrHPDQ",
     "apiId" : "RdG2Wm5DR0m2_4FZXf-yKA",

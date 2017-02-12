@@ -1,0 +1,177 @@
+[ {
+  "exportId" : "6gRvP3ZuQsCxptZlJq5xuQ",
+  "name" : "channels",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Which channels should I notify when you’re absent? List the names separated by commas if more than one. (I'll remember this next time.)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : true
+}, {
+  "exportId" : "D74dcYk_RTqOtTRNUoX4Ow",
+  "name" : "name",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Who is away?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "EwAi29wlQDuMFkOXWG5nxQ",
+  "name" : "channels",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Which channels should I notify when you’re absent? List the names separated by commas if more than one. (I'll remember this next time.)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : true
+}, {
+  "exportId" : "HqcU_gWZRj-DqDNNLpy8Lg",
+  "name" : "reason",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Why are you away today? (e.g. \"not feeling well\", \"dog ate my homework\", etc.)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "KbACDBh-T_WlDfqyUdw-8Q",
+  "name" : "calendar",
+  "paramType" : {
+    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar",
+    "needsConfig" : true
+  },
+  "question" : "Which calendar tracks vacations for your team?",
+  "isSavedForTeam" : true,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "RxgE6qIqRmGa9u-ImBIGdQ",
+  "name" : "calendar",
+  "paramType" : {
+    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar",
+    "needsConfig" : true
+  },
+  "question" : "On which calendar?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "TzqLm3BzQOSN9ta8B9yn_w",
+  "name" : "start",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "When does this absence begin? e.g. `today` or `December 1, 2016` or `January 1, 2017 9:00am`",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "UjmHNnuOR8663xY5pMo_sA",
+  "name" : "calendar",
+  "paramType" : {
+    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar",
+    "needsConfig" : true
+  },
+  "question" : "On which calendar?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "XT1bWSOVSqGUFM30trBHrg",
+  "name" : "when",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "When are they away?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "Z0l0nyDrQoSLnGnmjSpbeg",
+  "name" : "description",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Enter a brief description about your absence, e.g. `PTO` or `Going to Mars`",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "g-NznUagQveprWNH69NyjA",
+  "name" : "end",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "When do you return? e.g. `today 5pm` or `tomorrow` or `January 1, 2017`",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "iFsuIBbNSCSGjwfSTF6tTw",
+  "name" : "eventDescription",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Describe what you want to add to your calendar, e.g. “Coffee with Ellipsis at 10am next Monday”",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "n_lJtf1QSLiVO5zt_oSvyg",
+  "name" : "reason",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Why are they away?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "nn_z0vcST4qhjd-r5CuceQ",
+  "name" : "calendar",
+  "paramType" : {
+    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar",
+    "needsConfig" : true
+  },
+  "question" : "On which calendar?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "rO40UVAnS82kHNtvErZSpw",
+  "name" : "calendar",
+  "paramType" : {
+    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar",
+    "needsConfig" : true
+  },
+  "question" : "Which calendar tracks vacations for your team?",
+  "isSavedForTeam" : true,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "uVxdCpD5SvWZ6Xrb9oolug",
+  "name" : "calendar",
+  "paramType" : {
+    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar",
+    "needsConfig" : true
+  },
+  "question" : "Which calendar tracks vacations for your team?",
+  "isSavedForTeam" : true,
+  "isSavedForUser" : false
+} ]
