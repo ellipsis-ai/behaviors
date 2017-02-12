@@ -85,4 +85,5 @@ function getStarsForRating(rating) {
   }
   return result + emptyStars.substr(result.length);
 }
+
 }

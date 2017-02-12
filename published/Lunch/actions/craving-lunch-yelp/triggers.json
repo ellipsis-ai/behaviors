@@ -1,4 +1,9 @@
 [ {
+  "text" : "find somewhere for lunch",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
   "text" : "I want {keyword} for lunch",
   "requiresMention" : false,
   "isRegex" : false,
@@ -11,11 +16,6 @@
 }, {
   "text" : "craving {keyword} in {location}",
   "requiresMention" : false,
-  "isRegex" : false,
-  "caseSensitive" : false
-}, {
-  "text" : "find somewhere for lunch",
-  "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false
 } ]
