@@ -1,4 +1,5 @@
 [ {
+  "exportId" : "RPuL4a16RR2nf3Yo1-QS6w",
   "name" : "command",
   "paramType" : {
     "id" : "Text",
@@ -7,6 +8,5 @@
   },
   "question" : "What is the value for `command`?",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "RPuL4a16RR2nf3Yo1-QS6w"
+  "isSavedForUser" : false
 } ]
