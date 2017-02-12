@@ -18,4 +18,5 @@ define.getDef(word, 'en', null, (result) => {
     ellipsis.success(result);
   }
 });
+
 }

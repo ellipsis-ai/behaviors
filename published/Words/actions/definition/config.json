@@ -1,5 +1,6 @@
 {
   "publishedId" : "h43ziWyWT9yMf3QQGfFl_w",
+  "name" : "definition",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false
