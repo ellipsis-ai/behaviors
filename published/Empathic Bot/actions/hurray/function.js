@@ -3,4 +3,5 @@ function(ellipsis) {
 const RandomResponse = require('ellipsis-random-response');
 ellipsis.success(RandomResponse.responseWithEmoji('celebratory'));
 
+
 }

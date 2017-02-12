@@ -5,4 +5,5 @@ const isSarcastic = Math.random()*10 < sarcasmProbability;
 const responseType = isSarcastic ? 'sarcastic' : 'appreciated';
 ellipsis.success(RandomResponse.responseWithEmoji(responseType));
 
+
 }
