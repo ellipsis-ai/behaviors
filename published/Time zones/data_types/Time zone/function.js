@@ -19,4 +19,5 @@ if (results.length === 0) {
 }
 
 ellipsis.success(results);
+
 }
