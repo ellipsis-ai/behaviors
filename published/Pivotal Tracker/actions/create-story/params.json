@@ -3,12 +3,12 @@
   "paramType" : {
     "id" : "I6JRZXTjT6Go_IVSXiF-2Q",
     "name" : "Project",
-    "needsConfig" : false
+    "needsConfig" : true
   },
   "question" : "For which project?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "xqR52oO6RyiXRM1mP8i_wg"
+  "inputExportId" : "JNg_N_UxRBSTEHvUieh4gw"
 }, {
   "name" : "name",
   "paramType" : {
@@ -19,7 +19,7 @@
   "question" : "What's the name of the story?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "tpdkiyWySh24qu1pfEHJrw"
+  "inputExportId" : "JE4kr89STGaqmmx99HRCHA"
 }, {
   "name" : "storyType",
   "paramType" : {
@@ -30,7 +30,7 @@
   "question" : "What type of story is this?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "41XHHl7hRxS_QKQezLLrPQ"
+  "inputExportId" : "cYKcsEC4TuCOh1GmXSI9qw"
 }, {
   "name" : "description",
   "paramType" : {
@@ -41,5 +41,5 @@
   "question" : "Describe this story, including acceptance criteria",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "bJxrkNJxQKi2MrEt9qFhNQ"
+  "inputExportId" : "Ys4wIX25RnC_RRCiGJ1FLA"
 } ]
