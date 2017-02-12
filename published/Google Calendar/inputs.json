@@ -8,7 +8,8 @@
   },
   "question" : "Which channels should I notify when you’re absent? List the names separated by commas if more than one. (I'll remember this next time.)",
   "isSavedForTeam" : false,
-  "isSavedForUser" : true
+  "isSavedForUser" : true,
+  "groupId" : "vj5w6uvIRTC_Yywat3DRoA"
 }, {
   "exportId" : "D74dcYk_RTqOtTRNUoX4Ow",
   "name" : "name",
@@ -20,17 +21,6 @@
   "question" : "Who is away?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
-}, {
-  "exportId" : "EwAi29wlQDuMFkOXWG5nxQ",
-  "name" : "channels",
-  "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
-  },
-  "question" : "Which channels should I notify when you’re absent? List the names separated by commas if more than one. (I'll remember this next time.)",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : true
 }, {
   "exportId" : "HqcU_gWZRj-DqDNNLpy8Lg",
   "name" : "reason",
