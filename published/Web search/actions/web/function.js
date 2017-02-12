@@ -36,4 +36,5 @@ client.get("https://api.cognitive.microsoft.com/bing/v5.0/search", args, (data, 
   });
 });
 
+
 }

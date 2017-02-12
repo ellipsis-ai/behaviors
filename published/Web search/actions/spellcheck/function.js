@@ -22,4 +22,5 @@ client.post("https://api.cognitive.microsoft.com/bing/v5.0/spellcheck", args, (d
   ellipsis.success(result);
 });
 
+
 }

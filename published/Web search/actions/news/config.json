@@ -1,5 +1,6 @@
 {
   "publishedId" : "LHhJnmZXR7-ovNn3Nh40Xg",
+  "name" : "news",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false

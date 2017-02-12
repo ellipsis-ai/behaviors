@@ -8,7 +8,7 @@
   "question" : "What would you like to hear news about?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "e8lverD6RG2t2Gv9flYY3w"
+  "inputExportId" : "8OllykUyRBynNU_acJyLMg"
 }, {
   "name" : "searchApiKey",
   "paramType" : {
@@ -19,6 +19,5 @@
   "question" : "To use this, you'll need to enter a valid Microsoft Azure API key. If you don't have one, or you’re not sure, enter `...cancel`.",
   "isSavedForTeam" : true,
   "isSavedForUser" : false,
-  "inputId" : "cSSA0MpVTRCXNGLPOBurpg",
-  "groupId" : "YNQGLmqyTUuqPo5ZOI31lw"
+  "inputExportId" : "6cVrW12QQc-NMPdw5HHl2g"
 } ]
