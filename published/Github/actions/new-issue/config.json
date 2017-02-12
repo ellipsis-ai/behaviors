@@ -1,9 +1,10 @@
 {
   "publishedId" : "loAWeTQcS7mVB_CueEjk-Q",
+  "name" : "new-issue",
   "requiredOAuth2ApiConfigs" : [ {
-    "id" : "Z6r5MmXlTsaBop4vh7URJQ",
     "apiId" : "lj8s5CF-QnSY8vtbnWj_BA",
     "recommendedScope" : "repo"
   } ],
+  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : true
 }

@@ -1,0 +1,45 @@
+[ {
+  "exportId" : "2c2abbQ9Re-gfyepkhSC3Q",
+  "name" : "title",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "What's the title of the issue?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "3HEC-lsDSreL-Y2OOqvdeg",
+  "name" : "repo",
+  "paramType" : {
+    "id" : "HSrKgy_WTauikjoVvu__QA",
+    "name" : "Github repo",
+    "needsConfig" : true
+  },
+  "question" : "For which repo would you like to see PRs?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "TnqANnwwQZGGcx4GlBRzqw",
+  "name" : "repo",
+  "paramType" : {
+    "id" : "HSrKgy_WTauikjoVvu__QA",
+    "name" : "Github repo",
+    "needsConfig" : true
+  },
+  "question" : "Which repo?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "sbTJmKljQButl8kY_5TQCQ",
+  "name" : "body",
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "Describe the issue",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]
