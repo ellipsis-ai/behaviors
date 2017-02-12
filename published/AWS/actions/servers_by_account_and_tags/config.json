@@ -1,4 +1,7 @@
 {
   "publishedId" : "pHGrh8RQRBi0XH4PCt9V6g",
-  "requiredOAuth2ApiConfigs" : [ ]
+  "name" : "servers_by_account_and_tags",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
 }

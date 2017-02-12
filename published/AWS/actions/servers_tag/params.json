@@ -1,7 +1,23 @@
 [ {
   "name" : "tagKey",
-  "question" : ""
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "What is the value for `tagKey`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "GxHSpDiCQqiyFwzYPLtb8g"
 }, {
   "name" : "tagValue",
-  "question" : ""
+  "paramType" : {
+    "id" : "Text",
+    "name" : "Text",
+    "needsConfig" : false
+  },
+  "question" : "What is the value for `tagValue`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "gDJxMye5TI-Y--KgUk3j4Q"
 } ]

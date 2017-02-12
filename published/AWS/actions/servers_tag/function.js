@@ -1,8 +1,4 @@
-function(
-tagKey,
-tagValue,
-ellipsis
-) {
+function(tagKey, tagValue, ellipsis) {
   "use strict"; 
 
 const ec2 = new ellipsis.AWS.EC2();
@@ -23,6 +19,7 @@ ec2.describeInstances(params, function(err, data) {
     ellipsis.success(result);
   }
 });
+
 
 
 

@@ -1,8 +1,12 @@
 {
   "publishedId" : "uEEzKwEcQ--TNTYfZtn3wA",
+  "name" : "servers",
   "aws" : {
     "accessKeyName" : "AWS_ACCESS_KEY",
     "secretKeyName" : "AWS_SECRET_KEY",
     "regionName" : "AWS_REGION"
-  }
+  },
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
 }
