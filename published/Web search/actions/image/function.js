@@ -20,6 +20,4 @@ const args = {
 client.get(bing_image_api_url, args, (data, response) => {
   ellipsis.success(data);
 });
-
-
 }
