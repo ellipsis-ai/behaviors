@@ -24,7 +24,4 @@ function add() {
 }
 
 add();
-
-
-
 }

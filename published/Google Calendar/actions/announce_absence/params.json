@@ -1,9 +1,8 @@
 [ {
   "name" : "name",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Who is away?",
   "isSavedForTeam" : false,
@@ -12,9 +11,8 @@
 }, {
   "name" : "when",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "When are they away?",
   "isSavedForTeam" : false,
@@ -23,9 +21,8 @@
 }, {
   "name" : "reason",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Why are they away?",
   "isSavedForTeam" : false,

@@ -1,7 +1,6 @@
 {
   "publishedId" : "SLrCa642Rv2fFi3O4gm_jQ",
   "requiredOAuth2ApiConfigs" : [ {
-    "id" : "ZUO6tOezSISdigxL92rI-w",
     "apiId" : "RdG2Wm5DR0m2_4FZXf-yKA",
     "recommendedScope" : "https://www.googleapis.com/auth/calendar"
   } ],

@@ -84,6 +84,4 @@ function notify(eventDetails) {
     });
   });
 }
-
-
 }

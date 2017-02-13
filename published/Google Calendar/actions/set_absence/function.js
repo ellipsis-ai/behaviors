@@ -118,7 +118,4 @@ function notify(eventDetails) {
     });
   });
 }
-
-
-
 }

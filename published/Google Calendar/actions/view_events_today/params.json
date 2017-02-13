@@ -1,9 +1,8 @@
 [ {
   "name" : "calendar",
   "paramType" : {
-    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
-    "name" : "Google calendar",
-    "needsConfig" : true
+    "exportId" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar"
   },
   "question" : "On which calendar?",
   "isSavedForTeam" : false,

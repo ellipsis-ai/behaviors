@@ -11,6 +11,5 @@ cal.calendarList.list((err, calendarList) => {
     });
     ellipsis.success(calendars);
   }
-}); 
-
+});
 }

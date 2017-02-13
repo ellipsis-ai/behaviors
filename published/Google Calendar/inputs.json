@@ -2,9 +2,8 @@
   "exportId" : "6gRvP3ZuQsCxptZlJq5xuQ",
   "name" : "channels",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Which channels should I notify when you’re absent? List the names separated by commas if more than one. (I'll remember this next time.)",
   "isSavedForTeam" : false,
@@ -14,9 +13,8 @@
   "exportId" : "D74dcYk_RTqOtTRNUoX4Ow",
   "name" : "name",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Who is away?",
   "isSavedForTeam" : false,
@@ -25,9 +23,8 @@
   "exportId" : "HqcU_gWZRj-DqDNNLpy8Lg",
   "name" : "reason",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Why are you away today? (e.g. \"not feeling well\", \"dog ate my homework\", etc.)",
   "isSavedForTeam" : false,
@@ -36,9 +33,8 @@
   "exportId" : "KbACDBh-T_WlDfqyUdw-8Q",
   "name" : "calendar",
   "paramType" : {
-    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
-    "name" : "Google calendar",
-    "needsConfig" : true
+    "exportId" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar"
   },
   "question" : "Which calendar tracks vacations for your team?",
   "isSavedForTeam" : true,
@@ -48,9 +44,8 @@
   "exportId" : "RxgE6qIqRmGa9u-ImBIGdQ",
   "name" : "calendar",
   "paramType" : {
-    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
-    "name" : "Google calendar",
-    "needsConfig" : true
+    "exportId" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar"
   },
   "question" : "On which calendar?",
   "isSavedForTeam" : false,
@@ -59,9 +54,8 @@
   "exportId" : "TzqLm3BzQOSN9ta8B9yn_w",
   "name" : "start",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "When does this absence begin? e.g. `today` or `December 1, 2016` or `January 1, 2017 9:00am`",
   "isSavedForTeam" : false,
@@ -70,9 +64,8 @@
   "exportId" : "UjmHNnuOR8663xY5pMo_sA",
   "name" : "calendar",
   "paramType" : {
-    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
-    "name" : "Google calendar",
-    "needsConfig" : true
+    "exportId" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar"
   },
   "question" : "On which calendar?",
   "isSavedForTeam" : false,
@@ -81,9 +74,8 @@
   "exportId" : "XT1bWSOVSqGUFM30trBHrg",
   "name" : "when",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "When are they away?",
   "isSavedForTeam" : false,
@@ -92,9 +84,8 @@
   "exportId" : "Z0l0nyDrQoSLnGnmjSpbeg",
   "name" : "description",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Enter a brief description about your absence, e.g. `PTO` or `Going to Mars`",
   "isSavedForTeam" : false,
@@ -103,9 +94,8 @@
   "exportId" : "g-NznUagQveprWNH69NyjA",
   "name" : "end",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "When do you return? e.g. `today 5pm` or `tomorrow` or `January 1, 2017`",
   "isSavedForTeam" : false,
@@ -114,9 +104,8 @@
   "exportId" : "iFsuIBbNSCSGjwfSTF6tTw",
   "name" : "eventDescription",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Describe what you want to add to your calendar, e.g. “Coffee with Ellipsis at 10am next Monday”",
   "isSavedForTeam" : false,
@@ -125,9 +114,8 @@
   "exportId" : "n_lJtf1QSLiVO5zt_oSvyg",
   "name" : "reason",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Why are they away?",
   "isSavedForTeam" : false,
@@ -136,9 +124,8 @@
   "exportId" : "nn_z0vcST4qhjd-r5CuceQ",
   "name" : "calendar",
   "paramType" : {
-    "id" : "SLrCa642Rv2fFi3O4gm_jQ",
-    "name" : "Google calendar",
-    "needsConfig" : true
+    "exportId" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar"
   },
   "question" : "On which calendar?",
   "isSavedForTeam" : false,

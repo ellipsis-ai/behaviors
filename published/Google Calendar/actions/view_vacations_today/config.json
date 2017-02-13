@@ -2,7 +2,6 @@
   "publishedId" : "z12HD6yJS7u4vIv_rdbGrg",
   "name" : "view_vacations_today",
   "requiredOAuth2ApiConfigs" : [ {
-    "id" : "vGH-sLVcQPaR5kcOjD-wDg",
     "apiId" : "RdG2Wm5DR0m2_4FZXf-yKA",
     "recommendedScope" : "https://www.googleapis.com/auth/calendar"
   } ],

@@ -2,7 +2,6 @@
   "publishedId" : "hJFSxf6HTOy5PJ5aT4XwqA",
   "name" : "view_events_today",
   "requiredOAuth2ApiConfigs" : [ {
-    "id" : "V594GQeETeKQi54wpnZV5Q",
     "apiId" : "RdG2Wm5DR0m2_4FZXf-yKA",
     "recommendedScope" : "https://www.googleapis.com/auth/calendar"
   } ],
