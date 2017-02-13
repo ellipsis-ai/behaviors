@@ -1,9 +1,8 @@
 [ {
   "name" : "keyword",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "What are you in the mood for? (e.g. coffee, burritos, sushi, Italian)",
   "isSavedForTeam" : false,
@@ -12,9 +11,8 @@
 }, {
   "name" : "location",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "What location should I search in? (e.g. `The Junction, Toronto, ON` or `Mission St, San Francisco, CA`)",
   "isSavedForTeam" : false,
