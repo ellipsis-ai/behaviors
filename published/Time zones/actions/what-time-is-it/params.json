@@ -1,9 +1,8 @@
 [ {
   "name" : "place",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "For what place do you want to know the time?",
   "isSavedForTeam" : false,

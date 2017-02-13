@@ -2,9 +2,8 @@
   "exportId" : "VOKsy5LGSCyEBjScp88Q6w",
   "name" : "tzToParse",
   "paramType" : {
-    "id" : "fsxdNQ40QpipzignBX67-A",
-    "name" : "Time zone",
-    "needsConfig" : false
+    "exportId" : "fsxdNQ40QpipzignBX67-A",
+    "name" : "Time zone"
   },
   "question" : "What time zone do people on your team usually mean? (I'll remember for next time.)",
   "isSavedForTeam" : true,
@@ -13,9 +12,8 @@
   "exportId" : "f4oCsCAmQ4mr2PvmdAOadg",
   "name" : "tzToOutput",
   "paramType" : {
-    "id" : "fsxdNQ40QpipzignBX67-A",
-    "name" : "Time zone",
-    "needsConfig" : false
+    "exportId" : "fsxdNQ40QpipzignBX67-A",
+    "name" : "Time zone"
   },
   "question" : "What time zone would you like me to convert to, usually? (I'll remember for next time.)",
   "isSavedForTeam" : true,
@@ -24,9 +22,8 @@
   "exportId" : "itbktvq6RkuTQFGGPEciRQ",
   "name" : "time",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Enter a time of day with an optional time zone, e.g. `12:00pm Eastern`.",
   "isSavedForTeam" : false,
@@ -35,9 +32,8 @@
   "exportId" : "m-5dp7x7TeC4mkJ6CsvV5w",
   "name" : "place",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "For what place do you want to know the time?",
   "isSavedForTeam" : false,

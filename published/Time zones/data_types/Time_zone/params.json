@@ -1,9 +1,8 @@
 [ {
   "name" : "searchQuery",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "What is the value for `searchQuery`?",
   "isSavedForTeam" : false,
