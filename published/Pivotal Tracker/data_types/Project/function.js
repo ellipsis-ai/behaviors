@@ -13,6 +13,4 @@ fetch(url, {
       return { id: ea.id.toString(), label: ea.name };
     }));
 });
-
-
 }

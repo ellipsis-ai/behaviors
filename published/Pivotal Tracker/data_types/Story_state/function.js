@@ -15,6 +15,4 @@ const possibleStates = [
 });
 
 ellipsis.success(possibleStates);
-
-
 }

@@ -19,7 +19,4 @@ fetch(url, {
   body: form
 }).then((response) => response.json())
   .then((json) => ellipsis.success(json));
-
-
-
 }
