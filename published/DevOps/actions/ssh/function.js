@@ -54,6 +54,4 @@ runCmdOnHosts(hosts)
   }, function (error) {
      ellipsis.error(JSON.stringify(error));
   });
-
-
 }
