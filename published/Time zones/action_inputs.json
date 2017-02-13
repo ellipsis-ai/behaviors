@@ -1,15 +1,4 @@
 [ {
-  "exportId" : "OkvGCEIIQ7W-jiMUyMVGjQ",
-  "name" : "searchQuery",
-  "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
-  },
-  "question" : "What is the value for `searchQuery`?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
   "exportId" : "VOKsy5LGSCyEBjScp88Q6w",
   "name" : "tzToParse",
   "paramType" : {
