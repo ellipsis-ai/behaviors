@@ -1,9 +1,8 @@
 [ {
   "name" : "taskName",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "What's the task?",
   "isSavedForTeam" : false,
@@ -12,9 +11,8 @@
 }, {
   "name" : "dueDate",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "When is it due?",
   "isSavedForTeam" : false,
@@ -23,9 +21,8 @@
 }, {
   "name" : "project",
   "paramType" : {
-    "id" : "nxl_7nG_QyqwZJHrDH6kGQ",
-    "name" : "Todoist project",
-    "needsConfig" : true
+    "exportId" : "nxl_7nG_QyqwZJHrDH6kGQ",
+    "name" : "Todoist project"
   },
   "question" : "Which project?",
   "isSavedForTeam" : false,

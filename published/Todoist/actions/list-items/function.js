@@ -12,9 +12,4 @@ fetch.fetchUrl(apiUrl, {}, (error, meta, body) => {
     ellipsis.error("Error: " + body.toString()); 
   }
 });
-
-
-
-
-
 }
