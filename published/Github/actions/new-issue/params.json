@@ -1,9 +1,8 @@
 [ {
   "name" : "title",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "What's the title of the issue?",
   "isSavedForTeam" : false,
@@ -12,9 +11,8 @@
 }, {
   "name" : "body",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Describe the issue",
   "isSavedForTeam" : false,
@@ -23,9 +21,8 @@
 }, {
   "name" : "repo",
   "paramType" : {
-    "id" : "vne9aZ6eQ_6hOFwnSm3alg",
-    "name" : "Github repo",
-    "needsConfig" : true
+    "exportId" : "vne9aZ6eQ_6hOFwnSm3alg",
+    "name" : "Github repo"
   },
   "question" : "Which repo?",
   "isSavedForTeam" : false,
