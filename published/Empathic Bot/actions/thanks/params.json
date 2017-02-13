@@ -1,9 +1,8 @@
 [ {
   "name" : "sarcasmProbability",
   "paramType" : {
-    "id" : "Number",
-    "name" : "Number",
-    "needsConfig" : false
+    "exportId" : "Number",
+    "name" : "Number"
   },
   "question" : "Since this is the first time you've thanked me, I need to know: how likely is it you and the rest of the team are being sarcastic when you thank me? Enter a number from 0 to 10, where 0 means “We are the nicest people!” and 10 means “We are all jerks.”",
   "isSavedForTeam" : true,
