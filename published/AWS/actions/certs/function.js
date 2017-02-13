@@ -83,6 +83,4 @@ Q.all([
 }).fail((err) => {
   ellipsis.error(err);
 });
-
-
 }

@@ -1,9 +1,8 @@
 [ {
   "name" : "tagKey",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "What is the value for `tagKey`?",
   "isSavedForTeam" : false,
@@ -12,9 +11,8 @@
 }, {
   "name" : "tagValue",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "What is the value for `tagValue`?",
   "isSavedForTeam" : false,

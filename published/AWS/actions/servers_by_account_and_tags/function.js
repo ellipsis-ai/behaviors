@@ -115,6 +115,4 @@ if (account) {
     "' - [Possible values are: " + accounts.map((a)=>a.label).join(",") + "]"
   );
 }
-
-
 }

@@ -8,5 +8,4 @@ lambda.listFunctions({}, function(err, data) {
     ellipsis.success(data.Functions.length);
   }
 });
-
 }

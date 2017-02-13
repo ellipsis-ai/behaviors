@@ -87,5 +87,4 @@ getMetrics().
   fail((err) => {
     ellipsis.error(err);
   });
-
 }
