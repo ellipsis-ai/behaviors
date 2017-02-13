@@ -1,9 +1,8 @@
 [ {
   "name" : "input",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Google what?",
   "isSavedForTeam" : false,

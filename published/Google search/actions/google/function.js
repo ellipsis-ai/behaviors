@@ -17,5 +17,4 @@ scraperjs.StaticScraper.create('https://www.google.com/search?q=' + input)
     });
     ellipsis.success(filtered);
 	})
-
 }
