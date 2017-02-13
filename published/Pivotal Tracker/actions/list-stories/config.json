@@ -3,7 +3,6 @@
   "name" : "list-stories",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ {
-    "id" : "3wKJeqqiTMawmG7kxgUOgw",
     "apiId" : "pivotal-tracker",
     "name" : "Pivotal Tracker"
   } ],

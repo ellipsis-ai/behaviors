@@ -2,9 +2,8 @@
   "exportId" : "15BPlYM0SgW6TmxUI-R8-w",
   "name" : "storyState",
   "paramType" : {
-    "id" : "zu5VaFafR-OMobdXQ93cjA",
-    "name" : "Story state",
-    "needsConfig" : false
+    "exportId" : "zu5VaFafR-OMobdXQ93cjA",
+    "name" : "Story state"
   },
   "question" : "In what state?",
   "isSavedForTeam" : false,
@@ -13,9 +12,8 @@
   "exportId" : "JE4kr89STGaqmmx99HRCHA",
   "name" : "name",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "What's the name of the story?",
   "isSavedForTeam" : false,
@@ -24,9 +22,8 @@
   "exportId" : "JNg_N_UxRBSTEHvUieh4gw",
   "name" : "project",
   "paramType" : {
-    "id" : "I6JRZXTjT6Go_IVSXiF-2Q",
-    "name" : "Project",
-    "needsConfig" : false
+    "exportId" : "I6JRZXTjT6Go_IVSXiF-2Q",
+    "name" : "Project"
   },
   "question" : "For which project?",
   "isSavedForTeam" : false,
@@ -35,9 +32,8 @@
   "exportId" : "Ys4wIX25RnC_RRCiGJ1FLA",
   "name" : "description",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Describe this story, including acceptance criteria",
   "isSavedForTeam" : false,
@@ -46,9 +42,8 @@
   "exportId" : "cYKcsEC4TuCOh1GmXSI9qw",
   "name" : "storyType",
   "paramType" : {
-    "id" : "Ki8Tp4lYTK2eQ5PZ3ZTHWA",
-    "name" : "Story type",
-    "needsConfig" : false
+    "exportId" : "Ki8Tp4lYTK2eQ5PZ3ZTHWA",
+    "name" : "Story type"
   },
   "question" : "What type of story is this?",
   "isSavedForTeam" : false,
@@ -57,9 +52,8 @@
   "exportId" : "qHxACyEhSqW8A3JeBm1MsA",
   "name" : "project",
   "paramType" : {
-    "id" : "I6JRZXTjT6Go_IVSXiF-2Q",
-    "name" : "Project",
-    "needsConfig" : false
+    "exportId" : "I6JRZXTjT6Go_IVSXiF-2Q",
+    "name" : "Project"
   },
   "question" : "For which project?",
   "isSavedForTeam" : false,

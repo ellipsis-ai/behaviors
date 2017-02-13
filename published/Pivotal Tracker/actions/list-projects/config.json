@@ -3,7 +3,6 @@
   "name" : "list-projects",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ {
-    "id" : "8KCQqYBJQPmDJR3p6_2E6Q",
     "apiId" : "pivotal-tracker",
     "name" : "Pivotal Tracker"
   } ],

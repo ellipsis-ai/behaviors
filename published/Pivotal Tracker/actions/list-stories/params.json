@@ -1,9 +1,8 @@
 [ {
   "name" : "project",
   "paramType" : {
-    "id" : "I6JRZXTjT6Go_IVSXiF-2Q",
-    "name" : "Project",
-    "needsConfig" : true
+    "exportId" : "I6JRZXTjT6Go_IVSXiF-2Q",
+    "name" : "Project"
   },
   "question" : "For which project?",
   "isSavedForTeam" : false,
@@ -12,9 +11,8 @@
 }, {
   "name" : "storyState",
   "paramType" : {
-    "id" : "zu5VaFafR-OMobdXQ93cjA",
-    "name" : "Story state",
-    "needsConfig" : false
+    "exportId" : "zu5VaFafR-OMobdXQ93cjA",
+    "name" : "Story state"
   },
   "question" : "In what state?",
   "isSavedForTeam" : false,
