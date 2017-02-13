@@ -1,0 +1,61 @@
+[ {
+  "exportId" : "15BPlYM0SgW6TmxUI-R8-w",
+  "name" : "storyState",
+  "paramType" : {
+    "exportId" : "zu5VaFafR-OMobdXQ93cjA",
+    "name" : "Story state"
+  },
+  "question" : "In what state?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "JE4kr89STGaqmmx99HRCHA",
+  "name" : "name",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What's the name of the story?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "JNg_N_UxRBSTEHvUieh4gw",
+  "name" : "project",
+  "paramType" : {
+    "exportId" : "I6JRZXTjT6Go_IVSXiF-2Q",
+    "name" : "Project"
+  },
+  "question" : "For which project?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "Ys4wIX25RnC_RRCiGJ1FLA",
+  "name" : "description",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Describe this story, including acceptance criteria",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "cYKcsEC4TuCOh1GmXSI9qw",
+  "name" : "storyType",
+  "paramType" : {
+    "exportId" : "Ki8Tp4lYTK2eQ5PZ3ZTHWA",
+    "name" : "Story type"
+  },
+  "question" : "What type of story is this?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "qHxACyEhSqW8A3JeBm1MsA",
+  "name" : "project",
+  "paramType" : {
+    "exportId" : "I6JRZXTjT6Go_IVSXiF-2Q",
+    "name" : "Project"
+  },
+  "question" : "For which project?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : true
+} ]

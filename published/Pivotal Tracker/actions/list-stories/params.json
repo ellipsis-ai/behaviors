@@ -1,23 +1,21 @@
 [ {
   "name" : "project",
   "paramType" : {
-    "id" : "I6JRZXTjT6Go_IVSXiF-2Q",
-    "name" : "Project",
-    "needsConfig" : false
+    "exportId" : "I6JRZXTjT6Go_IVSXiF-2Q",
+    "name" : "Project"
   },
   "question" : "For which project?",
   "isSavedForTeam" : false,
   "isSavedForUser" : true,
-  "inputId" : "V98F97H3Tkuj6DUMo1aItg"
+  "inputExportId" : "qHxACyEhSqW8A3JeBm1MsA"
 }, {
   "name" : "storyState",
   "paramType" : {
-    "id" : "zu5VaFafR-OMobdXQ93cjA",
-    "name" : "Story state",
-    "needsConfig" : false
+    "exportId" : "zu5VaFafR-OMobdXQ93cjA",
+    "name" : "Story state"
   },
   "question" : "In what state?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "djUfjkrNT0GL75TuuEg3Rg"
+  "inputExportId" : "15BPlYM0SgW6TmxUI-R8-w"
 } ]

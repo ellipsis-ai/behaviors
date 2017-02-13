@@ -1,8 +1,10 @@
 {
   "publishedId" : "DeY65fjDQN6NGM9wdfzmig",
+  "name" : "list-open-pull-requests",
   "requiredOAuth2ApiConfigs" : [ {
     "apiId" : "lj8s5CF-QnSY8vtbnWj_BA",
     "recommendedScope" : "repo"
   } ],
+  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false
 }

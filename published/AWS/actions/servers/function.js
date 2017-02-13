@@ -16,6 +16,4 @@ ec2.describeInstances(params, function(err, data) {
     ellipsis.success(result);
   }
 });
-
-
 }

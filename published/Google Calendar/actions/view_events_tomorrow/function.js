@@ -36,6 +36,4 @@ cal.events.list(calendar.id, {
     ellipsis.success(result);
   }
 });
-
-
 }

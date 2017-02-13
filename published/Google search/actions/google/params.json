@@ -1,4 +1,11 @@
 [ {
   "name" : "input",
-  "question" : "Google what?"
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Google what?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "qja2pFSaRkuYJNd2KXpVIA"
 } ]

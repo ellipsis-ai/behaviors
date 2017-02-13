@@ -57,5 +57,4 @@ s3.listObjectsV2(listObjectsParams, (err, data) => {
     ellipsis.error("You need to set up billing reports for you AWS account first!\n\nSee http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/detailed-billing-reports.html for more details.");
   }
 })
-
 }

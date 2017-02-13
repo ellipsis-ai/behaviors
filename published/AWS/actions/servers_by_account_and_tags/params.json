@@ -1,15 +1,21 @@
 [ {
   "name" : "account_label",
   "paramType" : {
-    "id" : "Text",
+    "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What is the AWS account label [jack_acc, ken_acc]?"
+  "question" : "What is the AWS account label [jack_acc, ken_acc]?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "LLmQTH-dRcuSvN0zw4CrWg"
 }, {
   "name" : "env_tag_value",
   "paramType" : {
-    "id" : "Text",
+    "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What is the value for the Environment tag [prod, dev, stag]?"
+  "question" : "What is the value for the Environment tag [prod, dev, stag]?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "fSMORIVwRROG4jptuiZR5A"
 } ]

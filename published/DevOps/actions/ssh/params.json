@@ -1,4 +1,11 @@
 [ {
   "name" : "command",
-  "question" : ""
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `command`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "RPuL4a16RR2nf3Yo1-QS6w"
 } ]

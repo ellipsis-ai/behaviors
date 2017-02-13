@@ -1,5 +1,6 @@
 {
   "publishedId" : "zSAC3WuwQQGLCB5yy8e32w",
+  "name" : "web",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false

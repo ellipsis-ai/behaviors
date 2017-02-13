@@ -33,6 +33,4 @@ cal.events.list('primary', {
     ellipsis.success(result);
   }
 });
-
-
 }

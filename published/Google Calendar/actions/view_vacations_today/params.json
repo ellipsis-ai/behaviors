@@ -1,13 +1,12 @@
 [ {
   "name" : "calendar",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar"
   },
   "question" : "Which calendar tracks vacations for your team?",
   "isSavedForTeam" : true,
   "isSavedForUser" : false,
-  "inputId" : "DTiE3E9pRuS-4IGyYSZNQA",
+  "inputExportId" : "KbACDBh-T_WlDfqyUdw-8Q",
   "groupId" : "vj5w6uvIRTC_Yywat3DRoA"
 } ]

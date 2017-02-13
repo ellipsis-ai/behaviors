@@ -20,6 +20,4 @@ client.get(bing_news_api_url, args, (data, response) => {
   for (let n of data.value) { n.providerName = n.provider[0].name; }
   ellipsis.success(data);
 });
-
-
 }

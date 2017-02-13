@@ -1,34 +1,31 @@
 [ {
   "name" : "name",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Who is away?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "8OriatNKRkmbTccmEPdG1g"
+  "inputExportId" : "D74dcYk_RTqOtTRNUoX4Ow"
 }, {
   "name" : "when",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "When are they away?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "8FK1QgHrTJiaq8j7sdgbfg"
+  "inputExportId" : "XT1bWSOVSqGUFM30trBHrg"
 }, {
   "name" : "reason",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Why are they away?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "GW14vhakR_6veyQYaS-uyA"
+  "inputExportId" : "n_lJtf1QSLiVO5zt_oSvyg"
 } ]

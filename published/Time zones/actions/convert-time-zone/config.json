@@ -1,5 +1,6 @@
 {
   "publishedId" : "6NVZOxnnSfqaeHP6epVkew",
+  "name" : "convert-time-zone",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false

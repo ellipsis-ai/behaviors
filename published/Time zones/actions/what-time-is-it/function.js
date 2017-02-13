@@ -40,5 +40,4 @@ function searchForTz(placeString) {
   });
   return tz || 'UTC';
 }
-
 }

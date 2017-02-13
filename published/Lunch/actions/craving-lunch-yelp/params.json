@@ -1,15 +1,21 @@
 [ {
   "name" : "keyword",
   "paramType" : {
-    "id" : "Text",
+    "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What are you in the mood for? (e.g. coffee, burritos, sushi, Italian)"
+  "question" : "What are you in the mood for? (e.g. coffee, burritos, sushi, Italian)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "oyK5LnF_Rnu0ULU1IhjX5Q"
 }, {
   "name" : "location",
   "paramType" : {
-    "id" : "Text",
+    "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What location should I search in? (e.g. `The Junction, Toronto, ON` or `Mission St, San Francisco, CA`)"
+  "question" : "What location should I search in? (e.g. `The Junction, Toronto, ON` or `Mission St, San Francisco, CA`)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "N5p7O1oHRFabUqdrGrxrYQ"
 } ]

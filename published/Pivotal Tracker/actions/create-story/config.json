@@ -1,8 +1,8 @@
 {
   "publishedId" : "fuBtUvQOSpS6GhW11VImUw",
+  "name" : "create-story",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ {
-    "id" : "FT706uESQ2uupMpG5lU-IQ",
     "apiId" : "pivotal-tracker",
     "name" : "Pivotal Tracker"
   } ],

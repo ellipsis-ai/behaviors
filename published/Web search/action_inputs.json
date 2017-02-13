@@ -1,0 +1,62 @@
+[ {
+  "exportId" : "0YkLr1aySAKMbYyoTK5JNA",
+  "name" : "phrase",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What do you want me to find an image of?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "6cVrW12QQc-NMPdw5HHl2g",
+  "name" : "searchApiKey",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "To use this, you'll need to enter a valid Microsoft Azure API key. If you don't have one, or you’re not sure, enter `...cancel`.",
+  "isSavedForTeam" : true,
+  "isSavedForUser" : false,
+  "groupId" : "YNQGLmqyTUuqPo5ZOI31lw"
+}, {
+  "exportId" : "8OllykUyRBynNU_acJyLMg",
+  "name" : "topic",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What would you like to hear news about?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "XyMg0nI_S1yriiFF_zPtdw",
+  "name" : "word_or_sentence",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What word do you want to check the spelling of?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "uGa7UnzNQEOupVoOF4ozmQ",
+  "name" : "spellcheckApiKey",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Enter a Bing Spell Check API key (you can get one at https://www.microsoft.com/cognitive-services/en-us/bing-spell-check-api — you will need to this only once). Type `...cancel` if you want to do this later.",
+  "isSavedForTeam" : true,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "x7RaboKqTpOgHDSNEAuvzA",
+  "name" : "phrase",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What should I search the web for?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]

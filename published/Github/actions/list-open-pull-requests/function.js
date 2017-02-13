@@ -23,5 +23,4 @@ github.pullRequests.getAll({
     ellipsis.success({ msg: msg, prs: res });
   }
 });
-
 }

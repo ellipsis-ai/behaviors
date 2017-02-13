@@ -1,36 +1,33 @@
 [ {
   "name" : "reason",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Why are you away today? (e.g. \"not feeling well\", \"dog ate my homework\", etc.)",
   "isSavedForTeam" : false,
   "isSavedForUser" : false,
-  "inputId" : "NzN7fEXTQ92zKdfSDGNa7w"
+  "inputExportId" : "HqcU_gWZRj-DqDNNLpy8Lg"
 }, {
   "name" : "channels",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
   "question" : "Which channels should I notify when you’re absent? List the names separated by commas if more than one. (I'll remember this next time.)",
   "isSavedForTeam" : false,
   "isSavedForUser" : true,
-  "inputId" : "nQW7n9pmTeWLUj8eQDTWww",
+  "inputExportId" : "6gRvP3ZuQsCxptZlJq5xuQ",
   "groupId" : "vj5w6uvIRTC_Yywat3DRoA"
 }, {
   "name" : "calendar",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar"
   },
   "question" : "Which calendar tracks vacations for your team?",
   "isSavedForTeam" : true,
   "isSavedForUser" : false,
-  "inputId" : "DTiE3E9pRuS-4IGyYSZNQA",
+  "inputExportId" : "KbACDBh-T_WlDfqyUdw-8Q",
   "groupId" : "vj5w6uvIRTC_Yywat3DRoA"
 } ]

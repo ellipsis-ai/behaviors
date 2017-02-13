@@ -1,8 +1,5 @@
-function(
-command,
-ellipsis
-) {
-'use strict';
+function(command, ellipsis) {
+  'use strict';
 
 const SSH = require('simple-ssh');
 const Q = require('q');
@@ -57,5 +54,4 @@ runCmdOnHosts(hosts)
   }, function (error) {
      ellipsis.error(JSON.stringify(error));
   });
-
 }

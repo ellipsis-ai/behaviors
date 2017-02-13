@@ -1,0 +1,11 @@
+[ {
+  "exportId" : "5qmKB9ulSue-M-iAArWxjw",
+  "name" : "word",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What word do you want to know the meaning of?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]

@@ -1,7 +1,9 @@
 {
   "publishedId" : "d8xu-iXYSZaxSFDVPf82gw",
+  "name" : "craving-lunch-yelp",
   "requiredOAuth2ApiConfigs" : [ {
-    "id" : "sDCYxt5-QNWTdAm98u6n5g",
     "apiId" : "0liyxeHPTrqEpRCAsUQJRQ"
-  } ]
+  } ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
 }

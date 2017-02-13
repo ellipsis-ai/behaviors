@@ -1,25 +1,31 @@
 [ {
   "name" : "title",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
-  "question" : "What's the title of the issue?"
+  "question" : "What's the title of the issue?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "2c2abbQ9Re-gfyepkhSC3Q"
 }, {
   "name" : "body",
   "paramType" : {
-    "id" : "Text",
-    "name" : "Text",
-    "needsConfig" : false
+    "exportId" : "Text",
+    "name" : "Text"
   },
-  "question" : "Describe the issue"
+  "question" : "Describe the issue",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "sbTJmKljQButl8kY_5TQCQ"
 }, {
   "name" : "repo",
   "paramType" : {
-    "id" : "vne9aZ6eQ_6hOFwnSm3alg",
-    "name" : "Github repo",
-    "needsConfig" : false
+    "exportId" : "vne9aZ6eQ_6hOFwnSm3alg",
+    "name" : "Github repo"
   },
-  "question" : "Which repo?"
+  "question" : "Which repo?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "TnqANnwwQZGGcx4GlBRzqw"
 } ]

@@ -118,6 +118,4 @@ function notify(eventDetails) {
     });
   });
 }
-
-
 }

@@ -16,5 +16,4 @@ fetch(url, {
       stories: json
     });
 });
-
 }

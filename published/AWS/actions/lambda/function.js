@@ -1,6 +1,5 @@
 function(ellipsis) {
-
-var lambda = new ellipsis.AWS.Lambda();
+  var lambda = new ellipsis.AWS.Lambda();
 
 lambda.listFunctions({}, function(err, data) {
   if (err) {

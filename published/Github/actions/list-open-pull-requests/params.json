@@ -1,9 +1,11 @@
 [ {
   "name" : "repo",
   "paramType" : {
-    "id" : "vne9aZ6eQ_6hOFwnSm3alg",
-    "name" : "Github repo",
-    "needsConfig" : false
+    "exportId" : "vne9aZ6eQ_6hOFwnSm3alg",
+    "name" : "Github repo"
   },
-  "question" : "For which repo would you like to see PRs?"
+  "question" : "For which repo would you like to see PRs?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "3HEC-lsDSreL-Y2OOqvdeg"
 } ]

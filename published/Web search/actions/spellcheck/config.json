@@ -1,5 +1,6 @@
 {
   "publishedId" : "RcmapOl8SXapmUkjE5xdlw",
+  "name" : "spellcheck",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false
