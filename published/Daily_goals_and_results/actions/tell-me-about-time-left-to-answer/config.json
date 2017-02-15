@@ -1,0 +1,7 @@
+{
+  "publishedId" : "ovdsI-OUQAifbR-CSIeU9w",
+  "name" : "tell-me-about-time-left-to-answer",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
+}

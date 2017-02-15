@@ -1,0 +1,7 @@
+{
+  "publishedId" : "QdMj1HXtTAuikl2zEBhf-Q",
+  "name" : "show-everyones-goals-for-today",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
+}

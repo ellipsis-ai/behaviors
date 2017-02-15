@@ -1,0 +1,6 @@
+[ {
+  "text" : "how did everyone's day go?",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

@@ -1,0 +1,7 @@
+{
+  "publishedId" : "pyWbPJSMQwGXKs_UH9pwOg",
+  "name" : "remind-me-of-my-goals-for-today",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
+}

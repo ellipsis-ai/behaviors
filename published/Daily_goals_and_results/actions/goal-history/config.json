@@ -1,0 +1,7 @@
+{
+  "publishedId" : "TphVKi3jRCO72GjUvC4UEw",
+  "name" : "goal-history",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
+}
