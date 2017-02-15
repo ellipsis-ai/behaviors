@@ -1,0 +1,113 @@
+[ {
+  "exportId" : "4ZwD83y_TpWj5DMtsK8nCw",
+  "name" : "start",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When does this absence begin? e.g. `today` or `December 1, 2016` or `January 1, 2017 9:00am`",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "6hRrFC39TJqdBxFvjE6x8Q",
+  "name" : "reason",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Why are they away?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "K9qrZVp2SmO-M6517hwRcA",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Which channel should I announce vacations in? (e.g. “general”)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "WNRjNxW9S4yOcwltfIQnbg",
+  "name" : "name",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Who is away?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "g3d2YzbTT8aKSFLzF7dL2A",
+  "name" : "calendar",
+  "paramType" : {
+    "exportId" : "SLrCa642Rv2fFi3O4gm_jQ",
+    "name" : "Google calendar"
+  },
+  "question" : "Which calendar tracks vacations for your team?",
+  "isSavedForTeam" : true,
+  "isSavedForUser" : false,
+  "groupId" : "vj5w6uvIRTC_Yywat3DRoA"
+}, {
+  "exportId" : "gwCBx49HR3-w63IPGLDryA",
+  "name" : "when",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When are they away?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "hx7gCtT8ThiiKjP1JvQ5RQ",
+  "name" : "whenToAnnounceVacations",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When should I announce vacations each day? (e.g. “9am”)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "mewgKF_wR_mtY38RF7REEA",
+  "name" : "end",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When do you return? e.g. `today 5pm` or `tomorrow` or `January 1, 2017`",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "pVp8QbZ8SlybWDA1WkIkmA",
+  "name" : "channels",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Which channels should I notify when you’re absent? List the names separated by commas if more than one, e.g. “general, announcements”. (I'll remember this next time.)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : true,
+  "groupId" : "vj5w6uvIRTC_Yywat3DRoA"
+}, {
+  "exportId" : "wFZ_t-sHQauhw4cVVELqag",
+  "name" : "when",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Which day do you want to know about? e.g. \"today\" or \"tomorrow\" or \"January 1, 2020\"",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "z7bFIe2nTZSiWRFFugGY5A",
+  "name" : "description",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Enter a brief description about your absence, e.g. `PTO` or `Going to Mars`",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]

@@ -1,0 +1,7 @@
+{
+  "publishedId" : "os1rmuoXQYyogngtZOGAog",
+  "name" : "Guide",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
+}
