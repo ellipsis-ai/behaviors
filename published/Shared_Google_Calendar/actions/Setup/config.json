@@ -1,0 +1,7 @@
+{
+  "publishedId" : "wsP3fyKyR_ayBBuTa2cgaw",
+  "name" : "Setup",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
+}

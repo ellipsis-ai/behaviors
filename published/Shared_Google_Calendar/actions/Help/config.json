@@ -1,0 +1,7 @@
+{
+  "publishedId" : "Q67tDzu4T7CyuCZCO72y3w",
+  "name" : "Help",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
+}
