@@ -1,5 +1,5 @@
 {
-  "publishedId" : "nxl_7nG_QyqwZJHrDH6kGQ",
+  "exportId" : "nxl_7nG_QyqwZJHrDH6kGQ",
   "requiredOAuth2ApiConfigs" : [ {
     "apiId" : "Ec2SnSHFTV2Y0jkzbqUmFA",
     "recommendedScope" : "data:read_write"
