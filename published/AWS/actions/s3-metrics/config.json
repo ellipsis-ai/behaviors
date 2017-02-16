@@ -1,5 +1,5 @@
 {
-  "publishedId" : "6cp66JTMRDKghUoav04z1w",
+  "exportId" : "6cp66JTMRDKghUoav04z1w",
   "name" : "s3-metrics",
   "aws" : {
     "accessKeyName" : "AWS_ACCESS_KEY",

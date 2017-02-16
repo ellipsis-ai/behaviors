@@ -1,5 +1,5 @@
 {
-  "publishedId" : "03Kqf8YZRK-9o9TGMa-Snw",
+  "exportId" : "03Kqf8YZRK-9o9TGMa-Snw",
   "name" : "list-buckets",
   "aws" : {
     "accessKeyName" : "AWS_ACCESS_KEY",

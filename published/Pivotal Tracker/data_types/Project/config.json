@@ -1,5 +1,5 @@
 {
-  "publishedId" : "I6JRZXTjT6Go_IVSXiF-2Q",
+  "exportId" : "I6JRZXTjT6Go_IVSXiF-2Q",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ {
     "apiId" : "pivotal-tracker",

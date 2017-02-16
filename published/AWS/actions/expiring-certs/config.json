@@ -1,5 +1,5 @@
 {
-  "publishedId" : "6UJvRIVOTVu0bG01Sc7G7w",
+  "exportId" : "6UJvRIVOTVu0bG01Sc7G7w",
   "name" : "expiring-certs",
   "aws" : {
     "accessKeyName" : "AWS_ACCESS_KEY",
