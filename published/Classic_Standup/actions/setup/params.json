@@ -1,0 +1,45 @@
+[ {
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "In what channel should I run this?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "I6dDbwTHQfiou83r9b72zw",
+  "groupId" : "Am652KY2R6GEHfVAuyS4Pw"
+}, {
+  "name" : "whenToAsk",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When should I ask each person about their status? (ie. 9am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "QP3ifRvNQtCKC173wfVOuw",
+  "groupId" : "Am652KY2R6GEHfVAuyS4Pw"
+}, {
+  "name" : "whenToDisplaySummary",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When should I display everyone's status for others to see? (ie. 9:55am if the meeting is at 10am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "fDpsVQQ3ToiyvwCUdx4SSA",
+  "groupId" : "Am652KY2R6GEHfVAuyS4Pw"
+}, {
+  "name" : "whenToRemind",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When should I remind anyone who hasn't answered the questions to do so now? (ie. if everyone's status is being sent out at 9:55am, remind at 9:45am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "XpmRVRKCRwuChASr7HtrnA",
+  "groupId" : "Am652KY2R6GEHfVAuyS4Pw"
+} ]

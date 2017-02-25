@@ -1,0 +1,78 @@
+[ {
+  "exportId" : "FfxGjaOFTRWdfWofxozkRA",
+  "name" : "blockers",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is blocking you at the moment?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+}, {
+  "exportId" : "I6dDbwTHQfiou83r9b72zw",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "In what channel should I run this?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+}, {
+  "exportId" : "QP3ifRvNQtCKC173wfVOuw",
+  "name" : "whenToAsk",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When should I ask each person about their status? (ie. 9am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+}, {
+  "exportId" : "UuoKvs07QwO1k17mSxxRxA",
+  "name" : "today",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What are you going to do today?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+}, {
+  "exportId" : "XpmRVRKCRwuChASr7HtrnA",
+  "name" : "whenToRemind",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When should I remind anyone who hasn't answered the questions to do so now? (ie. if everyone's status is being sent out at 9:55am, remind at 9:45am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+}, {
+  "exportId" : "fDpsVQQ3ToiyvwCUdx4SSA",
+  "name" : "whenToDisplaySummary",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When should I display everyone's status for others to see? (ie. 9:55am if the meeting is at 10am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+}, {
+  "exportId" : "lHin7KDNSbitZjre4FYEqQ",
+  "name" : "yesterday",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What did you do yesterday?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+} ]

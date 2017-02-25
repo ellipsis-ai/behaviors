@@ -1,0 +1,7 @@
+{
+  "exportId" : "rSU3frdKT7a55wokDm8C0A",
+  "name" : "set-goals",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
+}

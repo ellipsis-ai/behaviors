@@ -1,0 +1,7 @@
+{
+  "exportId" : "2z25f_zASNGnJVdfxv4FMg",
+  "name" : "Setup",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
+}

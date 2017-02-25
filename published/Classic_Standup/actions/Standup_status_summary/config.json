@@ -1,0 +1,7 @@
+{
+  "exportId" : "FpunYEKzQ7atfy3bq1XasA",
+  "name" : "Standup status summary",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false
+}

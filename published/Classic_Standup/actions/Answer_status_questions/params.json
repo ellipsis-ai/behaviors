@@ -1,0 +1,34 @@
+[ {
+  "name" : "yesterday",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What did you do yesterday?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "lHin7KDNSbitZjre4FYEqQ",
+  "groupId" : "Am652KY2R6GEHfVAuyS4Pw"
+}, {
+  "name" : "today",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What are you going to do today?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "UuoKvs07QwO1k17mSxxRxA",
+  "groupId" : "Am652KY2R6GEHfVAuyS4Pw"
+}, {
+  "name" : "blockers",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is blocking you at the moment?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false,
+  "inputExportId" : "FfxGjaOFTRWdfWofxozkRA",
+  "groupId" : "Am652KY2R6GEHfVAuyS4Pw"
+} ]
