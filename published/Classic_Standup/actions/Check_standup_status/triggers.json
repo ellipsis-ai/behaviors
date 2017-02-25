@@ -1,5 +1,5 @@
 [ {
-  "text" : "setup classic standup",
+  "text" : "standup checkin",
   "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false

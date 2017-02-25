@@ -1,43 +1,14 @@
 [ {
-  "exportId" : "0d2Wns7aQl-SrX338NxC8A",
-  "name" : "when",
+  "exportId" : "FfxGjaOFTRWdfWofxozkRA",
+  "name" : "blockers",
   "paramType" : {
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What is the value for `when`?",
+  "question" : "What is blocking you at the moment?",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "7m6lJiosQWeDZ62EzWarlA",
-  "name" : "whenToAskForOutcome",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "When should I ask people how their day went? (ie. 6pm)",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "FvDA30OtQmytgpLizYw6SQ",
-  "name" : "wasSuccessful",
-  "paramType" : {
-    "exportId" : "AQr23nSWRsGuBFtq_Zi_Ug",
-    "name" : "Yes/No"
-  },
-  "question" : "Did you accomplish what you wanted to do today?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "HCJfMAf7RUmbLe3ocDYCnw",
-  "name" : "whenToRemind",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "When should I remind people to answer if they haven't already? (ie. 11pm)",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
 }, {
   "exportId" : "I6dDbwTHQfiou83r9b72zw",
   "name" : "channel",
@@ -47,75 +18,61 @@
   },
   "question" : "In what channel should I run this?",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "Q9MbE5O1TqCnN6cdBu40aQ",
-  "name" : "whenToShowReport",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "When should I display a report on how everyone did? (ie. 11:59pm)",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
 }, {
   "exportId" : "QP3ifRvNQtCKC173wfVOuw",
-  "name" : "whenToAskForDailyGoals",
+  "name" : "whenToAsk",
   "paramType" : {
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "When should I ask each person about their goals for the day? (ie. 9am)",
+  "question" : "When should I ask each person about their status? (ie. 9am)",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
 }, {
-  "exportId" : "SDeH9ASaQkafXNhTYg8zBw",
-  "name" : "timeString",
+  "exportId" : "UuoKvs07QwO1k17mSxxRxA",
+  "name" : "today",
   "paramType" : {
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What is the value for `timeString`?",
+  "question" : "What are you going to do today?",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
 }, {
-  "exportId" : "WiZZ14DbQNeFQ6GDqqMv0g",
-  "name" : "whoseGoals",
+  "exportId" : "XpmRVRKCRwuChASr7HtrnA",
+  "name" : "whenToRemind",
   "paramType" : {
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "Whose goals should I look at? Yours or everybody’s?",
+  "question" : "When should I remind anyone who hasn't answered the questions to do so now? (ie. if everyone's status is being sent out at 9:55am, remind at 9:45am)",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
 }, {
   "exportId" : "fDpsVQQ3ToiyvwCUdx4SSA",
-  "name" : "whenToDisplayGoals",
+  "name" : "whenToDisplaySummary",
   "paramType" : {
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "When should I display everyone's goals for others to see? (ie. 12pm)",
+  "question" : "When should I display everyone's status for others to see? (ie. 9:55am if the meeting is at 10am)",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
 }, {
   "exportId" : "lHin7KDNSbitZjre4FYEqQ",
-  "name" : "goals",
+  "name" : "yesterday",
   "paramType" : {
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What do you need to do today to make it a successful day?",
+  "question" : "What did you do yesterday?",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "moaKhwHPSq-fxB1rPrJDfw",
-  "name" : "why",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "What helped or hurt you in achieving your goals today?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
+  "isSavedForUser" : false,
+  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
 } ]
