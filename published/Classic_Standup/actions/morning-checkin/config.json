@@ -1,7 +1,0 @@
-{
-  "exportId" : "E-KWn00hQLePO5DNRPrjXA",
-  "name" : "morning-checkin",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
-  "forcePrivateResponse" : false
-}
