@@ -1,1 +1,0 @@
-:warning: You have {timeString} left to answer this question before I build the daily report! Please take a moment to do so now.
