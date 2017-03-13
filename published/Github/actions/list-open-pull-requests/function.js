@@ -20,7 +20,7 @@ github.pullRequests.getAll({
       res.data.length === 0 ?
         `No open PRs for the **${repo.label}** repo. Go for a walk or something.` :
         `PRs open at the moment for the **${repo.label}** repo:`;
-    ellipsis.success({ msg: msg, prs: res });
+    ellipsis.success({ msg: msg, prs: res.data });
   }
 });
 }
