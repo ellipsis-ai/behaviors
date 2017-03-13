@@ -9,5 +9,5 @@
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
-  "isDataType": false
+  "isDataType" : false
 }

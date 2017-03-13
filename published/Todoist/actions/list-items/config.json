@@ -7,5 +7,5 @@
   } ],
   "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : true,
-  "isDataType": false
+  "isDataType" : false
 }
