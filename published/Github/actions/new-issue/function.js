@@ -18,7 +18,7 @@ github.issues.create({
   if (err) {
     ellipsis.error(err.toString());
   } else {
-    ellipsis.success(res)
+    ellipsis.success(res.data)
   }
 });
 }

@@ -17,7 +17,7 @@ github.pullRequests.getAll({
     ellipsis.error(err.toString());
   } else {
     const msg =
-      res.length === 0 ?
+      res.data.length === 0 ?
         `No open PRs for the **${repo.label}** repo. Go for a walk or something.` :
         `PRs open at the moment for the **${repo.label}** repo:`;
     ellipsis.success({ msg: msg, prs: res });
