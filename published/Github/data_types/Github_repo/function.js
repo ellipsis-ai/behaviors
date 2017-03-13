@@ -11,7 +11,7 @@ github.repos.getAll({}, function(err, res) {
   if (err) {
     ellipsis.error(err.toString());
   } else {
-    ellipsis.success(res.map((ea) => {
+    ellipsis.success(res.data.map((ea) => {
       return { id: ea.full_name, label: ea.full_name };
     }));
   }
