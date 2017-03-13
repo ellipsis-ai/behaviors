@@ -1,7 +1,8 @@
 {
   "exportId" : "AQr23nSWRsGuBFtq_Zi_Ug",
+  "name" : "Yes/No",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
-  "dataTypeName" : "Yes/No"
+  "isDataType": true
 }

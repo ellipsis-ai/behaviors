@@ -3,5 +3,6 @@
   "name" : "tell-me-about-time-left-to-answer",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ],
-  "forcePrivateResponse" : false
+  "forcePrivateResponse" : false,
+  "isDataType": false
 }

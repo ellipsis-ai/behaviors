@@ -6,5 +6,6 @@
     "recommendedScope" : "data:read_write"
   } ],
   "requiredSimpleTokenApis" : [ ],
-  "forcePrivateResponse" : true
+  "forcePrivateResponse" : true,
+  "isDataType": false
 }

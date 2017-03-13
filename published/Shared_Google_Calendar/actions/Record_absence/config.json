@@ -6,5 +6,6 @@
     "recommendedScope" : "https://www.googleapis.com/auth/calendar"
   } ],
   "requiredSimpleTokenApis" : [ ],
-  "forcePrivateResponse" : true
+  "forcePrivateResponse" : true,
+  "isDataType": false
 }
