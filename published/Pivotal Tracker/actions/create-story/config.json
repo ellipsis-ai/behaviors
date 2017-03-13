@@ -6,5 +6,6 @@
     "apiId" : "pivotal-tracker",
     "name" : "Pivotal Tracker"
   } ],
-  "forcePrivateResponse" : false
+  "forcePrivateResponse" : false,
+  "isDataType" : false
 }

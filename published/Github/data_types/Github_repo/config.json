@@ -1,10 +1,11 @@
 {
   "exportId" : "vne9aZ6eQ_6hOFwnSm3alg",
+  "name" : "Github repo",
   "requiredOAuth2ApiConfigs" : [ {
     "apiId" : "lj8s5CF-QnSY8vtbnWj_BA",
     "recommendedScope" : "repo"
   } ],
   "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
-  "dataTypeName" : "Github repo"
+  "isDataType" : true
 }

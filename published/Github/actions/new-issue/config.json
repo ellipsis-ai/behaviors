@@ -6,5 +6,6 @@
     "recommendedScope" : "repo"
   } ],
   "requiredSimpleTokenApis" : [ ],
-  "forcePrivateResponse" : true
+  "forcePrivateResponse" : true,
+  "isDataType" : false
 }

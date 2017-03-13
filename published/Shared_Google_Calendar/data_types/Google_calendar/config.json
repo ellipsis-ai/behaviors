@@ -1,10 +1,11 @@
 {
   "exportId" : "SLrCa642Rv2fFi3O4gm_jQ",
+  "name" : "Google calendar",
   "requiredOAuth2ApiConfigs" : [ {
     "apiId" : "RdG2Wm5DR0m2_4FZXf-yKA",
     "recommendedScope" : "https://www.googleapis.com/auth/calendar"
   } ],
   "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
-  "dataTypeName" : "Google calendar"
+  "isDataType" : true
 }

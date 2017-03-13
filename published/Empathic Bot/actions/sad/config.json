@@ -3,5 +3,6 @@
   "name" : "sad",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ],
-  "forcePrivateResponse" : false
+  "forcePrivateResponse" : false,
+  "isDataType" : false
 }

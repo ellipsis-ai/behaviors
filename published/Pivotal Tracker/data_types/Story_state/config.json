@@ -1,7 +1,8 @@
 {
   "exportId" : "zu5VaFafR-OMobdXQ93cjA",
+  "name" : "Story state",
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
-  "dataTypeName" : "Story state"
+  "isDataType" : true
 }
