@@ -1,22 +1,3 @@
-[ {
-  "name" : "phrase",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "What do you want me to find an image of?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "0YkLr1aySAKMbYyoTK5JNA"
-}, {
-  "name" : "searchApiKey",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "To use this, you'll need to enter a valid Microsoft Azure API key. If you don't have one, or you’re not sure, enter `...cancel`.",
-  "isSavedForTeam" : true,
-  "isSavedForUser" : false,
-  "inputExportId" : "6cVrW12QQc-NMPdw5HHl2g",
-  "groupId" : "YNQGLmqyTUuqPo5ZOI31lw"
-} ]
+[ "0YkLr1aySAKMbYyoTK5JNA",
+  "6cVrW12QQc-NMPdw5HHl2g"
+]

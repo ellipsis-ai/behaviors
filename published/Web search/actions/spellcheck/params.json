@@ -1,21 +1,3 @@
-[ {
-  "name" : "word_or_sentence",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "What word do you want to check the spelling of?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "XyMg0nI_S1yriiFF_zPtdw"
-}, {
-  "name" : "spellcheckApiKey",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "Enter a Bing Spell Check API key (you can get one at https://www.microsoft.com/cognitive-services/en-us/bing-spell-check-api — you will need to this only once). Type `...cancel` if you want to do this later.",
-  "isSavedForTeam" : true,
-  "isSavedForUser" : false,
-  "inputExportId" : "uGa7UnzNQEOupVoOF4ozmQ"
-} ]
+[ "XyMg0nI_S1yriiFF_zPtdw",
+  "uGa7UnzNQEOupVoOF4ozmQ"
+]

@@ -1,31 +1,4 @@
-[ {
-  "name" : "name",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "Who is away?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "WNRjNxW9S4yOcwltfIQnbg"
-}, {
-  "name" : "when",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "When are they away?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "gwCBx49HR3-w63IPGLDryA"
-}, {
-  "name" : "reason",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "Why are they away?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "6hRrFC39TJqdBxFvjE6x8Q"
-} ]
+[ "WNRjNxW9S4yOcwltfIQnbg",
+  "gwCBx49HR3-w63IPGLDryA",
+  "6hRrFC39TJqdBxFvjE6x8Q"
+]

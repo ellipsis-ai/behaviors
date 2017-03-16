@@ -1,22 +1,3 @@
-[ {
-  "name" : "topic",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "What would you like to hear news about?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "8OllykUyRBynNU_acJyLMg"
-}, {
-  "name" : "searchApiKey",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "To use this, you'll need to enter a valid Microsoft Azure API key. If you don't have one, or you’re not sure, enter `...cancel`.",
-  "isSavedForTeam" : true,
-  "isSavedForUser" : false,
-  "inputExportId" : "6cVrW12QQc-NMPdw5HHl2g",
-  "groupId" : "YNQGLmqyTUuqPo5ZOI31lw"
-} ]
+[ "8OllykUyRBynNU_acJyLMg",
+  "6cVrW12QQc-NMPdw5HHl2g"
+]

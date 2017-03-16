@@ -1,21 +1,3 @@
-[ {
-  "name" : "project",
-  "paramType" : {
-    "exportId" : "I6JRZXTjT6Go_IVSXiF-2Q",
-    "name" : "Project"
-  },
-  "question" : "For which project?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : true,
-  "inputExportId" : "qHxACyEhSqW8A3JeBm1MsA"
-}, {
-  "name" : "storyState",
-  "paramType" : {
-    "exportId" : "zu5VaFafR-OMobdXQ93cjA",
-    "name" : "Story state"
-  },
-  "question" : "In what state?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "15BPlYM0SgW6TmxUI-R8-w"
-} ]
+[ "qHxACyEhSqW8A3JeBm1MsA",
+  "15BPlYM0SgW6TmxUI-R8-w"
+]

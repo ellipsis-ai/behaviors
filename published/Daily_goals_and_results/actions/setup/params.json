@@ -1,61 +1,7 @@
-[ {
-  "name" : "channel",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "In what channel should I run this?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "I6dDbwTHQfiou83r9b72zw"
-}, {
-  "name" : "whenToAskForDailyGoals",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "When should I ask each person about their goals for the day? (ie. 9am)",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "QP3ifRvNQtCKC173wfVOuw"
-}, {
-  "name" : "whenToDisplayGoals",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "When should I display everyone's goals for others to see? (ie. 12pm)",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "fDpsVQQ3ToiyvwCUdx4SSA"
-}, {
-  "name" : "whenToAskForOutcome",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "When should I ask people how their day went? (ie. 6pm)",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "7m6lJiosQWeDZ62EzWarlA"
-}, {
-  "name" : "whenToShowReport",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "When should I display a report on how everyone did? (ie. 11:59pm)",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "Q9MbE5O1TqCnN6cdBu40aQ"
-}, {
-  "name" : "whenToRemind",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "When should I remind people to answer if they haven't already? (ie. 11pm)",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "HCJfMAf7RUmbLe3ocDYCnw"
-} ]
+[ "I6dDbwTHQfiou83r9b72zw", 
+  "QP3ifRvNQtCKC173wfVOuw", 
+  "fDpsVQQ3ToiyvwCUdx4SSA", 
+  "7m6lJiosQWeDZ62EzWarlA", 
+  "Q9MbE5O1TqCnN6cdBu40aQ",
+  "HCJfMAf7RUmbLe3ocDYCnw"
+]
