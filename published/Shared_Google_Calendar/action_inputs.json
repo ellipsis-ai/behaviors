@@ -47,8 +47,7 @@
   },
   "question" : "Which calendar tracks vacations for your team?",
   "isSavedForTeam" : true,
-  "isSavedForUser" : false,
-  "groupId" : "vj5w6uvIRTC_Yywat3DRoA"
+  "isSavedForUser" : false
 }, {
   "exportId" : "gwCBx49HR3-w63IPGLDryA",
   "name" : "when",
@@ -88,8 +87,7 @@
   },
   "question" : "Which channels should I notify when you’re absent? List the names separated by commas if more than one, e.g. “general, announcements”. (I'll remember this next time.)",
   "isSavedForTeam" : false,
-  "isSavedForUser" : true,
-  "groupId" : "vj5w6uvIRTC_Yywat3DRoA"
+  "isSavedForUser" : true
 }, {
   "exportId" : "wFZ_t-sHQauhw4cVVELqag",
   "name" : "when",

@@ -1,11 +1,1 @@
-[ {
-  "name" : "goals",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "What do you need to do today to make it a successful day?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "inputExportId" : "lHin7KDNSbitZjre4FYEqQ"
-} ]
+[ "lHin7KDNSbitZjre4FYEqQ" ]
