@@ -7,8 +7,7 @@
   },
   "question" : "What is blocking you at the moment?",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+  "isSavedForUser" : false
 }, {
   "exportId" : "I6dDbwTHQfiou83r9b72zw",
   "name" : "channel",
@@ -18,8 +17,7 @@
   },
   "question" : "In what channel should I run this?",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+  "isSavedForUser" : false
 }, {
   "exportId" : "QP3ifRvNQtCKC173wfVOuw",
   "name" : "whenToAsk",
@@ -29,8 +27,7 @@
   },
   "question" : "When should I ask each person about their status? (ie. 9am)",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+  "isSavedForUser" : false
 }, {
   "exportId" : "UuoKvs07QwO1k17mSxxRxA",
   "name" : "today",
@@ -40,8 +37,7 @@
   },
   "question" : "What are you going to do today?",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+  "isSavedForUser" : false
 }, {
   "exportId" : "XpmRVRKCRwuChASr7HtrnA",
   "name" : "whenToRemind",
@@ -51,8 +47,7 @@
   },
   "question" : "When should I remind anyone who hasn't answered the questions to do so now? (ie. if everyone's status is being sent out at 9:55am, remind at 9:45am)",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+  "isSavedForUser" : false
 }, {
   "exportId" : "fDpsVQQ3ToiyvwCUdx4SSA",
   "name" : "whenToDisplaySummary",
@@ -62,8 +57,7 @@
   },
   "question" : "When should I display everyone's status for others to see? (ie. 9:55am if the meeting is at 10am)",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+  "isSavedForUser" : false
 }, {
   "exportId" : "lHin7KDNSbitZjre4FYEqQ",
   "name" : "yesterday",
@@ -73,6 +67,5 @@
   },
   "question" : "What did you do the last day you worked?",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false,
-  "groupId" : "_7PTxgCARROCJTxEuyz7ag"
+  "isSavedForUser" : false
 } ]
