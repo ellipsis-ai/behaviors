@@ -1,21 +1,11 @@
 [ {
-  "exportId" : "VOKsy5LGSCyEBjScp88Q6w",
-  "name" : "tzToParse",
-  "paramType" : {
-    "exportId" : "fsxdNQ40QpipzignBX67-A",
-    "name" : "Time zone"
-  },
-  "question" : "What time zone do people on your team usually mean? (I'll remember for next time.)",
-  "isSavedForTeam" : true,
-  "isSavedForUser" : false
-}, {
   "exportId" : "f4oCsCAmQ4mr2PvmdAOadg",
   "name" : "tzToOutput",
   "paramType" : {
     "exportId" : "fsxdNQ40QpipzignBX67-A",
     "name" : "Time zone"
   },
-  "question" : "I can convert your team time zone to another automatically. What time zone would you like me to convert to? (I'll remember for next time, or say \"stop\" if you don't want to answer this now.)",
+  "question" : "I can convert your team time zone to another one automatically. What time zone would you like me to convert to? (I'll remember for next time, or say \"...stop\" if you don't want to answer this now.)",
   "isSavedForTeam" : true,
   "isSavedForUser" : false
 }, {
