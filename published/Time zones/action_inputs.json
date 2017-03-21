@@ -15,7 +15,7 @@
     "exportId" : "fsxdNQ40QpipzignBX67-A",
     "name" : "Time zone"
   },
-  "question" : "What time zone would you like me to convert to, usually? (I'll remember for next time.)",
+  "question" : "I can convert your team time zone to another automatically. What time zone would you like me to convert to? (I'll remember for next time, or say \"stop\" if you don't want to answer this now.)",
   "isSavedForTeam" : true,
   "isSavedForUser" : false
 }, {
