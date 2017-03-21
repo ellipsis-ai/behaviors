@@ -1,4 +1,4 @@
-function(time, tzToParse, tzToOutput, ellipsis) {
+function(time, tzToOutput, ellipsis) {
   "use strict";
 const Moment = require('moment-timezone');
 const util = require('util');
@@ -7,11 +7,11 @@ main();
 
 function main() {
   const parsedTime = parseTime(time);
-  const inputTz = parseTz(time) || tzToParse.id;
+  const inputTz = parseTz(time) || ellipsis.teamInfo.timeZone;
   const here = Moment().tz(inputTz).set(parsedTime);
   /* If the user included a time zone with their time, and it's the same
      offset as output time zone, flip the conversion: */
-  const outputTz = timeUsesTz(here, tzToOutput.id) ? tzToParse.id : tzToOutput.id;
+  const outputTz = timeUsesTz(here, tzToOutput.id) ? ellipsis.teamInfo.timeZone : tzToOutput.id;
   
   const there = here.clone().tz(outputTz);
   ellipsis.success({
