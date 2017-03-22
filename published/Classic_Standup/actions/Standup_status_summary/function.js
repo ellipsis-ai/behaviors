@@ -9,7 +9,7 @@ function mostRecentByUserIn(arr) {
   const byUser = groupBy(arr, "userIdForContext");
   const userResults = [];
   Object.keys(byUser).forEach(key => {
-    var pv = byUser[key].sort((a, b) => a.timestamp > b.timestamp ? -1 : 1)[0].paramValues;
+    const pv = byUser[key].sort((a, b) => a.timestamp > b.timestamp ? -1 : 1)[0].paramValues;
     userResults.push(Object.assign({}, pv, {user: key}));
   });
   return userResults;
