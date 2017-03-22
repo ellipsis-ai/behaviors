@@ -36,8 +36,16 @@ function check() {
   });
 }
 
+function validResponse(response) {
+  if (!response.length) {
+    return false;
+  }
+  var firstResponse = response[0].paramValues;
+  return firstResponse.yesterday && firstResponse.today && firstResponse.blockers;
+}
+
 statusAnswers().then(response => {
-  if (response.length === 0) {
+  if (!validResponse(response)) {
     explain().then(r => {
       return check();
     }).then(r => {
