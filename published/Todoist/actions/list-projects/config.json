@@ -1,0 +1,11 @@
+{
+  "exportId" : "4Pb2600aRbaxe90U75wd0A",
+  "name" : "list-projects",
+  "requiredOAuth2ApiConfigs" : [ {
+    "apiId" : "Ec2SnSHFTV2Y0jkzbqUmFA",
+    "recommendedScope" : "data:read_write"
+  } ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false,
+  "isDataType" : false
+}
