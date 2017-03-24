@@ -22,16 +22,9 @@ function statusAnswers() {
   });
 }
 
-function explain() {
+function remind() {
   return ellipsisApi.promiseToSay({
-    message: "You should answer your standup status questions soon!",
-    ellipsis: ellipsis
-  });
-}
-
-function check() {
-  return ellipsisApi.promiseToRunAction({
-    actionName: "Answer status questions",
+    message: "Don't forget to answer your standup status questions soon!",
     ellipsis: ellipsis
   });
 }
@@ -46,9 +39,7 @@ function validResponse(response) {
 
 statusAnswers().then(response => {
   if (!validResponse(response)) {
-    explain().then(r => {
-      return check();
-    }).then(r => {
+    remind().then(r => {
       ellipsis.noResponse();
     });
   } else {
