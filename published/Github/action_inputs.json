@@ -9,25 +9,15 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "3HEC-lsDSreL-Y2OOqvdeg",
-  "name" : "repo",
-  "paramType" : {
-    "exportId" : "vne9aZ6eQ_6hOFwnSm3alg",
-    "name" : "Github repo"
-  },
-  "question" : "For which repo would you like to see PRs?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
   "exportId" : "TnqANnwwQZGGcx4GlBRzqw",
   "name" : "repo",
   "paramType" : {
     "exportId" : "vne9aZ6eQ_6hOFwnSm3alg",
     "name" : "Github repo"
   },
-  "question" : "Which repo?",
+  "question" : "Which repo? (I'll remember next time)",
   "isSavedForTeam" : false,
-  "isSavedForUser" : false
+  "isSavedForUser" : true
 }, {
   "exportId" : "sbTJmKljQButl8kY_5TQCQ",
   "name" : "body",
