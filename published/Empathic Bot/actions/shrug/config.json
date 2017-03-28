@@ -1,0 +1,8 @@
+{
+  "exportId" : "wM3mN2MsQZmMsb5Y2m5OAA",
+  "name" : "shrug",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false,
+  "isDataType" : false
+}

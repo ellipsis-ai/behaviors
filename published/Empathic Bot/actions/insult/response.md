@@ -1,0 +1,1 @@
+Bless the mark, {someone}, but {successResult.insult}
