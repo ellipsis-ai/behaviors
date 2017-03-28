@@ -1,0 +1,6 @@
+[ {
+  "text" : "shrug {something}",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]
