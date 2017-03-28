@@ -1,0 +1,11 @@
+{
+  "exportId" : "U6XSsKnhR-GCrCUB9SqXwQ",
+  "name" : "my-issues",
+  "requiredOAuth2ApiConfigs" : [ {
+    "apiId" : "lj8s5CF-QnSY8vtbnWj_BA",
+    "recommendedScope" : "repo"
+  } ],
+  "requiredSimpleTokenApis" : [ ],
+  "forcePrivateResponse" : false,
+  "isDataType" : false
+}
