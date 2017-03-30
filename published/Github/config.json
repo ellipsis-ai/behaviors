@@ -1,5 +1,10 @@
 {
   "name" : "GitHub",
   "exportId" : "NIi0BJH-Q_StBCsroFh5BQ",
-  "icon" : "💻"
+  "icon" : "💻",
+  "requiredOAuth2ApiConfigs" : [ {
+    "apiId" : "lj8s5CF-QnSY8vtbnWj_BA",
+    "recommendedScope" : "repo"
+  } ],
+  "requiredSimpleTokenApis" : [ ]
 }
