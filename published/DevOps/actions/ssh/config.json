@@ -1,8 +1,6 @@
 {
   "exportId" : "6dSAR_ljSm-_Rdi-FLtOMQ",
   "name" : "ssh",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

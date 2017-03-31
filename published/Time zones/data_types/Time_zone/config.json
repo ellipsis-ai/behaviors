@@ -1,8 +1,6 @@
 {
   "exportId" : "fsxdNQ40QpipzignBX67-A",
   "name" : "Time zone",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : true
 }

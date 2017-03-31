@@ -1,11 +1,6 @@
 {
   "exportId" : "XIUpo65aRw-6bIduZhG_Ww",
   "name" : "list-projects",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ {
-    "apiId" : "pivotal-tracker",
-    "name" : "Pivotal Tracker"
-  } ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

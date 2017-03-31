@@ -1,5 +1,7 @@
 {
   "name" : "Web search",
   "exportId" : "YNQGLmqyTUuqPo5ZOI31lw",
-  "icon" : "🔎"
+  "icon" : "🔎",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
 }

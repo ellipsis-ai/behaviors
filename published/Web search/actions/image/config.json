@@ -1,8 +1,6 @@
 {
   "exportId" : "maWpVrM6S1mOSY0Afp-CiA",
   "name" : "image",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

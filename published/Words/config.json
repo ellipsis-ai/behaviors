@@ -1,5 +1,7 @@
 {
   "name" : "Words",
   "exportId" : "LBQWF7YWR-mSZX2GcexLEw",
-  "icon" : "📖"
+  "icon" : "📖",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
 }

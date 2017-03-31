@@ -1,5 +1,10 @@
 {
   "name" : "Shared Google Calendar",
   "exportId" : "vj5w6uvIRTC_Yywat3DRoA",
-  "icon" : "🗓"
+  "icon" : "🗓",
+  "requiredOAuth2ApiConfigs" : [ {
+    "apiId" : "RdG2Wm5DR0m2_4FZXf-yKA",
+    "recommendedScope" : "https://www.googleapis.com/auth/calendar"
+  } ],
+  "requiredSimpleTokenApis" : [ ]
 }

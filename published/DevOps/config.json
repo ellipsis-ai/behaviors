@@ -1,5 +1,7 @@
 {
   "name" : "DevOps",
   "exportId" : "OQ0oowdzR2OsKjKou1K7fA",
-  "icon" : "🕹"
+  "icon" : "🕹",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
 }
