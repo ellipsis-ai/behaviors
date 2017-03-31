@@ -1,8 +1,6 @@
 {
   "exportId" : "corUvzkRRP6XV9EB9Vy9MA",
   "name" : "ask-me-how-my-day-went",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

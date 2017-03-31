@@ -1,8 +1,6 @@
 {
   "exportId" : "E-KWn00hQLePO5DNRPrjXA",
   "name" : "Check standup status",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

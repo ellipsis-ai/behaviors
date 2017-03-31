@@ -1,8 +1,6 @@
 {
   "exportId" : "_qssf_rPTim5PL-Pt4RbTg",
   "name" : "bananas",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

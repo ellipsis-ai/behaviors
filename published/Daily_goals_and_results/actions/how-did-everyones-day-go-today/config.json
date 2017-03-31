@@ -1,8 +1,6 @@
 {
   "exportId" : "FpunYEKzQ7atfy3bq1XasA",
   "name" : "how-did-everyones-day-go-today",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

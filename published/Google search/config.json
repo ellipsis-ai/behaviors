@@ -1,5 +1,7 @@
 {
   "name" : "Google Search",
   "exportId" : "yAD8edzUQmW9u-kmPhpTLA",
-  "icon" : "🐿"
+  "icon" : "🐿",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
 }

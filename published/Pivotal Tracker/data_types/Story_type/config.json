@@ -1,8 +1,6 @@
 {
   "exportId" : "Ki8Tp4lYTK2eQ5PZ3ZTHWA",
   "name" : "Story type",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : true
 }

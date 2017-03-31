@@ -1,8 +1,6 @@
 {
   "exportId" : "hvaYcfC9TdyKkhyaVNfLNg",
   "name" : "help",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

@@ -1,11 +1,6 @@
 {
   "exportId" : "HC_gpn5xTfSO-HYWb6QLRg",
   "name" : "list-stories",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ {
-    "apiId" : "pivotal-tracker",
-    "name" : "Pivotal Tracker"
-  } ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

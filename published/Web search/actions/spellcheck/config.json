@@ -1,8 +1,6 @@
 {
   "exportId" : "RcmapOl8SXapmUkjE5xdlw",
   "name" : "spellcheck",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

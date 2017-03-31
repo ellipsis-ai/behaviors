@@ -1,5 +1,7 @@
 {
   "name" : "Classic Standup",
   "exportId" : "Am652KY2R6GEHfVAuyS4Pw",
-  "icon" : "🕴"
+  "icon" : "🕴",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
 }

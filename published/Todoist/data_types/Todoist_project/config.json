@@ -1,11 +1,6 @@
 {
   "exportId" : "nxl_7nG_QyqwZJHrDH6kGQ",
   "name" : "Todoist project",
-  "requiredOAuth2ApiConfigs" : [ {
-    "apiId" : "Ec2SnSHFTV2Y0jkzbqUmFA",
-    "recommendedScope" : "data:read_write"
-  } ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : true
 }

@@ -1,5 +1,7 @@
 {
   "name" : "Daily goals & results",
   "exportId" : "eZwsrC-zRz-sdgZ0gdrn0Q",
-  "icon" : "🎯"
+  "icon" : "🎯",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
 }

@@ -1,8 +1,6 @@
 {
   "exportId" : "8Ln7Ae2ATTS5jRO9tiCqPw",
   "name" : "thanks",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

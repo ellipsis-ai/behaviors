@@ -1,8 +1,6 @@
 {
   "exportId" : "LZ1QVkevSdiBivuY8Xvfpw",
   "name" : "sad",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

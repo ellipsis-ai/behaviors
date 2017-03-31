@@ -1,10 +1,6 @@
 {
   "exportId" : "d8xu-iXYSZaxSFDVPf82gw",
   "name" : "craving-lunch-yelp",
-  "requiredOAuth2ApiConfigs" : [ {
-    "apiId" : "0liyxeHPTrqEpRCAsUQJRQ"
-  } ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

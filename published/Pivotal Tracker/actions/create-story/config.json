@@ -1,11 +1,6 @@
 {
   "exportId" : "fuBtUvQOSpS6GhW11VImUw",
   "name" : "create-story",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ {
-    "apiId" : "pivotal-tracker",
-    "name" : "Pivotal Tracker"
-  } ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

@@ -1,8 +1,6 @@
 {
   "exportId" : "Va-7SS6ZTDWmfoQaXWJ5EQ",
   "name" : "remind-me-about-daily-goals",
-  "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
   "forcePrivateResponse" : false,
   "isDataType" : false
 }
