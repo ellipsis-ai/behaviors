@@ -3,5 +3,5 @@
   "exportId" : "OQ0oowdzR2OsKjKou1K7fA",
   "icon" : "🕹",
   "requiredOAuth2ApiConfigs" : [ ],
-  "requiredSimpleTokenApis" : [ ],
+  "requiredSimpleTokenApis" : [ ]
 }
