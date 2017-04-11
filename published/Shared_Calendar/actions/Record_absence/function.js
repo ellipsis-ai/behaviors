@@ -8,7 +8,7 @@ const parseDate = require('parse-messy-time');
 const gcal = require('google-calendar');
 const cal = new gcal.GoogleCalendar(ellipsis.accessTokens.googleCalendar);
 const Formatter = require('ellipsis-cal-date-format');
-const postMessage = require('ellipsis-post-message').postMessage;
+const PostMessage = require('ellipsis-post-message');
 
 add();
 
@@ -89,14 +89,14 @@ function add() {
 function notify(eventDetails) {
   const channelNames = channels.split(",").map((ea) => ea.trim());
   const numChannels = channelNames.length;
-  const message = `...announce ${getUserName()} will be away ${eventDetails.when} because ${description}`;
+  const message = `🗓 I'm sorry to report that ${getUserName()} will be away from the office ${eventDetails.when} (${description})`;
   let responses = [];
   channelNames.forEach((channelName, index) => {
-    postMessage({
+    PostMessage.promiseToSay({
       ellipsis: ellipsis,
       message: message,
-      channel: channelName,
-      success: (response) => {
+      channel: channelName
+    }).then(response => {
         responses.push(channelName);
         if (responses.length === numChannels) {
           const result = Object.assign({
@@ -104,16 +104,14 @@ function notify(eventDetails) {
           }, eventDetails);
           ellipsis.success(result);
         }
-      },
-      error: (err) => {
+      }).catch(err => {
         ellipsis.error(
           `I had trouble notifying the channel “${channelName}”, but `+
           (responses.length > 0 ? 
             `I notified ${responses.join(', ')} and ` : '') +
           `the event was created: ${eventDetails.link}.`
         );
-      }
-    });
+      });
   });
 }
 }

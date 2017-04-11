@@ -1,10 +1,10 @@
 [ {
-  "text" : "calendar how to set up",
+  "text" : "shared calendar how to set up",
   "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "calendar how to setup",
+  "text" : "shared calendar how to setup",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false

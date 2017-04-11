@@ -1,4 +1,4 @@
-**Guide to the Google Calendar skill:**  
+**Guide to the Shared Calendar skill:**  
 Once setup, I will announce the day’s absences at the scheduled time in the selected channel.
 
 **Record absences:**  
@@ -12,5 +12,5 @@ Once setup, I will announce the day’s absences at the scheduled time in the se
 - `who's away January 1, 2018`
 
 More help:
-- `calendar help` — read the introduction
-- `calendar how to set up` — learn how to set up this skill
+- `shared calendar help` — read the introduction
+- `shared calendar how to set up` — learn how to set up this skill

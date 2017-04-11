@@ -4,12 +4,12 @@
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "tell everyone I will be away {start}",
+  "text" : "tell everyone I will be away from {start} until {end}",
   "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "tell everyone I will be away {start} to {end}",
+  "text" : "tell everyone I will be away {start}",
   "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false

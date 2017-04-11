@@ -1,26 +1,21 @@
 function(ellipsis) {
-  const postMessage = require('ellipsis-post-message').postMessage;
+  const ellipsisApi = require('ellipsis-post-message');
+const RandomResponse = require('ellipsis-random-response');
+const greeting = RandomResponse.greetingForTimeZone(ellipsis.teamInfo.timeZone);
 
-postMessage({
-  message: "...good morning",
-  ellipsis: ellipsis,
-  success: (response1) => {
-    postMessage({ 
-      message: "how have my goals gone",
-      ellipsis: ellipsis,
-      success: (response2) => {
-        postMessage({
-          message: "ask me about my goals for today",
-          ellipsis: ellipsis,
-          success: (response3) => {
-            ellipsis.noResponse()
-          },
-          error: ellipsis.error
-        });
-      },
-      error: ellipsis.error
+ellipsisApi.promiseToSay({ message: greeting, ellipsis: ellipsis })
+  .then(response1 => {
+    ellipsisApi.promiseToRunAction({
+      actionName: "goal-history",
+      args: [{ name: "whoseGoals", value: "my" }],
+      ellipsis: ellipsis
+    }).then(response2 => {
+      ellipsisApi.promiseToRunAction({
+        actionName: "set-goals",
+        ellipsis: ellipsis
+      }).then(response3 => {
+        ellipsis.noResponse();
+      });
     });
-  },
-  error: ellipsis.error
-});
+  });
 }

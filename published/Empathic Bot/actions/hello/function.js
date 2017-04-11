@@ -1,5 +1,6 @@
 function(ellipsis) {
-  "use strict"; 
+  "use strict";
+
 const RandomResponse = require('ellipsis-random-response');
-ellipsis.success(RandomResponse.responseWithEmoji("hello"));
+ellipsis.success(RandomResponse.greetingForTimeZone(ellipsis.teamInfo.timeZone));
 }
