@@ -39,16 +39,6 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "XpmRVRKCRwuChASr7HtrnA",
-  "name" : "whenToRemind",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "When should I remind anyone who hasn't answered the questions to do so now? (ie. if everyone's status is being sent out at 9:55am, remind at 9:45am)",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
   "exportId" : "fDpsVQQ3ToiyvwCUdx4SSA",
   "name" : "whenToDisplaySummary",
   "paramType" : {
