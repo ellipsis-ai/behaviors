@@ -4,11 +4,11 @@ const schedule = PM.promiseToSchedule;
 const unschedule = PM.promiseToUnschedule;
 
 unschedule({
-  action: "who's away today",
+  actionName: "List absences",
   channel: channel,
   ellipsis: ellipsis
 }).then(r => schedule({
-  action: "who's away today",
+  actionName: "List absences",
   recurrence: `every weekday at ${whenToAnnounceVacations}`,
   channel: channel,
   ellipsis: ellipsis
