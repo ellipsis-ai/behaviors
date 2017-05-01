@@ -1,0 +1,21 @@
+[ {
+  "exportId" : "_lpHYaeKQfqd4Gghk3fhGg",
+  "name" : "whenToAnnounce",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What time should I send you your agenda for the day? e.g. “9 AM” or “10 AM Eastern time”",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "w4C6zIa4SNO1X_91WiQTTQ",
+  "name" : "shouldRemind",
+  "paramType" : {
+    "exportId" : "iP3MgM6jShWcQbS0seUj4g",
+    "name" : "Yes/no"
+  },
+  "question" : "Would you like me to send you a reminder before each event begins?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]
