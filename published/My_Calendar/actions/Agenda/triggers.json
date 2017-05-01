@@ -1,0 +1,6 @@
+[ {
+  "text" : "what's on my calendar today",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]
