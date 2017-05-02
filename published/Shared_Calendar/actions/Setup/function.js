@@ -4,14 +4,14 @@ const schedule = PM.promiseToSchedule;
 const unschedule = PM.promiseToUnschedule;
 
 unschedule({
-  actionName: "List absences",
+  message: "who's away today",
   channel: channel,
   ellipsis: ellipsis
-}).then(r => schedule({
-  actionName: "List absences",
+}).then(() => schedule({
+  message: "who's away today",
   recurrence: `every weekday at ${whenToAnnounceVacations}`,
   channel: channel,
   ellipsis: ellipsis
-})).then(r => ellipsis.success("All done!"))
-  .catch(e => ellipsis.error(e));
+})).then(() => ellipsis.success("All done!"))
+  .catch(ellipsis.error);
 }
