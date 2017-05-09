@@ -1,0 +1,6 @@
+[ {
+  "text" : "start 1:1s",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

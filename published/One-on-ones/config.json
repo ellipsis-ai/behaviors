@@ -1,0 +1,10 @@
+{
+  "name" : "One-on-ones",
+  "exportId" : "zeCUqH7iSjyG8GimQgB7fg",
+  "icon" : "👥",
+  "requiredOAuth2ApiConfigs" : [ {
+    "apiId" : "RdG2Wm5DR0m2_4FZXf-yKA",
+    "recommendedScope" : "https://www.googleapis.com/auth/calendar"
+  } ],
+  "requiredSimpleTokenApis" : [ ]
+}

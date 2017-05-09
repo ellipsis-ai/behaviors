@@ -1,0 +1,21 @@
+[ {
+  "text" : "list 1:1 meetings",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "list 1:1s",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "list one on one meetings",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "list one on ones",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

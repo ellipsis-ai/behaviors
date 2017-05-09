@@ -1,0 +1,6 @@
+[ {
+  "text" : "pre-meeting info",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

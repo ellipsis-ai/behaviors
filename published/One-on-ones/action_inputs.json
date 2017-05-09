@@ -1,0 +1,141 @@
+[ {
+  "exportId" : "-CoXV808Qb6pAwIfPpthqA",
+  "name" : "meeting",
+  "paramType" : {
+    "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
+    "name" : "One-on-one"
+  },
+  "question" : "What is the value for `meeting`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "4Ac9fZ0gRuimPsxSkFmbaQ",
+  "name" : "windowLengthInHours",
+  "paramType" : {
+    "exportId" : "Number",
+    "name" : "Number"
+  },
+  "question" : "What is the value for `windowLengthInHours`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "9glhxhn2TdeRK08v42CzRg",
+  "name" : "calendarEvent",
+  "paramType" : {
+    "exportId" : "7wj9b0emSveu3vULnnWHNg",
+    "name" : "Google calendar recurring event"
+  },
+  "question" : "Which recurring calendar event tracks the meeting you'd like to add? Type `show all` to see everything.",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "ES2Jt75_QJy064EiHtFySw",
+  "name" : "shouldAddAnother",
+  "paramType" : {
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
+  },
+  "question" : "Do you want to add another 1:1 meeting?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "J6Q7kJJLSYuD7VqHCpGPrw",
+  "name" : "existingAgenda",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `existingAgenda`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "JslPDKVYQByuqH5exvV2tw",
+  "name" : "agenda",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What do you want to talk about?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "RB8AoBlHT9m0dmxd1hJVZw",
+  "name" : "meeting",
+  "paramType" : {
+    "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
+    "name" : "One-on-one"
+  },
+  "question" : "For which one-on-one meeting?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "XuVceTm4Qeq1zjbtiMTUtg",
+  "name" : "meeting",
+  "paramType" : {
+    "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
+    "name" : "One-on-one"
+  },
+  "question" : "Which meeting do you want to remove?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "h5VIcph0Q1mNPJajUHVL4w",
+  "name" : "windowStartsInHours",
+  "paramType" : {
+    "exportId" : "Number",
+    "name" : "Number"
+  },
+  "question" : "What is the value for `windowStartsInHours`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "hDetSfjLTPOikHV2tHiiCQ",
+  "name" : "meeting",
+  "paramType" : {
+    "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
+    "name" : "One-on-one"
+  },
+  "question" : "For which one on one meeting?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "mAaH2ZD5TPC4GYQlKeYdBg",
+  "name" : "meeting",
+  "paramType" : {
+    "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
+    "name" : "One-on-one"
+  },
+  "question" : "For which one-on-one meeting?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "nKV8up9yQ8OOT3XfNdPvqw",
+  "name" : "meeting",
+  "paramType" : {
+    "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
+    "name" : "One-on-one"
+  },
+  "question" : "For which one-on-one meeting?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "yUBpvRWPSrSwm_RCA6sUQA",
+  "name" : "shouldAddAgenda",
+  "paramType" : {
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
+  },
+  "question" : "Do you want to add to your 1:1 agenda items?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "yftax-0lQoSXl5Ng_UWoQw",
+  "name" : "addition",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What do you want to add to the agenda?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]

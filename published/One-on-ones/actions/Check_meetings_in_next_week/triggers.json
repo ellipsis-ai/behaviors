@@ -1,0 +1,6 @@
+[ {
+  "text" : "check 1:1s in next week",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

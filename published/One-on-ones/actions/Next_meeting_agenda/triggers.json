@@ -1,0 +1,16 @@
+[ {
+  "text" : "next 1:1 agenda",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "next meeting agenda",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+}, {
+  "text" : "next one on one agenda",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]
