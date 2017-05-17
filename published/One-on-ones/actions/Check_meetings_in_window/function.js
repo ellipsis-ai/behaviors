@@ -3,6 +3,8 @@ function(windowStartsInHours, windowLengthInHours, ellipsis) {
 const gcal = require('google-calendar');
 const cal = new gcal.GoogleCalendar(ellipsis.accessTokens.googleCalendar);
 const Formatter = require('ellipsis-cal-date-format');
+const meetings = require('meetings');
+const calendars = require('calendars');
 
 const db = require('ellipsis-default-storage');
 const key = ellipsis.userInfo.ellipsisUserId;
@@ -46,11 +48,11 @@ function fakeEmployeeInfoFor(attendee) {
   }
 }
 
-getMeetings().then(meetings => {
+meetings.get(ellipsis).then(meetings => {
   Promise.all(meetings.map(ea => {
-    return fetchNextInstanceToUseFor(ea.calendarId, ea.id);
+    return calendars.fetchNextInstanceToUseFor(ea.calendarId, ea.id, cal);
   })).then(instances => {
-    const toNotify = instances.filter(ea => ea).filter(shouldNotify).map(ea => {
+    const toNotify = instances.filter(ea => ea).filter(ea => calendars.shouldNotify(ea, notifyWindowStart, notifyWindowEnd)).map(ea => {
       const formattedEvent = Formatter.formatEvent(ea, ellipsis.teamInfo.timeZone, now.format(Formatter.formats.YMD), { details: true });
       const otherAttendee = (ea.attendees || []).filter(ea => !ea.self)[0];
       const employeeInfo = fakeEmployeeInfoFor(otherAttendee);
@@ -76,83 +78,5 @@ getMeetings().then(meetings => {
 
 function format(event) {
   return Formatter.formatEvent(event, ellipsis.teamInfo.timeZone, now.format(Formatter.formats.YMD));
-}
-
-function shouldNotify(instance) {
-  const start = ensureDateForStartOf(instance);
-  return start >= notifyWindowStart && start < notifyWindowEnd;
-}
-
-function getMeetings() {
-  return new Promise((resolve, reject) => {
-    db.getItem({
-      itemId: key,
-      itemType: "one-on-ones",
-      ellipsis: ellipsis,
-      onSuccess: function(response, body) {
-        resolve(JSON.parse(JSON.parse(body)));
-      },
-      onError: err => resolve([])
-    });
-  });
-}
-
-function ensureDateFor(dateTimeString) {
-  const timestamp = Date.parse(dateTimeString)
-  if (isNaN(timestamp)) {
-    return new Date();
-  } else {
-    return new Date(timestamp);
-  }
-}
-
-function ensureDateForStartOf(instance) {
-  const dateTimeString = (instance && instance.start) ? instance.start.dateTime : null;
-  return ensureDateFor(dateTimeString);
-}
-
-function fetchNextInstanceToUseFor(calendarId, eventId) {
-  return fetchNextInstance(calendarId, eventId).then(instance => {
-    const start = ensureDateForStartOf(instance);
-    return fetchNextExceptionBefore(calendarId, eventId, start).then( exception => {
-      return exception || instance;
-    });
-  });
-}
-
-function fetchNextExceptionBefore(calendarId, eventId, beforeTime) {
-  return new Promise((resolve, reject) => {
-    const start = (new Date()).toISOString();
-    const options = {
-      timeMin: start,
-      timeMax: beforeTime.toISOString(),
-      orderBy: 'startTime',
-      singleEvents: true
-    };
-    cal.events.list(calendarId, options, (err, instances) => {
-      if (err) {
-        reject(err);
-      }  else {
-        resolve(instances.items.filter(ea => ea.recurringEventId === eventId)[0]);
-      }
-    })
-  });
-}
-
-function fetchNextInstance(calendarId, eventId) {
-  return new Promise((resolve, reject) => {
-    const start = (new Date()).toISOString();
-    const options = {
-      timeMin: start,
-      maxResults: 1
-    };
-    cal.events.instances(calendarId, eventId, options, (err, instances) => {
-      if (err) {
-        reject(err);
-      }  else {
-        resolve(instances.items[0]);
-      }
-    })
-  });
 }
 }
