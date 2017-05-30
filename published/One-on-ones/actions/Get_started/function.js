@@ -1,24 +1,24 @@
 function(ellipsis) {
-  const ellipsisApi = require('ellipsis-post-message');
+  const EllipsisApi = require('ellipsis-api');
+const api = new EllipsisApi.ActionsApi(ellipsis);
 
 Promise.all([doScheduling(), intro()]).then(res => ellipsis.noResponse());
 
 function intro() {
-  return ellipsisApi.promiseToRunAction({
-    actionName: "Intro add meeting",
-    ellipsis: ellipsis
+  return api.say({
+    message: "To get started, you need to add your one on one meetings from Google Calendar events.",
+  }).then(res => {
+    api.run({ actionName: "Add meeting" });
   });
 }
 
 function doScheduling() {
-  return ellipsisApi.promiseToUnschedule({
+  return api.unschedule({
     actionName: "Check meetings",
-    userId: ellipsis.userInfo.ellipsisUserId,
-    ellipsis: ellipsis
-  }).then(r => ellipsisApi.promiseToSchedule({
+    userId: ellipsis.userInfo.ellipsisUserId
+  }).then(r => api.schedule({
     actionName: "Check meetings",
-    recurrence: `every hour at 0 minutes`,
-    ellipsis: ellipsis
+    recurrence: `every hour at 0 minutes`
   }));
 }
 }
