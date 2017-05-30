@@ -1,6 +1,6 @@
 function(meeting, ellipsis) {
   const EllipsisApi = require('ellipsis-api');
-const api = new EllipsisApi.ActionsApi(ellipsis);
+const api = new EllipsisApi(ellipsis);
 
 const preamble = "You have a 1:1 coming up. Here is the agenda so you can prepare:";
 

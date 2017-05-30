@@ -1,6 +1,6 @@
 function(ellipsis) {
   const EllipsisApi = require('ellipsis-api');
-const api = new EllipsisApi.ActionsApi(ellipsis);
+const api = new EllipsisApi(ellipsis);
 
 Promise.all([doScheduling(), intro()]).then(res => ellipsis.noResponse());
 

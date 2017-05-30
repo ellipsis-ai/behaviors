@@ -1,6 +1,6 @@
 function(addition, existingAgenda, meeting, ellipsis) {
   const EllipsisApi = require('ellipsis-api');
-const api = new EllipsisApi.ActionsApi(ellipsis);
+const api = new EllipsisApi(ellipsis);
 
 const newAgenda = `${existingAgenda}  \n${addition}`;
 

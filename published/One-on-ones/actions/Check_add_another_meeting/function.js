@@ -1,6 +1,6 @@
 function(shouldAddAnother, ellipsis) {
   const EllipsisApi = require('ellipsis-api');
-const api = new EllipsisApi.ActionsApi(ellipsis);
+const api = new EllipsisApi(ellipsis);
 
 if (shouldAddAnother) {
   api.run({ actionName: "Add meeting" }).then(res => ellipsis.noResponse());

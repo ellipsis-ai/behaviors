@@ -1,6 +1,6 @@
 function(calendarEvent, ellipsis) {
   const EllipsisApi = require('ellipsis-api');
-const api = new EllipsisApi.ActionsApi(ellipsis);
+const api = new EllipsisApi(ellipsis);
 
 const meetings = require('meetings');
 
