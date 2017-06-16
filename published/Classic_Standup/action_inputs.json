@@ -1,11 +1,41 @@
 [ {
+  "exportId" : "5PV4f6gpQO6v3RzrcDCNDg",
+  "name" : "yesterday",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What did you do the last day you worked?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "6Y3TokS7Sq6FQRILFagxKg",
+  "name" : "today",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What are you going to do today?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "9nBO_pq3TjGu_GbH56tlhw",
+  "name" : "today",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What are you going to do today?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "FfxGjaOFTRWdfWofxozkRA",
   "name" : "blockers",
   "paramType" : {
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What is blocking you at the moment?",
+  "question" : "Any blockers at the moment?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -19,6 +49,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "P9mNVcqhTPK-rs50EzM6cw",
+  "name" : "blockers",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "OK, what's blocking you right now?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "QP3ifRvNQtCKC173wfVOuw",
   "name" : "whenToAsk",
   "paramType" : {
@@ -26,6 +66,16 @@
     "name" : "Text"
   },
   "question" : "When should I ask each person about their status? (ie. 9am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "UoMNvhulSmaRWPLjsVKAFA",
+  "name" : "blockers",
+  "paramType" : {
+    "exportId" : "0UxOcIMsSN-wGmaN-rJ4LQ",
+    "name" : "Blocker"
+  },
+  "question" : "Any blockers at the moment?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -39,6 +89,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "XpmRVRKCRwuChASr7HtrnA",
+  "name" : "whenToRemind",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When should I remind anyone who hasn't answered the questions to do so now? (ie. if everyone's status is being sent out at 9:55am, remind at 9:45am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "fDpsVQQ3ToiyvwCUdx4SSA",
   "name" : "whenToDisplaySummary",
   "paramType" : {
@@ -46,6 +106,16 @@
     "name" : "Text"
   },
   "question" : "When should I display everyone's status for others to see? (ie. 9:55am if the meeting is at 10am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "hj-vAwV7TMSX7vDFSQ2jUA",
+  "name" : "yesterday",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What did you do the last day you worked?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {

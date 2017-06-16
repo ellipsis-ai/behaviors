@@ -1,9 +1,10 @@
-function(channel, whenToAsk, whenToDisplaySummary, ellipsis) {
+function(channel, whenToAsk, whenToDisplaySummary, whenToRemind, ellipsis) {
   const ellipsisApi = require('ellipsis-post-message');
 
 function unscheduleAction(actionName) {
   return ellipsisApi.promiseToUnschedule({
     actionName: actionName,
+    channel: channel.trim(),
     ellipsis: ellipsis
   });
 }
@@ -28,5 +29,6 @@ function setUpAction(action, newTimeOfDay, useDM) {
 
 setUpAction("Check standup status", whenToAsk, true).
   then( r => setUpAction("Standup status summary", whenToDisplaySummary, false), ellipsis.error ).
+  then( r => setUpAction("Reminder", whenToRemind, true), ellipsis.error).
   then( r => ellipsis.success("All done!"), ellipsis.error )
 }

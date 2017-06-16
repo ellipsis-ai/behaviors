@@ -1,4 +1,4 @@
 function(yesterday, today, blockers, ellipsis) {
-  var RandomResponse = require('ellipsis-random-response');
+  const RandomResponse = require('ellipsis-random-response');
 ellipsis.success(RandomResponse.responseWithEmoji("understood"));
 }
