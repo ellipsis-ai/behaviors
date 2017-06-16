@@ -60,7 +60,8 @@ usersAsked().then(usersAskedResponse => {
     }).map(ea => ea.user);
     ellipsis.success({
       answeredResults: answeredResults,
-      slackers: slackers
+      slackers: slackers,
+      hasSlackers: slackers.length > 0
     });
   });
 })

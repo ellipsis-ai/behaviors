@@ -1,12 +1,10 @@
 function(ellipsis) {
-  const ellipsisApi = require('ellipsis-post-message');
+  const EllipsisApi = require('ellipsis-api');
+const api = new EllipsisApi(ellipsis);
 const RandomResponse = require('ellipsis-random-response');
 const greeting = RandomResponse.greetingForTimeZone(ellipsis.teamInfo.timeZone);
 
-ellipsisApi.promiseToSay({ message: greeting, ellipsis: ellipsis }).then(response => {
-  ellipsisApi.promiseToRunAction({
-    actionName: "Answer status questions",
-    ellipsis: ellipsis
-  }).then(response => ellipsis.noResponse());
+api.say({ message: greeting }).then(response => {
+  api.run({ actionName: "Start answer status questions" }).then(response => ellipsis.noResponse());
 });
 }
