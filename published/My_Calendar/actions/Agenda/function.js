@@ -23,6 +23,8 @@ cal.events.list("primary", {
 }, (err, res) => {
   if (err) {
     ellipsis.error(`Error ${err.code}: ${err.message}`);
+  } else if (!res.items) {
+    ellipsis.error("There was a problem fetching your calendar. Google Calendar may be experiencing a hiccup.");
   } else {
     const items = res.items.slice();
     let heading = "";
