@@ -1,4 +1,14 @@
 [ {
+  "exportId" : "BxLhXQGSSeajJX4m9fFrag",
+  "name" : "days",
+  "paramType" : {
+    "exportId" : "Number",
+    "name" : "Number"
+  },
+  "question" : "What is the value for `days`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "GxHSpDiCQqiyFwzYPLtb8g",
   "name" : "tagKey",
   "paramType" : {

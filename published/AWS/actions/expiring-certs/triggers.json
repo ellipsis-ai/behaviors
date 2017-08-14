@@ -1,10 +1,10 @@
 [ {
-  "text" : "aws certs expiring",
+  "text" : "aws expiring certs",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false
 }, {
-  "text" : "aws expiring certs",
+  "text" : "aws certs expiring in the next {days} days",
   "requiresMention" : false,
   "isRegex" : false,
   "caseSensitive" : false
