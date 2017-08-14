@@ -1,0 +1,10 @@
+{
+  "exportId" : "fsxdNQ40QpipzignBX67-A",
+  "name" : "Timezone",
+  "forcePrivateResponse" : false,
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
+}
