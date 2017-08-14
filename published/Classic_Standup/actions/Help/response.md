@@ -2,7 +2,7 @@ Ellipsis runs standup meetings for your team by asking people questions and buil
 
 **Getting started**  
 1. Install the Classic Standup Skill
-1. Run setup. Ellpsis will ask you few questions
+1. Type `setup classic standup` in a message to Ellipsis. It will ask you a few questions.
 1. You are done!
 
 **Using it**  

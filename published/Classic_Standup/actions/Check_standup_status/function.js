@@ -1,6 +1,6 @@
 function(ellipsis) {
   const EllipsisApi = require('ellipsis-api');
-const api = new EllipsisApi(ellipsis);
+const api = new EllipsisApi(ellipsis).actions;
 const RandomResponse = require('ellipsis-random-response');
 const greeting = RandomResponse.greetingForTimeZone(ellipsis.teamInfo.timeZone);
 

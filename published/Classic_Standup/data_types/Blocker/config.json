@@ -2,5 +2,9 @@
   "exportId" : "0UxOcIMsSN-wGmaN-rJ4LQ",
   "name" : "Blocker",
   "forcePrivateResponse" : false,
-  "isDataType" : true
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
 }
