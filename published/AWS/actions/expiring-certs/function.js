@@ -1,4 +1,4 @@
-function(ellipsis) {
+function(days, ellipsis) {
   "use strict"; 
 
 const Q = require('q');
@@ -76,7 +76,7 @@ Q.all([
 ]).then((certLists) => {
   const flattened = [].concat.apply([], certLists);
   const cutoffDate = new Date();
-  cutoffDate.setDate(cutoffDate.getDate()+365);
+  cutoffDate.setDate(cutoffDate.getDate()+days);
   const expiringSoon = 
     flattened.sort((a, b) => a.expiration - b.expiration).
     filter((ea) => (ea.expiration < cutoffDate) && (ea.expiration > new Date()));
@@ -84,7 +84,11 @@ Q.all([
     const expirationStr = dateFormat(ea.expiration, "dddd, mmmm dS, yyyy");
     return { identifier: ea.identifier, expiration: expirationStr };
   });
-  ellipsis.success(result);
+  if (result.length === 0) {
+    ellipsis.noResponse();
+  } else {
+    ellipsis.success(result);
+  }
 }).fail((err) => {
   ellipsis.error(err);
 });

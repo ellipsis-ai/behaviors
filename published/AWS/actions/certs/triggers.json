@@ -1,11 +1,11 @@
 [ {
-  "text" : "aws certificates",
+  "text" : "aws certificates$",
   "requiresMention" : false,
-  "isRegex" : false,
+  "isRegex" : true,
   "caseSensitive" : false
 }, {
-  "text" : "aws certs",
+  "text" : "aws certs$",
   "requiresMention" : false,
-  "isRegex" : false,
+  "isRegex" : true,
   "caseSensitive" : false
 } ]
