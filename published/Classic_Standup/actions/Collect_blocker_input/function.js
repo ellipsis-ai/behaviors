@@ -1,6 +1,6 @@
 function(yesterday, today, blockers, ellipsis) {
   const EllipsisApi = require('ellipsis-api');
-const api = new EllipsisApi(ellipsis);
+const api = new EllipsisApi(ellipsis).actions;
 
 api.run({
   actionName: 'Answer status questions',
