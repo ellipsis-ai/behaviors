@@ -12,8 +12,8 @@
   "exportId" : "w4C6zIa4SNO1X_91WiQTTQ",
   "name" : "shouldRemind",
   "paramType" : {
-    "exportId" : "iP3MgM6jShWcQbS0seUj4g",
-    "name" : "Yes/no"
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
   },
   "question" : "Would you like me to send you a reminder before each event begins?",
   "isSavedForTeam" : false,

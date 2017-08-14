@@ -34,7 +34,7 @@ function doScheduling() {
   })).then(r => {
     const calendarNameText = calendarName ? `the calendar **${calendarName}**` : "your primary calendar";
     successMessage += `OK! I’ll show you the events on ${calendarNameText} every weekday at ${whenToAnnounce} in this channel.`;
-    if (shouldRemind.id === 'yes') {
+    if (shouldRemind) {
       successMessage += `\n\nI’ll also send you reminders in this channel a few minutes before each event begins.`;
       return schedule({
         actionName: "Reminders",
