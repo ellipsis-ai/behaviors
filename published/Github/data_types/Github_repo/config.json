@@ -2,5 +2,9 @@
   "exportId" : "vne9aZ6eQ_6hOFwnSm3alg",
   "name" : "Github repo",
   "forcePrivateResponse" : false,
-  "isDataType" : true
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
 }
