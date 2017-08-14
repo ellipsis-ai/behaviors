@@ -3,7 +3,7 @@
   "name" : "storyState",
   "paramType" : {
     "exportId" : "zu5VaFafR-OMobdXQ93cjA",
-    "name" : "Story state"
+    "name" : "StoryState"
   },
   "question" : "In what state?",
   "isSavedForTeam" : false,
@@ -43,7 +43,7 @@
   "name" : "storyType",
   "paramType" : {
     "exportId" : "Ki8Tp4lYTK2eQ5PZ3ZTHWA",
-    "name" : "Story type"
+    "name" : "StoryType"
   },
   "question" : "What type of story is this?",
   "isSavedForTeam" : false,
