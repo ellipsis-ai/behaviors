@@ -2,5 +2,9 @@
   "exportId" : "SLrCa642Rv2fFi3O4gm_jQ",
   "name" : "Google calendar",
   "forcePrivateResponse" : false,
-  "isDataType" : true
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
 }

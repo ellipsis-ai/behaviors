@@ -9,16 +9,6 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "6hRrFC39TJqdBxFvjE6x8Q",
-  "name" : "reason",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "Why are they away?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
   "exportId" : "K9qrZVp2SmO-M6517hwRcA",
   "name" : "channel",
   "paramType" : {
@@ -26,16 +16,6 @@
     "name" : "Text"
   },
   "question" : "Which channel should I announce vacations in? (e.g. “general”)",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "WNRjNxW9S4yOcwltfIQnbg",
-  "name" : "name",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "Who is away?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -47,16 +27,6 @@
   },
   "question" : "Which calendar tracks vacations for your team?",
   "isSavedForTeam" : true,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "gwCBx49HR3-w63IPGLDryA",
-  "name" : "when",
-  "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
-  },
-  "question" : "When are they away?",
-  "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
   "exportId" : "hx7gCtT8ThiiKjP1JvQ5RQ",
