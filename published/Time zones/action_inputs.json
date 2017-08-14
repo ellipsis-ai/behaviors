@@ -3,7 +3,7 @@
   "name" : "tzToOutput",
   "paramType" : {
     "exportId" : "fsxdNQ40QpipzignBX67-A",
-    "name" : "Time zone"
+    "name" : "Timezone"
   },
   "question" : "I can convert your team time zone to another one automatically. What time zone would you like me to convert to? (I'll remember for next time, or say \"...stop\" if you don't want to answer this now.)",
   "isSavedForTeam" : true,
