@@ -1,31 +1,26 @@
 function(meeting, ellipsis) {
-  const Formatter = require('ellipsis-cal-date-format');
-const gcal = require('google-calendar');
+  const gcal = require('google-calendar');
 const cal = new gcal.GoogleCalendar(ellipsis.accessTokens.googleCalendar);
-const ellipsisApi = require('ellipsis-post-message');
+const EllipsisApi = require('ellipsis-api');
+const api = new EllipsisApi(ellipsis);
+
+const calendars = require('calendars');
 
 const calendarId = meeting.calendarId;
 const eventId = meeting.id;
 
-fetchNextInstance().then(instance => {
-  fetchNextExceptionBefore(new Date(instance.start.dateTime)).then( exception => {
-    const instanceToUse = exception || instance;
-    const existingAgenda = instanceToUse.description || "";
-    ellipsisApi.promiseToSay({
-      message: existingAgendaPromptFor(existingAgenda),
-      ellipsis: ellipsis
-    }).then(res => {
-      ellipsisApi.promiseToRunAction({
-        actionName: "Add to next meeting agenda",
-        args: [ 
-          { name: "meeting", value: meeting.id }, 
-          { name: "existingAgenda", value: existingAgenda }
-        ],
-        ellipsis: ellipsis
-      }).then(res => ellipsis.noResponse());
-    });
+calendars.fetchNextInstanceToUseFor(calendarId, eventId, cal).then(instanceToUse => {
+  const existingAgenda = instanceToUse.description || "";
+  api.say({ message: existingAgendaPromptFor(existingAgenda) }).then(res => {
+    api.run({
+      actionName: "Add to next meeting agenda",
+      args: [ 
+        { name: "meeting", value: meeting.id }, 
+        { name: "existingAgenda", value: existingAgenda }
+      ]
+    }).then(res => ellipsis.noResponse());
   });
-}).catch(ellipsis.error);
+});
 
 function existingAgendaPromptFor(existingAgenda) {
   if (existingAgenda.trim().length === 0) {
@@ -33,41 +28,5 @@ function existingAgendaPromptFor(existingAgenda) {
   } else {
     return `Your existing agenda is:  \n\`\`\`\n${existingAgenda}\n\`\`\``;
   }
-}
-
-function fetchNextExceptionBefore(beforeTime) {
-  return new Promise((resolve, reject) => {
-    const start = (new Date()).toISOString();
-    const options = {
-      timeMin: start,
-      timeMax: beforeTime.toISOString(),
-      orderBy: 'startTime',
-      singleEvents: true
-    };
-    cal.events.list(meeting.calendarId, options, (err, instances) => {
-      if (err) {
-        reject(err);
-      }  else {
-        resolve(instances.items.filter(ea => ea.recurringEventId === eventId)[0]);
-      }
-    })
-  });
-}
-
-function fetchNextInstance() {
-  return new Promise((resolve, reject) => {
-    const start = (new Date()).toISOString();
-    const options = {
-      timeMin: start,
-      maxResults: 1
-    };
-    cal.events.instances(calendarId, eventId, options, (err, instances) => {
-      if (err) {
-        reject(err);
-      }  else {
-        resolve(instances.items[0]);
-      }
-    })
-  });
 }
 }
