@@ -3,7 +3,7 @@
   "name" : "meeting",
   "paramType" : {
     "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
-    "name" : "One-on-one"
+    "name" : "OneOnOne"
   },
   "question" : "What is the value for `meeting`?",
   "isSavedForTeam" : false,
@@ -23,7 +23,7 @@
   "name" : "calendarEvent",
   "paramType" : {
     "exportId" : "7wj9b0emSveu3vULnnWHNg",
-    "name" : "Google calendar recurring event"
+    "name" : "GoogleCalendarRecurringEvent"
   },
   "question" : "Which recurring calendar event tracks the meeting you'd like to add? Type `show all` to see everything.",
   "isSavedForTeam" : false,
@@ -63,7 +63,7 @@
   "name" : "meeting",
   "paramType" : {
     "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
-    "name" : "One-on-one"
+    "name" : "OneOnOne"
   },
   "question" : "For which one-on-one meeting?",
   "isSavedForTeam" : false,
@@ -73,7 +73,7 @@
   "name" : "meeting",
   "paramType" : {
     "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
-    "name" : "One-on-one"
+    "name" : "OneOnOne"
   },
   "question" : "Which meeting do you want to remove?",
   "isSavedForTeam" : false,
@@ -93,7 +93,7 @@
   "name" : "meeting",
   "paramType" : {
     "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
-    "name" : "One-on-one"
+    "name" : "OneOnOne"
   },
   "question" : "For which one on one meeting?",
   "isSavedForTeam" : false,
@@ -103,7 +103,7 @@
   "name" : "meeting",
   "paramType" : {
     "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
-    "name" : "One-on-one"
+    "name" : "OneOnOne"
   },
   "question" : "For which one-on-one meeting?",
   "isSavedForTeam" : false,
@@ -113,7 +113,7 @@
   "name" : "meeting",
   "paramType" : {
     "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
-    "name" : "One-on-one"
+    "name" : "OneOnOne"
   },
   "question" : "For which one-on-one meeting?",
   "isSavedForTeam" : false,
