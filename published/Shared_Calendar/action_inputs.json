@@ -23,7 +23,7 @@
   "name" : "calendar",
   "paramType" : {
     "exportId" : "SLrCa642Rv2fFi3O4gm_jQ",
-    "name" : "Google calendar"
+    "name" : "GoogleCalendar"
   },
   "question" : "Which calendar tracks vacations for your team?",
   "isSavedForTeam" : true,
