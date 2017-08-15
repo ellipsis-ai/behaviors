@@ -3,7 +3,7 @@
   "name" : "project",
   "paramType" : {
     "exportId" : "nxl_7nG_QyqwZJHrDH6kGQ",
-    "name" : "Todoist project"
+    "name" : "TodoistProject"
   },
   "question" : "Which project?",
   "isSavedForTeam" : false,

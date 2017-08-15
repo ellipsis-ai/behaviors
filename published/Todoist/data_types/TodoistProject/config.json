@@ -1,0 +1,10 @@
+{
+  "exportId" : "nxl_7nG_QyqwZJHrDH6kGQ",
+  "name" : "TodoistProject",
+  "forcePrivateResponse" : false,
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
+}
