@@ -1,0 +1,10 @@
+{
+  "exportId" : "OJNqqGBrQESQmPAJu7xDVw",
+  "name" : "OneOnOne",
+  "forcePrivateResponse" : false,
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
+}

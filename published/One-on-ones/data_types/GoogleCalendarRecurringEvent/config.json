@@ -1,0 +1,10 @@
+{
+  "exportId" : "7wj9b0emSveu3vULnnWHNg",
+  "name" : "GoogleCalendarRecurringEvent",
+  "forcePrivateResponse" : false,
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
+}

@@ -1,15 +1,10 @@
 function(shouldAddAnother, ellipsis) {
-  const ellipsisApi = require('ellipsis-post-message');
+  const EllipsisApi = require('ellipsis-api');
+const api = new EllipsisApi(ellipsis).actions;
 
 if (shouldAddAnother) {
-  ellipsisApi.promiseToRunAction({
-    actionName: "Add meeting",
-    ellipsis: ellipsis
-  }).then(res => ellipsis.noResponse());
+  api.run({ actionName: "Add meeting" }).then(res => ellipsis.noResponse());
 } else {
-  ellipsisApi.promiseToRunAction({
-    actionName: "Check add agenda",
-    ellipsis: ellipsis
-  }).then(res => ellipsis.noResponse());
+  api.run({ actionName: "Check add agenda" }).then(res => ellipsis.noResponse());
 }
 }

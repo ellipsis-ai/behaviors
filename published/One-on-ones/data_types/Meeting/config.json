@@ -1,0 +1,24 @@
+{
+  "exportId" : "tJ3Gvh-JRpSKssillmi9Pw",
+  "name" : "Meeting",
+  "forcePrivateResponse" : false,
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ {
+      "name" : "externalId",
+      "fieldType" : {
+        "exportId" : "Text",
+        "name" : "Text"
+      },
+      "isLabel" : false
+    }, {
+      "name" : "description",
+      "fieldType" : {
+        "exportId" : "Text",
+        "name" : "Text"
+      },
+      "isLabel" : false
+    } ],
+    "usesCode" : false
+  }
+}

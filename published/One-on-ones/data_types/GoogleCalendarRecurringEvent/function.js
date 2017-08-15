@@ -4,7 +4,7 @@ const rrule = require('rrule');
 const gcal = require('google-calendar');
 const cal = new gcal.GoogleCalendar(ellipsis.accessTokens.googleCalendar);
 
-const db = require('ellipsis-default-storage');
+const meetings = require('meetings');
 const itemType = "one-on-ones";
 const meetingsKey = ellipsis.userInfo.ellipsisUserId.trim();
 
@@ -13,7 +13,7 @@ const max = min.clone().startOf('day').add(30, 'days');
 
 fetchCalendars().then(calendars => {
   fetchEvents(calendars).then(events => {
-    fetchExistingMeetings().then(meetings => {
+    meetings.get(ellipsis).then(meetings => {
       const meetingIds = meetings.map(m => m.id);
       const filtered = events
         .filter(ea => ea.eventType === "recurring")
@@ -22,21 +22,7 @@ fetchCalendars().then(calendars => {
       ellipsis.success(filtered);
     });
   });
-}).catch(ellipsis.error);
-
-function fetchExistingMeetings() {
-  return new Promise((resolve, reject) => {
-    db.getItem({
-      itemId: meetingsKey,
-      itemType: itemType,
-      ellipsis: ellipsis,
-      onSuccess: function(response, body) {
-        resolve(JSON.parse(JSON.parse(body)));
-      },
-      onError: resolve([])
-    }); 
-  });
-}
+}).catch(err => ellipsis.error(JSON.stringify(err)));
 
 function fetchCalendars() {
   return new Promise((resolve, reject) => {
