@@ -1,8 +1,6 @@
 ⏰ {successResult.heading}
 
 {for event in successResult.items}
-{event.formattedEventTime}  
-**[{event.summary}]({event.htmlLink})**  
-{event.optionalData}{event.optionalHangoutLink}
+{event.formattedEvent}
 
 {endfor}

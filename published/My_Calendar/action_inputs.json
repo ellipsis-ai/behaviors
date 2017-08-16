@@ -5,7 +5,7 @@
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What time should I send you your agenda for the day? e.g. “9 AM” or “10 AM Eastern time”",
+  "question" : "What time should I send you your agenda for the day? e.g. “9 AM” or “10 AM Eastern time”, or “none” if you don’t want an agenda",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {

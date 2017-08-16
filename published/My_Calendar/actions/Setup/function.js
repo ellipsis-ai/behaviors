@@ -23,19 +23,29 @@ function doScheduling() {
     actionName: "Agenda",
     userId: ellipsis.userInfo.ellipsisUserId,
     ellipsis: ellipsis
-  }).then(r => unschedule({
-    actionName: "Reminders",
-    userId: ellipsis.userInfo.ellipsisUserId,
-    ellipsis: ellipsis
-  })).then(r => schedule({
-    actionName: "Agenda",
-    recurrence: `every weekday at ${whenToAnnounce}`,
-    ellipsis: ellipsis
-  })).then(r => {
+  }).then(r => {
+    unschedule({
+      actionName: "Reminders",
+      userId: ellipsis.userInfo.ellipsisUserId,
+      ellipsis: ellipsis
+    });
+  }).then(r => {
+    if (whenToAnnounce !== "none") {
+      schedule({
+        actionName: "Agenda",
+        recurrence: `every weekday at ${whenToAnnounce}`,
+        ellipsis: ellipsis
+      });
+    }
+  }).then(r => {
     const calendarNameText = calendarName ? `the calendar **${calendarName}**` : "your primary calendar";
-    successMessage += `OK! I’ll show you the events on ${calendarNameText} every weekday at ${whenToAnnounce} in this channel.`;
+    successMessage += whenToAnnounce === "none" ?
+      `OK. I won’t send you an agenda in this channel.` :
+      `OK! I’ll show you the events on ${calendarNameText} every weekday at ${whenToAnnounce} in this channel.`;
     if (shouldRemind) {
-      successMessage += `\n\nI’ll also send you reminders in this channel a few minutes before each event begins.`;
+      successMessage += whenToAnnounce === "none" ?
+        `\n\nHowever, I will send you reminders a few minutes before each event begins.` :
+        `\n\nI’ll also send you reminders a few minutes before each event begins.`;
       return schedule({
         actionName: "Reminders",
         recurrence: "every 5 minutes",
