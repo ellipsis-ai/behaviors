@@ -1,0 +1,11 @@
+{
+  "exportId" : "4ik9nNZDREGgf-lf2hucgw",
+  "name" : "check_certs_expiration",
+  "aws" : {
+    "accessKeyName" : "AWS_ACCESS_KEY",
+    "secretKeyName" : "AWS_SECRET_KEY",
+    "regionName" : "AWS_REGION"
+  },
+  "forcePrivateResponse" : false,
+  "isDataType" : false
+}

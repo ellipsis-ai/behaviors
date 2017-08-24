@@ -1,0 +1,11 @@
+[ {
+  "exportId" : "K9u0G62ORA6PYlaYqGIEag",
+  "name" : "userInput1",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `userInput1`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]

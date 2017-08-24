@@ -1,0 +1,7 @@
+{
+  "name" : "SSL Certs Manager",
+  "exportId" : "3EbrI7Z7TnaqQHXmm8nHsQ",
+  "icon" : "🔐",
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
+}

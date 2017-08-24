@@ -1,0 +1,11 @@
+{
+  "exportId" : "QVENSsp8RY6txACfluuuBg",
+  "name" : "monitor_certs",
+  "aws" : {
+    "accessKeyName" : "AWS_ACCESS_KEY",
+    "secretKeyName" : "AWS_SECRET_KEY",
+    "regionName" : "AWS_REGION"
+  },
+  "forcePrivateResponse" : false,
+  "isDataType" : false
+}
