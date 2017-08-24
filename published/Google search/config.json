@@ -2,6 +2,7 @@
   "name" : "Google Search",
   "exportId" : "yAD8edzUQmW9u-kmPhpTLA",
   "icon" : "🐿",
+  "requiredAWSConfigs" : [ ],
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ]
 }

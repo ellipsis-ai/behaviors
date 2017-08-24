@@ -2,6 +2,7 @@
   "name" : "Web search",
   "exportId" : "YNQGLmqyTUuqPo5ZOI31lw",
   "icon" : "🔎",
+  "requiredAWSConfigs" : [ ],
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ]
 }

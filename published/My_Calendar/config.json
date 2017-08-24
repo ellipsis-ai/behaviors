@@ -2,6 +2,7 @@
   "name" : "My Calendar",
   "exportId" : "9l9tTPMcQliQRua_UmJ8sw",
   "icon" : "⏰",
+  "requiredAWSConfigs" : [ ],
   "requiredOAuth2ApiConfigs" : [ {
     "apiId" : "RdG2Wm5DR0m2_4FZXf-yKA",
     "recommendedScope" : "https://www.googleapis.com/auth/calendar"
