@@ -1,0 +1,31 @@
+[ {
+  "exportId" : "7_szWGZXRda6UwoCnl1HNQ",
+  "name" : "dateRange",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What time range are you interested in?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "DtEGd6g4RtuijF6SEugFEw",
+  "name" : "advertisableEID",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the Advertisable EID?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "VKijhO0WT4GHnIKMpC_zEw",
+  "name" : "organizationEID",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `organizationEID`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]

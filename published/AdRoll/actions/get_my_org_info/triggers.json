@@ -1,0 +1,6 @@
+[ {
+  "text" : "get my org info",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]

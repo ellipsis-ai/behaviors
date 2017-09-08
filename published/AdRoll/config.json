@@ -1,0 +1,10 @@
+{
+  "name" : "AdRoll",
+  "exportId" : "AscmjM2uSCO3RsZLocaz-A",
+  "icon" : "🌭",
+  "requiredOAuth2ApiConfigs" : [ {
+    "apiId" : "AU3mdlpMSoWtqI8BiBdITw",
+    "recommendedScope" : "all"
+  } ],
+  "requiredSimpleTokenApis" : [ ]
+}
