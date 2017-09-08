@@ -1,0 +1,10 @@
+{
+  "exportId" : "Iu9ApncBRpSO1VxdYDI7oQ",
+  "name" : "AdvertisableEID",
+  "forcePrivateResponse" : false,
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
+}

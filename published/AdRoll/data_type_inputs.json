@@ -1,0 +1,11 @@
+[ {
+  "exportId" : "Uc50xXH4RtGkCEGppKa_gQ",
+  "name" : "searchQuery",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `searchQuery`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]
