@@ -1,11 +1,6 @@
 {
   "exportId" : "03Kqf8YZRK-9o9TGMa-Snw",
   "name" : "list-buckets",
-  "aws" : {
-    "accessKeyName" : "AWS_ACCESS_KEY",
-    "secretKeyName" : "AWS_SECRET_KEY",
-    "regionName" : "AWS_REGION"
-  },
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

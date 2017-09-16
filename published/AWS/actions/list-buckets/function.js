@@ -1,7 +1,8 @@
 function(ellipsis) {
   "use strict"; 
+const aws = require('aws');
+const s3 = aws.getS3(ellipsis);
 
-const s3 = new ellipsis.AWS.S3();
 s3.listBuckets((response, data) => {                
   ellipsis.success(data);
 });

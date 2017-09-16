@@ -1,7 +1,9 @@
 function(ellipsis) {
   "use strict"; 
 
-const ec2 = new ellipsis.AWS.EC2();
+const aws = require('aws');
+const ec2 = aws.getEC2(ellipsis);
+
 var params = {};
 ec2.describeInstances(params, function(err, data) {
   if (err) {

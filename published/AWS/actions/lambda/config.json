@@ -1,11 +1,6 @@
 {
   "exportId" : "R_xV21XQReCfcZjkeb5kQA",
   "name" : "lambda",
-  "aws" : {
-    "accessKeyName" : "AWS_ACCESS_KEY",
-    "secretKeyName" : "AWS_SECRET_KEY",
-    "regionName" : "AWS_REGION"
-  },
   "forcePrivateResponse" : false,
   "isDataType" : false
 }
