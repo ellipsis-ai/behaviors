@@ -1,7 +1,7 @@
 {
   "name" : "AWS",
   "exportId" : "s47lMcsLQyylDcbYvAJGTg",
-  "icon" : "<U+1F526>",
+  "icon" : "🔦",
   "requiredAWSConfigs" : [ {
     "nameInCode" : "default"
   } ],
