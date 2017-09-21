@@ -2,6 +2,7 @@
   "name" : "Todoist",
   "exportId" : "qfPf3q0iQTC29dUTXgCkdw",
   "icon" : "✅",
+  "requiredAWSConfigs": [ ],
   "requiredOAuth2ApiConfigs" : [ {
     "apiId" : "Ec2SnSHFTV2Y0jkzbqUmFA",
     "recommendedScope" : "data:read_write"

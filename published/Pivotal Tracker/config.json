@@ -2,6 +2,7 @@
   "name" : "Pivotal Tracker",
   "exportId" : "2TU9xnxGRx681kzHXR-yUQ",
   "icon" : "⭐️",
+  "requiredAWSConfigs": [ ],
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ {
     "apiId" : "pivotal-tracker",
