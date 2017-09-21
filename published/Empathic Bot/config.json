@@ -2,7 +2,7 @@
   "name" : "Empathic Bot",
   "exportId" : "ZdfnNGcIRJaK3bp3VJUhaA",
   "icon" : "😇",
-  "requiredAWSConfigs": [ ],
+  "requiredAWSConfigs" : [ ],
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ]
 }

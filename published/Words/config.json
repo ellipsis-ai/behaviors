@@ -2,7 +2,7 @@
   "name" : "Words",
   "exportId" : "LBQWF7YWR-mSZX2GcexLEw",
   "icon" : "📖",
-  "requiredAWSConfigs": [ ],
+  "requiredAWSConfigs" : [ ],
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ]
 }

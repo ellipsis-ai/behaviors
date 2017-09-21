@@ -2,7 +2,7 @@
   "name" : "Daily goals & results",
   "exportId" : "eZwsrC-zRz-sdgZ0gdrn0Q",
   "icon" : "🎯",
-  "requiredAWSConfigs": [ ],
+  "requiredAWSConfigs" : [ ],
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ]
 }

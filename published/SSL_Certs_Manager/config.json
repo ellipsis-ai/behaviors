@@ -2,7 +2,7 @@
   "name" : "SSL Certs Manager",
   "exportId" : "3EbrI7Z7TnaqQHXmm8nHsQ",
   "icon" : "🔐",
-  "requiredAWSConfigs": [ ],
+  "requiredAWSConfigs" : [ ],
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ]
 }
