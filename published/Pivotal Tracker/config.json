@@ -6,6 +6,7 @@
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ {
     "apiId" : "pivotal-tracker",
-    "name" : "Pivotal Tracker"
+    "name" : "Pivotal Tracker",
+    "nameInCode" : "pivotalTracker"
   } ]
 }
