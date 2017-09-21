@@ -2,8 +2,10 @@
   "name" : "Lunch",
   "exportId" : "mzEGPtn5R2OcmHpbD3wMrw",
   "icon" : "🍔",
+  "requiredAWSConfigs" : [ ],
   "requiredOAuth2ApiConfigs" : [ {
-    "apiId" : "0liyxeHPTrqEpRCAsUQJRQ"
+    "apiId" : "0liyxeHPTrqEpRCAsUQJRQ",
+    "nameInCode" : "yelp"
   } ],
   "requiredSimpleTokenApis" : [ ]
 }

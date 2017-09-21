@@ -2,6 +2,7 @@
   "name" : "DevOps",
   "exportId" : "OQ0oowdzR2OsKjKou1K7fA",
   "icon" : "🕹",
+  "requiredAWSConfigs" : [ ],
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ]
 }
