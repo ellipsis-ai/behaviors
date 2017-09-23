@@ -5,7 +5,8 @@ const cleanUpValue = (v) => {
   return v.replace(/^\"|\"$/g, "");
 };
 
-const s3 = new ellipsis.AWS.S3();
+const aws = require('aws');
+const s3 = aws.getS3(ellipsis);
 
 const bucket = "ellipsis-aws-billing";
 

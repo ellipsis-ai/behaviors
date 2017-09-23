@@ -4,7 +4,8 @@ function(ellipsis) {
 const Q = require('q');
 const groupBy = require('group-by');
 const pretty = require('prettysize');
-const cloudwatch = new ellipsis.AWS.CloudWatch();
+const aws = require('aws');
+const cloudwatch = aws.getCloudWatch(ellipsis);
 const namespace = "AWS/S3";
 
 const getMetrics = () => {

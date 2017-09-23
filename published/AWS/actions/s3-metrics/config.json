@@ -1,11 +1,6 @@
 {
   "exportId" : "6cp66JTMRDKghUoav04z1w",
   "name" : "s3-metrics",
-  "aws" : {
-    "accessKeyName" : "AWS_ACCESS_KEY",
-    "secretKeyName" : "AWS_SECRET_KEY",
-    "regionName" : "AWS_REGION"
-  },
   "forcePrivateResponse" : false,
   "isDataType" : false
 }

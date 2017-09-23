@@ -2,7 +2,9 @@
   "name" : "AWS",
   "exportId" : "s47lMcsLQyylDcbYvAJGTg",
   "icon" : "🔦",
-  "requiredAWSConfigs" : [ ],
+  "requiredAWSConfigs" : [ {
+    "nameInCode" : "default"
+  } ],
   "requiredOAuth2ApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ]
 }

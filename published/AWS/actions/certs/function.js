@@ -3,9 +3,10 @@ function(ellipsis) {
 
 const Q = require('q');
 const dateFormat = require('dateformat');
+const aws = require('aws');
 
 const certsFromIAM = () => {
-  const iam = new ellipsis.AWS.IAM();
+  const iam = aws.getIAM(ellipsis);
   const deferred = Q.defer();
   
   iam.listServerCertificates({}, (err, data) => {
@@ -28,7 +29,7 @@ const certsFromIAM = () => {
   return deferred.promise;
 };
 
-const acm = new ellipsis.AWS.ACM();
+const acm = aws.getACM(ellipsis);
 
 const certArnsFromACM = () => {
   const deferred = Q.defer();
