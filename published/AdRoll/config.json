@@ -4,7 +4,8 @@
   "icon" : "🌭",
   "requiredOAuth2ApiConfigs" : [ {
     "apiId" : "AU3mdlpMSoWtqI8BiBdITw",
-    "recommendedScope" : "all"
+    "recommendedScope" : "all",
+    "nameInCode" : "adRollApp"
   } ],
   "requiredSimpleTokenApis" : [ ]
 }
