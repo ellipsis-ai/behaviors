@@ -13,6 +13,7 @@ function scheduleAction(actionName, timeOfDay, useDM) {
   const recurrence = `every weekday at ${timeOfDay}`;
   return ellipsisApi.promiseToSchedule({
     actionName: actionName,
+    args: [ { name: "channel", value: channel }],
     responseContext: "slack",
     channel: channel.trim(),
     recurrence: recurrence,

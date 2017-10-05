@@ -1,4 +1,14 @@
 [ {
+  "exportId" : "-cMmpDoNRL6yYk4a383vQA",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which channel?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "5PV4f6gpQO6v3RzrcDCNDg",
   "name" : "yesterday",
   "paramType" : {
@@ -69,6 +79,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "SDDLZT7XQ-O3HqAqkgtBwA",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which channel?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "UoMNvhulSmaRWPLjsVKAFA",
   "name" : "blockers",
   "paramType" : {
@@ -89,6 +109,26 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "Xa_v_30vTVuvtWjKRT191Q",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which channel?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "cyJJsPaFRRy9BpMIW4ZfAg",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which channel?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "fDpsVQQ3ToiyvwCUdx4SSA",
   "name" : "whenToDisplaySummary",
   "paramType" : {
@@ -96,6 +136,16 @@
     "name" : "Text"
   },
   "question" : "When should I display everyone's status for others to see? (e.g. 9:55am if the meeting is at 10am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "fqB0umpcTNSKFWox7I0nAg",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which channel?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
