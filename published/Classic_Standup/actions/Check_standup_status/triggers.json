@@ -3,4 +3,9 @@
   "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false
+}, {
+  "text" : "standup checkin for {channel}",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
 } ]

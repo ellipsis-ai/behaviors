@@ -1,4 +1,4 @@
-function(yesterday, today, blockers, ellipsis) {
+function(yesterday, today, blockers, channel, ellipsis) {
   const EllipsisApi = require('ellipsis-api');
 const api = new EllipsisApi(ellipsis).actions;
 
@@ -7,7 +7,8 @@ api.run({
   args: [
     { name: "yesterday", value: yesterday },
     { name: "today", value: today },
-    { name: "blockers", value: blockers }
+    { name: "blockers", value: blockers },
+    { name: "channel", value: channel }
   ]
 }).then(res => ellipsis.noResponse());
 }

@@ -1,4 +1,4 @@
-function(ellipsis) {
+function(channel, ellipsis) {
   const groupBy = require('group-by');
 const moment = require('moment-timezone');
 const getActionLogs = require('ellipsis-action-logs').get;
@@ -15,6 +15,12 @@ function mostRecentByUserIn(arr) {
   return userResults;
 }
 
+function filteredByChannel(actionLogs) {
+  return actionLogs.filter(ea => {
+    return ea.paramValues.channel && (ea.paramValues.channel.trim() === channel.trim());
+  });
+}
+
 function statusAnswers() {
   return new Promise((resolve, reject) => {
     getActionLogs({ 
@@ -25,7 +31,7 @@ function statusAnswers() {
       success: resolve,
       error: reject
     });
-  });
+  }).then(filteredByChannel);
 }
 
 function usersAsked() {
@@ -38,7 +44,7 @@ function usersAsked() {
       success: resolve,
       error: reject
     });
-  });
+  }).then(filteredByChannel);
 }
 
 const NO_RESPONSE = "_(no response yet)_";
@@ -61,7 +67,8 @@ usersAsked().then(usersAskedResponse => {
     ellipsis.success({
       answeredResults: answeredResults,
       slackers: slackers,
-      hasSlackers: slackers.length > 0
+      hasSlackers: slackers.length > 0,
+      nobodyWasAsked: askedByUser.length === 0
     });
   });
 })
