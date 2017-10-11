@@ -15,9 +15,14 @@ function mostRecentByUserIn(arr) {
   return userResults;
 }
 
+function channelForComparison(channel) {
+  return channel.trim().replace(/#/, ""); 
+}
+
 function filteredByChannel(actionLogs) {
   return actionLogs.filter(ea => {
-    return ea.paramValues.channel && (ea.paramValues.channel.trim() === channel.trim());
+    return ea.paramValues.channel && 
+      (channelForComparison(ea.paramValues.channel) === channelForComparison(channel));
   });
 }
 
