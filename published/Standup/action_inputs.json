@@ -15,7 +15,7 @@
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "List anything that's blocking your work at the moment, or type \"none\" if you aren't blocked.",
+  "question" : "What is blocking your work at the moment? Type \"none\" if you aren't blocked.",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
