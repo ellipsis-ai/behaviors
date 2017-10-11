@@ -6,7 +6,7 @@ const greeting = RandomResponse.greetingForTimeZone(ellipsis.teamInfo.timeZone);
 
 api.say({ message: greeting }).then(response => {
   api.say({message: `This is a standup checkin for ${channel}` }).then(response => {
-    const name = "Start answer status questions";
+    const name = "Answer status questions";
     const args = [ { name: "channel", value: channel }];
     api.run({ actionName: name, args: args }).then(response => ellipsis.noResponse());
   });

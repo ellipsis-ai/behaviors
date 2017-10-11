@@ -8,8 +8,9 @@ Here's where everyone's at today:
 **<@{userResult.user}>:** 
 
 **Yesterday:** {userResult.yesterday}  
-    **Today:** {userResult.today}  
- **Blockers:** {userResult.blockers}  
+**Today's most important task:** {userResult.today}  
+**What else today:** {userResult.today2}  
+**Blockers:** {userResult.blockers}  
 
 {endfor}
 
