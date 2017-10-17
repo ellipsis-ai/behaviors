@@ -2,7 +2,7 @@ function(ellipsis) {
   "use strict";
 
 const moment = require('moment-timezone');
-moment.tz.setDefault(ellipsis.teamInfo.timeZone);
+moment.tz.setDefault(ellipsis.userInfo.timeZone || ellipsis.teamInfo.timeZone);
 const gcal = require('google-calendar');
 const cal = new gcal.GoogleCalendar(ellipsis.accessTokens.googleCalendar);
 const Formatter = require('ellipsis-cal-date-format');
@@ -19,10 +19,15 @@ function list() {
     orderBy: 'startTime',
     singleEvents: true
   }, (err, res) => {
+    const errorMessage = "An error occurred while checking your Google calendar for upcoming events. You may try running `...what's on my calendar now` to see if it happens again. The problem may be temporary.";
     if (err) {
-      ellipsis.error(`Error ${err.code}: ${err.message}`);
+      throw new ellipsis.Error(`Error ${err.code}: ${err.message}`, {
+        userMessage: errorMessage
+      });
     } else if (!res.items) {
-      ellipsis.error("There was a problem fetching your calendar. Google Calendar may be experiencing a hiccup.");
+      throw new ellipsis.Error("Google Calendar returned an invalid response (no items).", {
+        userMessage: errorMessage
+      });
     } else {
       const tz = res.timeZone || ellipsis.teamInfo.timeZone;
       moment.tz.setDefault(tz);

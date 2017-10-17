@@ -3,15 +3,16 @@ function(whenToAnnounce, shouldRemind, ellipsis) {
 
 const gcal = require('google-calendar');
 const cal = new gcal.GoogleCalendar(ellipsis.accessTokens.googleCalendar);
-const PM = require('ellipsis-post-message');
-const schedule = PM.promiseToSchedule;
-const unschedule = PM.promiseToUnschedule;
+const EllipsisApi = ellipsis.require('ellipsis-api');
+const api = new EllipsisApi(ellipsis).actions;
 let successMessage = "";
 let calendarName;
 
 cal.calendars.get("primary", (err, res) => {
   if (err) {
-    ellipsis.error(`Error retrieving your primary calendar (${err.code}): ${err.message}`);
+    throw new ellipsis.Error(`Error retrieving your primary calendar (${err.code}): ${err.message}`, {
+      userMessage: "Sorry, an error occurred retrieving your primary calendar."
+    });
   } else {
     calendarName = res.summary;
     doScheduling();
@@ -19,22 +20,22 @@ cal.calendars.get("primary", (err, res) => {
 });
 
 function doScheduling() {
-  unschedule({
-    actionName: "Agenda",
-    userId: ellipsis.userInfo.ellipsisUserId,
-    ellipsis: ellipsis
+  api.unschedule({
+    trigger: "what's on my calendar today",
+    channel: ellipsis.userInfo.messageInfo.channel,
+    userId: ellipsis.userInfo.ellipsisUserId
   }).then(r => {
-    unschedule({
-      actionName: "Reminders",
-      userId: ellipsis.userInfo.ellipsisUserId,
-      ellipsis: ellipsis
+    api.unschedule({
+      trigger: "what's on my calendar now",
+      channel: ellipsis.userInfo.messageInfo.channel,
+      userId: ellipsis.userInfo.ellipsisUserId
     });
   }).then(r => {
     if (whenToAnnounce !== "none") {
-      schedule({
-        actionName: "Agenda",
-        recurrence: `every weekday at ${whenToAnnounce}`,
-        ellipsis: ellipsis
+      api.schedule({
+        trigger: "what's on my calendar today",
+        channel: ellipsis.userInfo.messageInfo.channel,
+        recurrence: `every weekday at ${whenToAnnounce}`
       });
     }
   }).then(r => {
@@ -46,15 +47,17 @@ function doScheduling() {
       successMessage += whenToAnnounce === "none" ?
         `\n\nHowever, I will send you reminders a few minutes before each event begins.` :
         `\n\nI’ll also send you reminders a few minutes before each event begins.`;
-      return schedule({
-        actionName: "Reminders",
-        recurrence: "every 5 minutes",
-        ellipsis: ellipsis
+      return api.schedule({
+        trigger: "what's on my calendar now",
+        channel: ellipsis.userInfo.messageInfo.channel,
+        recurrence: "every 5 minutes"
       });
     } else {
       return true;
     }
   }).then(r => ellipsis.success(successMessage + "\n\nTo change these settings, say “setup my calendar” again." ))
-    .catch(e => ellipsis.error(e));
+    .catch(e => {
+      throw new ellipsis.Error(e, { userMessage: "An error occurred while trying to create the schedule." });
+    });
 }
 }

@@ -8,10 +8,12 @@ const Formatter = require('ellipsis-cal-date-format');
 
 cal.calendars.get("primary", (err, res) => {
   if (err) {
-    ellipsis.error(`An error occurred retrieving your primary calendar (${err.code}): ${err.message}`);
+    throw new ellipsis.Error(`An error occurred retrieving your primary calendar (${err.code}): ${err.message}`, {
+      userMessage: "An error occurred while fetching your calendar from Google. You may try running `...what's on my calendar today` again to see if it was temporary."
+    });
   } else {
     const tz = res.timeZone;
-    list(tz || ellipsis.teamInfo.timeZone);
+    list(tz || ellipsis.userInfo.timeZone || ellipsis.teamInfo.timeZone);
   }
 });
 
