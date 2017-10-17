@@ -21,19 +21,19 @@ cal.calendars.get("primary", (err, res) => {
 
 function doScheduling() {
   api.unschedule({
-    trigger: "what's on my calendar today",
+    actionName: "Agenda",
     channel: ellipsis.userInfo.messageInfo.channel,
     userId: ellipsis.userInfo.ellipsisUserId
   }).then(r => {
     api.unschedule({
-      trigger: "what's on my calendar now",
+      actionName: "Reminders",
       channel: ellipsis.userInfo.messageInfo.channel,
       userId: ellipsis.userInfo.ellipsisUserId
     });
   }).then(r => {
     if (whenToAnnounce !== "none") {
       api.schedule({
-        trigger: "what's on my calendar today",
+        actionName: "Agenda",
         channel: ellipsis.userInfo.messageInfo.channel,
         recurrence: `every weekday at ${whenToAnnounce}`
       });
@@ -48,16 +48,13 @@ function doScheduling() {
         `\n\nHowever, I will send you reminders a few minutes before each event begins.` :
         `\n\nI’ll also send you reminders a few minutes before each event begins.`;
       return api.schedule({
-        trigger: "what's on my calendar now",
+        actionName: "Reminders",
         channel: ellipsis.userInfo.messageInfo.channel,
         recurrence: "every 5 minutes"
       });
     } else {
       return true;
     }
-  }).then(r => ellipsis.success(successMessage + "\n\nTo change these settings, say “setup my calendar” again." ))
-    .catch(e => {
-      throw new ellipsis.Error(e, { userMessage: "An error occurred while trying to create the schedule." });
-    });
+  }).then(r => ellipsis.success(successMessage + "\n\nTo change these settings, say “setup my calendar” again." ));
 }
 }
