@@ -15,12 +15,14 @@ Here's where everyone's at today (all times {successResult.timeZone}):
 {endfor}
 
 {if successResult.hasSlackers}
-The following slackers haven't answered yet:
+I'm missing responses from the following people:
 
 {for slacker in successResult.slackers}
 **<@{slacker}>**
 {endfor}
 
+No big deal! You can still add one now by typing `/dm @ellipsis standup checkin for {channel}`.  
+Once you are done you can type `@ellipsis standup status for {channel}` here to have an updated summary posted.
 {else}
 Everyone accounted for. Nicely done.
 {endif}

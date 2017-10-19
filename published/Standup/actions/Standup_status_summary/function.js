@@ -3,7 +3,7 @@ function(channel, ellipsis) {
 const moment = require('moment-timezone');
 const getActionLogs = require('ellipsis-action-logs').get;
 
-const from = moment.tz(new Date(), ellipsis.teamInfo.timeZone).startOf('day').toDate();
+const from = moment.tz(new Date(), ellipsis.teamInfo.timeZone).subtract(4, 'day').toDate();
 
 function mostRecentByUserIn(arr) {
   const byUser = groupBy(arr, "userIdForContext");
@@ -53,10 +53,10 @@ function usersAsked() {
 }
 
 const NO_RESPONSE = "_(no response yet)_";
+const todayStart = moment().tz(ellipsis.teamInfo.timeZone).startOf('day');
 
 function whenFor(timestamp) {
   const inZone = moment(timestamp).tz(ellipsis.teamInfo.timeZone);
-  const todayStart = moment().tz(ellipsis.teamInfo.timeZone).startOf('day');
   if (inZone.isAfter(todayStart)) {
     return inZone.format('h:mma');
   } else {
@@ -67,7 +67,11 @@ function whenFor(timestamp) {
 usersAsked().then(usersAskedResponse => {
   const askedByUser = mostRecentByUserIn(usersAskedResponse);
   statusAnswers().then(response => {
-    const results = mostRecentByUserIn(response);
+    const results = mostRecentByUserIn(response).filter(ea => {
+      const lastAsked = askedByUser.find(eaAsked => eaAsked.user === ea.user);
+      const cutoff = lastAsked ? moment.max(moment(lastAsked.timestamp), todayStart) : todayStart;
+      return moment(ea.timestamp).isAfter(cutoff);
+    });
     const answeredResults = results.map(ea => {
       return {
         user: ea.user,
@@ -86,7 +90,7 @@ usersAsked().then(usersAskedResponse => {
       slackers: slackers,
       hasSlackers: slackers.length > 0,
       nobodyWasAsked: askedByUser.length === 0,
-      timeZone: ellipsis.teamInfo.timeZone
+      timeZone: moment().tz(ellipsis.teamInfo.timeZone).format("z")
     });
   });
 })
