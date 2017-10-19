@@ -49,6 +49,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "T1hCaJynRFm_oLYYW4PYXA",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which channel?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "UuoKvs07QwO1k17mSxxRxA",
   "name" : "today",
   "paramType" : {

@@ -3,54 +3,9 @@ function(channel, ellipsis) {
 const moment = require('moment-timezone');
 const getActionLogs = require('ellipsis-action-logs').get;
 
+const ActionLogs = require('action-logs')(channel, ellipsis);
+
 const from = moment.tz(new Date(), ellipsis.teamInfo.timeZone).subtract(4, 'day').toDate();
-
-function mostRecentByUserIn(arr) {
-  const byUser = groupBy(arr, "userIdForContext");
-  const userResults = [];
-  Object.keys(byUser).forEach(key => {
-    const mostRecent = byUser[key].sort((a, b) => a.timestamp > b.timestamp ? -1 : 1)[0];
-    userResults.push(Object.assign({}, mostRecent.paramValues, {user: key, timestamp: mostRecent.timestamp}));
-  });
-  return userResults;
-}
-
-function channelForComparison(channel) {
-  return channel.trim().replace(/#/, ""); 
-}
-
-function filteredByChannel(actionLogs) {
-  return actionLogs.filter(ea => {
-    return ea.paramValues.channel && 
-      (channelForComparison(ea.paramValues.channel) === channelForComparison(channel));
-  });
-}
-
-function statusAnswers() {
-  return new Promise((resolve, reject) => {
-    getActionLogs({ 
-      action: "Answer status questions",
-      from: from,
-      to: new Date(),
-      ellipsis: ellipsis,
-      success: resolve,
-      error: reject
-    });
-  }).then(filteredByChannel);
-}
-
-function usersAsked() {
-  return new Promise((resolve, reject) => {
-    getActionLogs({
-      action: "Check standup status",
-      from: from,
-      to: new Date(),
-      ellipsis: ellipsis,
-      success: resolve,
-      error: reject
-    });
-  }).then(filteredByChannel);
-}
 
 const NO_RESPONSE = "_(no response yet)_";
 const todayStart = moment().tz(ellipsis.teamInfo.timeZone).startOf('day');
@@ -64,10 +19,9 @@ function whenFor(timestamp) {
   }
 }
  
-usersAsked().then(usersAskedResponse => {
-  const askedByUser = mostRecentByUserIn(usersAskedResponse);
-  statusAnswers().then(response => {
-    const results = mostRecentByUserIn(response).filter(ea => {
+ActionLogs.questionLogs().then(askedByUser => {
+  ActionLogs.answerLogs().then(answered => {
+    const results = answered.filter(ea => {
       const lastAsked = askedByUser.find(eaAsked => eaAsked.user === ea.user);
       const cutoff = lastAsked ? moment.max(moment(lastAsked.timestamp), todayStart) : todayStart;
       return moment(ea.timestamp).isAfter(cutoff);
