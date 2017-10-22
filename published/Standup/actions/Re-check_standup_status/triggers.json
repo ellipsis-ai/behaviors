@@ -1,0 +1,6 @@
+[ {
+  "text" : "re-check for {channel}",
+  "requiresMention" : true,
+  "isRegex" : false,
+  "caseSensitive" : false
+} ]
