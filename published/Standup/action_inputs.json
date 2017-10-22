@@ -5,7 +5,7 @@
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What else are you working on today, if anything?",
+  "question" : "What else are you working on, if anything?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -65,7 +65,7 @@
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What is the most important thing for you to accomplish today?",
+  "question" : "What is the most important thing for you to accomplish in your next workday?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
