@@ -23,7 +23,7 @@ ActionLogs.questionLogs().then(askedByUser => {
   ActionLogs.answerLogs().then(answered => {
     const results = answered.filter(ea => {
       const lastAsked = askedByUser.find(eaAsked => eaAsked.user === ea.user);
-      const cutoff = lastAsked ? moment.max(moment(lastAsked.timestamp), todayStart) : todayStart;
+      const cutoff = lastAsked ? moment.min(moment(lastAsked.timestamp), todayStart) : todayStart;
       return moment(ea.timestamp).isAfter(cutoff);
     });
     const answeredResults = results.map(ea => {
