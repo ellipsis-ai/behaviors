@@ -35,9 +35,16 @@ function list() {
         return moment(ea.start.dateTime).isAfter(now.clone().add(2, 'minutes').add(30, 'seconds'))
       });
       if (items.length === 0) {
-        ellipsis.noResponse();
+        if (ellipsis.event.originalEventType === "scheduled") {
+          ellipsis.noResponse();
+        } else {
+          ellipsis.success({
+            hasItems: false
+          });
+        }
       } else {
         ellipsis.success({
+          hasItems: true,
           heading: items.length > 1 ?
             `Reminder: there are ${items.length} events on your calendar.` :
             `Reminder: there’s an event on your calendar.`,
