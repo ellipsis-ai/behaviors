@@ -15,9 +15,14 @@ function mostRecentByUserIn(arr) {
   return userResults;
 }
 
+function channelForComparison(channel) {
+  return channel.trim().replace(/#/, ""); 
+}
+
 function filteredByChannel(actionLogs) {
   return actionLogs.filter(ea => {
-    return ea.paramValues.channel && (ea.paramValues.channel.trim() === channel.trim());
+    return ea.paramValues.channel && 
+      (channelForComparison(ea.paramValues.channel) === channelForComparison(channel));
   });
 }
 
@@ -58,6 +63,7 @@ usersAsked().then(usersAskedResponse => {
         user: ea.user,
         yesterday: (ea.yesterday ? ea.yesterday : NO_RESPONSE),
         today: (ea.today ? ea.today : NO_RESPONSE),
+        today2: (ea.today2 ? ea.today2 : NO_RESPONSE),
         blockers: (ea.blockers ? ea.blockers : NO_RESPONSE)
       };
     });
