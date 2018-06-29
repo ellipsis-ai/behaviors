@@ -1,15 +1,16 @@
 {if successResult.nobodyWasAsked}
 Nobody was asked for that channel. You can set up a new standup using `…setup classic standup`
 {else}
-Here's where everyone's at today:
+Here's where everyone's at today (all times {successResult.timeZone}):
 
 {for userResult in successResult.answeredResults}
 
-**<@{userResult.user}>:** 
+**<@{userResult.user}> responded at {userResult.when}:** 
 
 **Yesterday:** {userResult.yesterday}  
-    **Today:** {userResult.today}  
- **Blockers:** {userResult.blockers}  
+**Today's most important task:** {userResult.today}  
+**What else today:** {userResult.today2}  
+**Blockers:** {userResult.blockers}  
 
 {endfor}
 

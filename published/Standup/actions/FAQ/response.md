@@ -4,7 +4,7 @@ _**Note:** To speak directly to Ellipsis from any channel, start your message wi
 Nothing! Ellipsis will message you in a private channel and ask you a few questions at check-in time.
 
 **How do I find out when standup happens?**  
-`/dm @ellipsis scheduled`
+Type `@ellipsis scheduled` in the standup channel
 
 **What if I need to skip the standup today?**  
 Just ignore the questions or reply `...stop`. Ellipsis will leave you out of the status report (although you might get called a slacker).
@@ -22,7 +22,7 @@ Leave the standup channel. (In the standup channel, type `/leave`.)
 Type `/dm @ellipsis standup status`
 
 **How do I change the setup?**  
-Type `/dm @ellipsis setup classic standup`. You can run the setup as many time as you like.  
+Type `/dm @ellipsis setup standup`. You can run the setup as many time as you like.  
 
 **How do I get more help?**  
-For an introduction, type `/dm @ellipsis classic standup help`. To see the list of standup actions type `/dm @ellipsis help standup`.
+For an introduction, type `/dm @ellipsis standup help`. To see the list of standup actions type `/dm @ellipsis help standup`.
