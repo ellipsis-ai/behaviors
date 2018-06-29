@@ -1,0 +1,111 @@
+[ {
+  "exportId" : "462Z1hkNTtmW1prN-VRYKw",
+  "name" : "today2",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What else are you working on, if anything?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "FfxGjaOFTRWdfWofxozkRA",
+  "name" : "blockers",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is blocking your work at the moment? Type \"nothing\" if you aren't blocked.",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "I6dDbwTHQfiou83r9b72zw",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "In what channel should I run this?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "QP3ifRvNQtCKC173wfVOuw",
+  "name" : "whenToAsk",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When should I ask each person about their status? (e.g. 9am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "SDDLZT7XQ-O3HqAqkgtBwA",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which channel?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "T1hCaJynRFm_oLYYW4PYXA",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which channel?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "UuoKvs07QwO1k17mSxxRxA",
+  "name" : "today",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the most important thing for you to accomplish in your next workday?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "Xa_v_30vTVuvtWjKRT191Q",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which channel?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "fDpsVQQ3ToiyvwCUdx4SSA",
+  "name" : "whenToDisplaySummary",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "When should I display everyone's status for others to see? (e.g. 9:55am if the meeting is at 10am)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "fqB0umpcTNSKFWox7I0nAg",
+  "name" : "channel",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which channel?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "lHin7KDNSbitZjre4FYEqQ",
+  "name" : "yesterday",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What did you do the last day you worked?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]
